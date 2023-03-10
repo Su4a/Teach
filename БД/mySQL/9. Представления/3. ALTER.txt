@@ -1,0 +1,7 @@
+Изменение таблицы
+
+Пример:
+ALTER VIEW hardware_suppliers AS
+SELECT supplier_id, supplier_name, address, city
+FROM suppliers
+WHERE category_type = 'Hardware'

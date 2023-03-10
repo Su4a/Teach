@@ -1,0 +1,7 @@
+Объединение таблиц разных JOINов
+
+Пример:
+CREATE VIEW view-name SA
+SELECT column1, column2, column3
+FROM table_name1 INNER JOIN table_name2
+ON table_name_1.column = table_name2.column

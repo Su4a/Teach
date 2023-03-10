@@ -1,0 +1,8 @@
+LAST_VALUE - найти последнее значение набора данных
+Получить последнее значение в окне
+В качестве параметра принимает столбец, значние которого необходимо вернуть
+
+Пример:
+SELECT Date, Medium, Conversions, 
+LAST_VALUE(Conversions) OVER(PARTITION BY Date ORDER BY Date) AS 'Last_Value'
+FROM Orders

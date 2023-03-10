@@ -1,0 +1,7 @@
+Функция возвращает номер строки и используется для нумерации
+
+Пример:
+SELECT Date, Medium, Conversions, 
+ROW_NUMBER()
+OVER(PARTITION BY Date ORDER BY Conversions) AS 'Row_number'
+FROM Orders

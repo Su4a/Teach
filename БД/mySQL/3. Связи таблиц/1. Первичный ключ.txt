@@ -1,0 +1,5 @@
+PRIMARY KEY (PK) - INT значение, которому добавили тип первичного ключа, обычно имеет авто инкремент
+
+Пример:
+
+id INT PRIMARY KEY AUTO_INCREMENT

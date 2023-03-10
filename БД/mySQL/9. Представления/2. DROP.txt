@@ -1,0 +1,4 @@
+Удаление таблицы
+
+Пример:
+DROP VIEW customer_archive

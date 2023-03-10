@@ -1,0 +1,17 @@
+Присоединение таблиц по их пересещению (общим полям)
+Возвращает записи с совпадающими значениями в обеих таблицах
+При JOIN следует указывать название таблиц при указании полей, чтобы избежать одинаковых имен
+
+SELECT имя_поля1 FROM имя_таблицы1
+[INNER] JOIN имя_таблицы2 ON условие1
+[INNER] JOIN имя_таблицы3 ON условие2
+
+Пример:
+SELECT Orders.CreatedAt, Orders.ProductCount, Products.ProductName FROM
+JOIN Products ON Products.Id = Orders.ProductId
+
+INNER JOIN с использованием псевдонимов
+SELECT O.CreatedAt, O.ProductCount, P.ProductName 
+FROM Orders AS O
+JOIN Products AS P
+ON P.Id = O.ProductId

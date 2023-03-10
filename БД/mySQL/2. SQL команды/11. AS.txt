@@ -1,0 +1,12 @@
+Создание/переименование псевдонима
+
+Пример:
+SELECT имя_поля1, имя_поля2,
+CASE
+	WHEN имя_поля2 = 1 THEN 'Товар заканчивается'
+END AS имя_поля3
+FROM имя_таблицы
+
+Пример2:
+SELECT O.CreatedAt , O.ProductCount
+FROM Orders AS O

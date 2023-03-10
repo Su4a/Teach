@@ -1,0 +1,6 @@
+Dbeaver - open cource
+Azure Data Studio - Microsoft
+dbFogre - Devart
+DataGrip - JetBraons
+MSMS - Microsoft, только MSSQL
+PGAdmin - open source, только Postgres

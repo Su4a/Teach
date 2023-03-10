@@ -1,0 +1,5 @@
+Просмотр базы_данных
+SHOW DATABASES
+
+Просмотрт таблицы
+SHOW TABLES

@@ -1,0 +1,40 @@
+Оконный функции делятся на: Арегатные, Ранжирующие, Встроенные, Функции смещения, Аналитические
+Оконная функция выполняет агрегатную операцию над множеством строк запроса. Однако, в то время как агрегированная операция группирует строки запроса объединяются в одну строку результатов, создает функция окна результат для каждой строки запроса
+Оконные операции не сворачивают группы запросов строк в одну выходную строку. Вместо этого они дают результат для каждой строки
+
+OVER - создание окна которое выводят результаты
+Параметры OVER:
+- PARTITION BY
+- ORDER BY
+- ROWS
+- RANGE
+
+SELECT название_функции (столбец_для_вычислений)
+OVER
+(
+	[PARTITION BY столбец_для_группировки]
+	[ORDER BY столбец_для_сортировки]
+	[ROWS или RANGE выражение_для_ограничения_строк_в_пределах_группы]
+)
+
+Пример 1: - просуммировать слолбец Conversions
+SELECT Date, Medium, Conversions, 
+SUM(Conversion) OVER() AS 'Sum'
+FROM Orders
+
+Пример 2: - использование агрегатных функций с оконными
+SELECT Date, Medium, Conversions, 
+SUM(Conversion) OVER([PARTITION BY Date) AS 'Sum',
+COUNT(Conversion) OVER([PARTITION BY Date) AS 'Coune',
+AVG(Conversion) OVER([PARTITION BY Date) AS 'Avg',
+MAX(Conversion) OVER([PARTITION BY Date) AS 'Max',
+MIN(Conversion) OVER([PARTITION BY Date) AS 'Min'
+FROM Orders
+
+Порядок расчета оконных функций в SQL:
+SELECT
+FROM
+WHERE
+GROUP BY
+HAVING
+ORDER BY

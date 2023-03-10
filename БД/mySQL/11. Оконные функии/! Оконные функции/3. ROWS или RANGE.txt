@@ -1,0 +1,11 @@
+UNBOUNDED PRECEDING - указывает, что окно начинается с первой строки группы
+UNBOUNDED FOLLOWING - с помощью данной инструкции можно указать, что окно заканчивается на последней строке группы
+CURRENT ROW - инструкция указывает, что окно начинается или заканчивается на текущей строке
+BETWEEN граница_окна AND граница_окна - указывает нижнюю и верхнюю границу окна
+PRECEDING - определяет число строк перед текущей строкой (не допускается в RANGE)
+FOLLOWING - определяет число строк после текущей строки (не подускается в RANGE)
+
+Пример:
+SELECT Date, Medium, Conversions, 
+SUM(Conversion) OVER(PARTITION BY Date ORDER BY Conversions ROWS BETWEEN CURRENT ROW AND 1 FOLLOWING) AS 'Sum'
+FROM Orders

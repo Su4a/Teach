@@ -1,0 +1,7 @@
+Подзапросы - это выполнение одного запроса в другом
+Например SELECT внутри SELECT-a
+
+Прмиер:
+SELECT mark, COUNT(*) AS 'countMarka',
+((SELECT COUNT(*) FROM auto) - COUNT(*)) AS 'countNotMarka' FROM auto
+GROUP BY mark;

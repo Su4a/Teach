@@ -1,0 +1,5 @@
+Пример:
+SELECT Date, Medium, Conversions, 
+CUME_DIST()
+OVER(PARTITION BY Date ORDER BY Conversions) AS 'Cume_Dist'
+FROM Orders

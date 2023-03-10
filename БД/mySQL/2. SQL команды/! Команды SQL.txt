@@ -1,0 +1,37 @@
+SQL Command:
+
+1.DDL - Data Definition Language - операторы определения данных
+CREATE - создание новых объектов базы данных
+ALTER - изменение существующих объектов
+DROP - удаление объектов
+RENAME - 
+TRUNCATE - 
+COMMENT - 
+
+2.DQL - Data Query Language - оператор выбора данных
+USE - выборка базы данных
+SET - выбор столбца/поля
+SELECT - выборка данных
+WHERE - выборка данных по условию
+
+
+3.DML - Data Manipulation Language - операторы манипуляции с данными
+INSERT - добавление новых данных
+UPDATE - изменение данных
+DELETE - удаление данных
+MERGE - 
+CALL - 
+EXPLAIN PLAN - 
+LOCK TABLE - 
+
+4.DCL - Data Control Language - операторы определения доступа к данным
+GRANT - предоставление прав на объект базы
+REVOKE - Отобрать права на объект
+DENY - запрет на объект, имеет более высокий приоритет чем grant
+
+5.TLC - Transaction Control Language - операторы управления транзакциями
+Трарзакция - набор команд или инструкций, которые выполняются как единый блок
+BEGIN TRANSACTION - определяет начало транзакции
+COMMIT TRANSACTION - применяет транзакцию, конечная точка
+ROLLBACK TRANSACTION - откатывает все изменения транзакции
+SAVE TRANSACTION - устанавлвиает промежуточную точку сохранения внутри транзакции

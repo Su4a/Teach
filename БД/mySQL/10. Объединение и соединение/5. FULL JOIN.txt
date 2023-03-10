@@ -1,0 +1,13 @@
+Присоединение двух таблиц и их пересечение по INNER JOIN
+В mySQL данный процесс реализуется через оператор UNION:
+- Делаем соединение левой таблички (LEFT JOIN)
+- Делаем соединение правой таблички (RIGHT JOIN)
+- Объединяем их с помощью UNION
+- Ячейки без совпадений заполняются null-aми
+
+Пример:
+SELECT * FROM A
+LEFT JOIN B ON A.key = B.key
+UNION
+SELECT * FROM A
+RIGHT JOIN B ON A.key = B.key

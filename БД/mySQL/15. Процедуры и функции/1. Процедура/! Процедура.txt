@@ -1,0 +1,43 @@
+Процедура - набор команд, которые выполняются при вызове этой процедуры (аналог функции, но без возвращаемого значения)
+
+CREATE PROCEDURE procedura_name [ (parameter datatype[, parameter datatype]) ]
+BEGIN
+	declaration_section
+	executable_section
+END;
+
+BEGIN - начинает процедуру
+END - заканчивает процедуру
+
+1.procedura_name - наименование процедуры
+2.parameter - (необязательный) один или несколько параметров передаются в процедуру. При создании процедуры могут быть объявлены 3 типа параметров:
+- IN - параметр может ссылаться на процедуру. Значение параметра не может быть перезаписано процедурой
+- OUT - параметр не может ссылаться на процедуру, но значение параметра может быть перезаписано процедурой
+- IN OUT - параметр может ссылаться на процедуру, и значение параметра может быть перезаписано процедурой
+3.declaration_section - место в процедуре, где вы объявляете локальные переменные
+4.executable_section - место в процедуре, в котором вы создаете код процедуры
+
+Пример:
+DELIMITER &&
+CREATE PROCEDURE Filter ()
+BEGIN
+SELECT * FROM data.record WHERE Country LIKE '%ia';
+END &&
+DELIMITER ;
+
+Пример 2:
+CREATE PROCEDURE books (IN num INT)
+	BEGIN
+	DECLARE i INT DEFAULT 0;
+	IF (num > 0) THEN
+		WHILE i < num DO
+			SELECT magazine_incoming.id_ incoming, products.name, products.author, magazine_incoming. quantity
+			FROM magazine_incoming, products
+			WHERE magazine_incoming.id_product=products.id product AND magazine_incoming.id_incoming=i;
+			SET i=i+1;
+		END WHILE;
+	ELSE
+		SELECT '‘3aqavtTe npaBunbHbin napametp';
+	END IF;
+	END
+//

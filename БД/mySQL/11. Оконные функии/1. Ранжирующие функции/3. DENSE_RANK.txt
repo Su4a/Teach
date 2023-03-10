@@ -1,0 +1,7 @@
+Функция возвращает ранг каждой строки. Но в отличии от функции RANK она для одинаковых значений возвращает ранг, а не пропускает следующий
+
+Пример:
+SELECT Date, Medium, Conversions, 
+DENSE_RANK()
+OVER(PARTITION BY Date ORDER BY Conversions) AS 'Dense_Rank'
+FROM Orders

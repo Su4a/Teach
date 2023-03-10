@@ -1,0 +1,3489 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: https://www.sqlstyle.guide/ru/
+Subject: =?utf-8?Q?=D0=A0=D1=83=D0=BA=D0=BE=D0=B2=D0=BE=D0=B4=D1=81=D1=82=D0=B2=D0?=
+ =?utf-8?Q?=BE=20=D0=BF=D0=BE=20=D1=81=D1=82=D0=B8=D0=BB=D1=8E=20SQL=20=C2?=
+ =?utf-8?Q?=B7=20SQL=20style=20guide=20by=20Simon=20Holywell?=
+Date: Tue, 28 Feb 2023 10:52:54 -0000
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--VwIR1j1d04Tq4Vw0BvMbsYb5Jss1lfzXoC64cATOeu----"
+
+
+------MultipartBoundary--VwIR1j1d04Tq4Vw0BvMbsYb5Jss1lfzXoC64cATOeu----
+Content-Type: text/html
+Content-ID: <frame-406A58BFC69DAAA1EAC3734E7511430D@mhtml.blink>
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://www.sqlstyle.guide/ru/
+
+<!DOCTYPE html><html lang=3D"en-au"><head><meta http-equiv=3D"Content-Type"=
+ content=3D"text/html; charset=3DUTF-8"><link rel=3D"stylesheet" type=3D"te=
+xt/css" href=3D"cid:css-c1469de7-67f5-4879-96ba-c00d21b3bf69@mhtml.blink" /=
+>
+       =20
+        <meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge">
+        <meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-sc=
+ale=3D1.0, maximum-scale=3D1">
+        <title property=3D"og:title">=D0=A0=D1=83=D0=BA=D0=BE=D0=B2=D0=BE=
+=D0=B4=D1=81=D1=82=D0=B2=D0=BE =D0=BF=D0=BE =D1=81=D1=82=D0=B8=D0=BB=D1=8E =
+SQL =C2=B7 SQL style guide by Simon Holywell</title>
+        <link href=3D"https://fonts.googleapis.com/css?family=3DRoboto+Slab=
+:400" rel=3D"stylesheet" type=3D"text/css">
+        <link rel=3D"stylesheet" href=3D"https://www.sqlstyle.guide/static/=
+style.css">
+
+        <link rel=3D"icon" type=3D"image/png" href=3D"https://www.sqlstyle.=
+guide/static/favicon-32x32.png" sizes=3D"32x32">
+        <link rel=3D"icon" type=3D"image/png" href=3D"https://www.sqlstyle.=
+guide/static/favicon-16x16.png" sizes=3D"16x16">
+
+        <meta content=3D"website" property=3D"og:type">
+        <meta content=3D"https://www.sqlstyle.guide" property=3D"og:url">
+        <meta content=3D"2022-11-15T12:33:40+00:00" property=3D"og:updated_=
+time">
+        <meta content=3D"https://www.facebook.com/holywell" property=3D"art=
+icle:author">
+        <meta content=3D"https://www.facebook.com/holywell" property=3D"art=
+icle:publisher">
+        <meta content=3D"2022-11-15T12:33:40+00:00" property=3D"article:mod=
+ified_time">
+        <meta content=3D"" property=3D"article:section">
+        <meta content=3D"=D0=A0=D1=83=D0=BA=D0=BE=D0=B2=D0=BE=D0=B4=D1=81=
+=D1=82=D0=B2=D0=BE =D0=BF=D0=BE =D1=81=D1=82=D0=B8=D0=BB=D1=8E SQL =C2=B7 A=
+ consistent code style guide for SQL to ensure legible and maintainable pro=
+jects" itemprop=3D"description" name=3D"description" property=3D"og:descrip=
+tion">
+        <meta content=3D"sql, style guide, code style guide, simon holywell=
+, holywell" itemprop=3D"keywords" name=3D"keywords" property=3D"article:tag=
+">
+        <meta content=3D"summary" name=3D"twitter:card">
+        <meta content=3D"=D0=A0=D1=83=D0=BA=D0=BE=D0=B2=D0=BE=D0=B4=D1=81=
+=D1=82=D0=B2=D0=BE =D0=BF=D0=BE =D1=81=D1=82=D0=B8=D0=BB=D1=8E SQL =C2=B7 S=
+QL style guide by Simon Holywell" name=3D"twitter:title">
+        <meta content=3D"=D0=A0=D1=83=D0=BA=D0=BE=D0=B2=D0=BE=D0=B4=D1=81=
+=D1=82=D0=B2=D0=BE =D0=BF=D0=BE =D1=81=D1=82=D0=B8=D0=BB=D1=8E SQL =C2=B7 A=
+ consistent code style guide for SQL to ensure legible and maintainable pro=
+jects" name=3D"twitter:description">
+        <meta content=3D"@treffynnon" name=3D"twitter:site">
+        <meta content=3D"@treffynnon" name=3D"twitter:creator">
+        <meta content=3D"sqlstyle.guide" name=3D"twitter:domain">
+
+        <link rel=3D"author" href=3D"https://plus.google.com/+SimonHolywell=
+">
+        <link rel=3D"canonical" href=3D"https://www.sqlstyle.guide/ru/">
+        <link rel=3D"alternate" hreflang=3D"x-default" href=3D"https://www.=
+sqlstyle.guide/">
+        <link rel=3D"alternate" hreflang=3D"de" href=3D"https://www.sqlstyl=
+e.guide/de/">
+<link rel=3D"alternate" hreflang=3D"en" href=3D"https://www.sqlstyle.guide/=
+">
+<link rel=3D"alternate" hreflang=3D"fr" href=3D"https://www.sqlstyle.guide/=
+fr/">
+<link rel=3D"alternate" hreflang=3D"it" href=3D"https://www.sqlstyle.guide/=
+it/">
+<link rel=3D"alternate" hreflang=3D"ja" href=3D"https://www.sqlstyle.guide/=
+ja/">
+<link rel=3D"alternate" hreflang=3D"ko" href=3D"https://www.sqlstyle.guide/=
+ko/">
+<link rel=3D"alternate" hreflang=3D"pl" href=3D"https://www.sqlstyle.guide/=
+pl/">
+<link rel=3D"alternate" hreflang=3D"pt-BR" href=3D"https://www.sqlstyle.gui=
+de/pt-br/">
+<link rel=3D"alternate" hreflang=3D"ru" href=3D"https://www.sqlstyle.guide/=
+ru/">
+<link rel=3D"alternate" hreflang=3D"tr" href=3D"https://www.sqlstyle.guide/=
+tr/">
+<link rel=3D"alternate" hreflang=3D"ua" href=3D"https://www.sqlstyle.guide/=
+ua/">
+<link rel=3D"alternate" hreflang=3D"zh" href=3D"https://www.sqlstyle.guide/=
+zh/">
+<link rel=3D"alternate" hreflang=3D"zh-TW" href=3D"https://www.sqlstyle.gui=
+de/zh-tw/">
+
+    </head>
+    <body itemscope=3D"" itemtype=3D"http://schema.org/TechArticle">
+        <meta itemprop=3D"wordCount" content=3D"4693">
+        <meta itemprop=3D"about" content=3D"A consistent code style guide f=
+or SQL to ensure legible and maintainable projects">
+        <meta itemprop=3D"audience" content=3D"SQL programmers">
+        <meta itemprop=3D"license" content=3D"https://creativecommons.org/l=
+icenses/by-sa/4.0/">
+        <meta itemprop=3D"version" content=3D"1.0.1">
+        <meta itemprop=3D"proficiencyLevel" content=3D"Beginner">
+        <meta itemprop=3D"dependencies" content=3D"SQL knowledge">
+        <meta itemprop=3D"copyrightHolder" content=3D"Simon Holywell">
+        <nav id=3D"page-nav">
+    <a href=3D"https://www.sqlstyle.guide/ru/#" id=3D"to-top" class=3D"topl=
+ink">=E2=86=91</a>
+</nav>
+<div id=3D"translation-bar">
+    <div class=3D"wrap">
+        <select class=3D"language-drop" id=3D"language-drop">
+            <option value=3D"de">
+    Deutsch (German)
+</option>
+<option value=3D"en">
+    English
+</option>
+<option value=3D"fr">
+    Fran=C3=A7ais (French)
+</option>
+<option value=3D"it">
+    Italiano (Italian)
+</option>
+<option value=3D"ja">
+    =E6=97=A5=E6=9C=AC=E8=AA=9E (Japanese)
+</option>
+<option value=3D"ko">
+    =ED=95=9C=EA=B5=AD=EC=96=B4 (Korean)
+</option>
+<option value=3D"pl">
+    Polski (Polish)
+</option>
+<option value=3D"pt-BR">
+    Portugu=C3=AAs (BR) (Portuguese - Brazil)
+</option>
+<option value=3D"ru" selected=3D"selected">
+    =D0=A0=D1=83=D1=81=D1=81=D0=BA=D0=B8=D0=B9 (Russian)
+</option>
+<option value=3D"tr">
+    T=C3=BCrk=C3=A7e (Turkish)
+</option>
+<option value=3D"ua">
+    =D0=A3=D0=BA=D1=80=D0=B0=D1=97=D0=BD=D1=81=D1=8C=D0=BA=D0=B0 (Ukrainian=
+)
+</option>
+<option value=3D"zh">
+    =E7=AE=80=E4=BD=93=E4=B8=AD=E6=96=87 (Simplified Chinese)
+</option>
+<option value=3D"zh-TW">
+    =E6=AD=A3=E9=AB=94=E4=B8=AD=E6=96=87 (Traditional Chinese)
+</option>
+
+        </select>
+        <div class=3D"language-ico"><svg xmlns=3D"http://www.w3.org/2000/sv=
+g" viewBox=3D"0 0 2411.2 2794"><style>.st0{fill:#fff}.st1,.st2{fill-rule:ev=
+enodd;clip-rule:evenodd}.st2{fill:#fff}</style><g id=3D"Layer_x5F_1_x5F_1">=
+<path d=3D"M1204.6 359.2L271.8 30v2030.1l932.8-301.8z"></path><path d=3D"M1=
+182.2 358.1L2150.6 29v2030l-968.4-301.7z" class=3D"st0"></path><path d=3D"M=
+30 2415.4l1152.2-384V357.9L30 742z" class=3D"st0"></path><path d=3D"M1707.2=
+ 2440.7l163.3 268.7 86.1-249.6zM421.7 934.8c-6.1-6 8 49.1 27.6 68.9 34.8 35=
+.1 61.9 39.6 76.4 40.2 32 1.3 71.5-8 94.9-17.8 22.7-9.7 62.4-30 77.5-59.6 3=
+.2-6.3 11.9-17 6.4-43.2-4.2-20.2-17-27.3-32.7-26.2-15.7 1.1-63.2 13.7-86.1 =
+20.8-23 7-70.3 21.4-90.9 25.8-20.5 4.5-65.8-2-73.1-8.9zm581.4 658.9c-9.1-3.=
+3-196.9-81.1-223.6-93.9-21.8-10.5-75.2-33.1-100.4-43.3 70.8-109.2 115.5-191=
+.6 121.5-204.1 11-23 86-169.6 87.7-178.7 1.7-9.1 3.8-42.9 2.2-51-1.7-8.2-29=
+.1 7.6-66.4 20.2-37.4 12.6-108.4 58.8-135.8 64.6-27.5 5.7-115.5 39.1-160.5 =
+54-45 14.9-130.2 40.9-165.2 50.4-35.1 9.5-65.7 10.2-85.3 16.2 0 0 2.6 27.5 =
+7.8 35.7 5.2 8.2 23.7 28.4 45.3 34.1 21.6 5.7 57.3 3.4 73.6-.3 16.3-3.8 44.=
+4-17.5 48.2-23.6 3.8-6.1-2-24.9 4.5-30.6 6.5-5.6 92.2-25.7 124.6-35.4 32.4-=
+10 156.3-52.6 173.1-50.5-5.3 17.7-105 215.1-137.1 274-32.1 58.9-218.6 318-2=
+58.3 363.6-30.1 34.7-103.2 123.5-128.5 143.6 6.4 1.8 51.6-2.1 59.9-7.2 51.3=
+-31.6 136.9-138.1 164.4-170.5 81.9-96 153.8-196.8 210.8-283.4h.1c11.1 4.6 1=
+00.9 77.8 124.4 94 23.4 16.2 115.9 67.8 136 76.4 20 8.7 97.1 44.2 100.3 32.=
+2 3-12.2-14.2-83.1-23.3-86.5z"></path><path d=3D"M569 2572c18 11 35 20 54 2=
+9 38 19 81 39 122 54 56 21 112 38 168 51 31 7 65 13 98 18 3 0 92 11 110 11h=
+90c35-3 68-5 103-10 28-4 59-9 89-16 22-5 45-10 67-17 21-6 45-14 68-22 15-5 =
+31-12 47-18 13-6 29-13 44-19 18-8 39-19 59-29 16-8 34-18 51-28 13-7 43-30 5=
+9-30 18 0 30 16 30 30 0 29-39 38-57 51-19 13-42 23-62 34-40 21-81 39-120 54=
+-51 19-107 37-157 49-19 4-38 9-57 12-10 2-114 18-143 18h-132c-35-3-72-7-107=
+-12-31-5-64-11-95-18-24-5-50-12-73-19-40-11-79-25-117-40-69-26-141-60-209-1=
+05-12-8-13-16-13-25 0-15 11-29 29-29 16 0 48 23 54 26zm582-563L61 2372V764l=
+1090-363v1608zm61-1655v1680c-1 5-3 10-7 15-2 3-6 7-9 8-25 10-1151 388-1166 =
+388-12 0-23-8-29-21 0-1-1-2-1-4V739c2-5 3-12 7-16 8-11 22-13 31-16 17-6 112=
+6-378 1142-378 10 0 32 7 32 25z" class=3D"st1"></path><path d=3D"M2120 2017=
+l-907-282V380l907-308v1945zm61-1985v2023c-1 23-17 33-32 33-13 0-107-32-123-=
+37-126-39-253-78-378-117-28-9-57-18-84-27-24-7-50-15-74-23-107-33-216-66-32=
+3-102-4-1-14-15-14-18V351c2-5 4-11 9-15 8-9 351-123 486-168 36-13 487-168 5=
+01-168 18 0 32 13 32 32z" class=3D"st1"></path><path d=3D"M2411.2 2440.7l-1=
+211.7-386.2 5.1-1681.3 1206.6 384z"></path><path d=3D"M1800.3 1124.6L1681.4=
+ 1412l218.6 66.3-99.7-353.7zM1729 853.2l156.1 47.3 284.4 1025-160.3-48.7-57=
+.6-210.4-331.4-100.4-71.3 171.4-160.4-48.7L1729 853.2z" class=3D"st2"></pat=
+h></g></svg></div>
+    </div>
+</div>
+<header class=3D"top">
+    <div class=3D"wrap">
+        <h1 itemprop=3D"name">=D0=A0=D1=83=D0=BA=D0=BE=D0=B2=D0=BE=D0=B4=D1=
+=81=D1=82=D0=B2=D0=BE =D0=BF=D0=BE =D1=81=D1=82=D0=B8=D0=BB=D1=8E SQL =C2=
+=B7 SQL Style Guide</h1>
+        <p class=3D"author" itemprop=3D"author" itemscope=3D"" itemtype=3D"=
+http://schema.org/Person">by
+            <a href=3D"https://www.simonholywell.com/?utm_source=3Dsqlstyle=
+.guide-sqlstyle.guide&amp;utm_medium=3Dlink&amp;utm_campaign=3Dheader" item=
+prop=3D"url"><span itemprop=3D"name">Simon Holywell</span></a> =C2=B7
+            <a href=3D"https://twitter.com/treffynnon">@Treffynnon</a>
+        </p>
+        <p class=3D"twitter">
+            <a href=3D"https://twitter.com/share" class=3D"twitter-share-bu=
+tton" data-url=3D"https://www.sqlstyle.guide" data-text=3D"SQL style guide =
+by @treffynnon: A consistent code style guide for SQL to ensure legible and=
+ maintainable projects" data-size=3D"large" data-dnt=3D"true">Tweet</a>
+        </p>
+        <p class=3D"translator">Translated by:=20
+            <a href=3D"https://github.com/denpatin" title=3D"denpatin - tra=
+nslator" rel=3D"nofollow">denpatin</a>
+            </p>
+    </div>
+</header>
+
+        <main class=3D"article-body wrap" id=3D"content" itemprop=3D"articl=
+eBody" lang=3D"ru">
+            <ul id=3D"markdown-toc">
+  <li><a href=3D"https://www.sqlstyle.guide/ru/#%D0%BF%D1%80%D0%B5%D0%B4%D0=
+%B8%D1%81%D0%BB%D0%BE%D0%B2%D0%B8%D0%B5" id=3D"markdown-toc-=D0=BF=D1=80=D0=
+=B5=D0=B4=D0=B8=D1=81=D0=BB=D0=BE=D0=B2=D0=B8=D0=B5">=D0=9F=D1=80=D0=B5=D0=
+=B4=D0=B8=D1=81=D0=BB=D0=BE=D0=B2=D0=B8=D0=B5</a></li>
+  <li><a href=3D"https://www.sqlstyle.guide/ru/#%D0%BE%D1%81%D0%BD%D0%BE%D0=
+%B2%D0%BD%D1%8B%D0%B5-%D0%BF%D0%BE%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D1%8=
+F" id=3D"markdown-toc-=D0=BE=D1=81=D0=BD=D0=BE=D0=B2=D0=BD=D1=8B=D0=B5-=D0=
+=BF=D0=BE=D0=BB=D0=BE=D0=B6=D0=B5=D0=BD=D0=B8=D1=8F">=D0=9E=D1=81=D0=BD=D0=
+=BE=D0=B2=D0=BD=D1=8B=D0=B5 =D0=BF=D0=BE=D0=BB=D0=BE=D0=B6=D0=B5=D0=BD=D0=
+=B8=D1=8F</a>    <ul>
+      <li><a href=3D"https://www.sqlstyle.guide/ru/#%D1%85%D0%BE%D1%80%D0%B=
+E%D1%88%D0%B8%D0%B9-%D1%81%D1%82%D0%B8%D0%BB%D1%8C" id=3D"markdown-toc-=D1=
+=85=D0=BE=D1=80=D0=BE=D1=88=D0=B8=D0=B9-=D1=81=D1=82=D0=B8=D0=BB=D1=8C">=D0=
+=A5=D0=BE=D1=80=D0=BE=D1=88=D0=B8=D0=B9 =D1=81=D1=82=D0=B8=D0=BB=D1=8C</a><=
+/li>
+      <li><a href=3D"https://www.sqlstyle.guide/ru/#%D0%BF%D0%BB%D0%BE%D1%8=
+5%D0%BE%D0%B9-%D1%81%D1%82%D0%B8%D0%BB%D1%8C" id=3D"markdown-toc-=D0=BF=D0=
+=BB=D0=BE=D1=85=D0=BE=D0=B9-=D1=81=D1=82=D0=B8=D0=BB=D1=8C">=D0=9F=D0=BB=D0=
+=BE=D1=85=D0=BE=D0=B9 =D1=81=D1=82=D0=B8=D0=BB=D1=8C</a></li>
+    </ul>
+  </li>
+  <li><a href=3D"https://www.sqlstyle.guide/ru/#%D1%81%D0%BE%D0%B3%D0%BB%D0=
+%B0%D1%88%D0%B5%D0%BD%D0%B8%D1%8F-%D0%BE-%D0%BD%D0%B0%D0%B8%D0%BC%D0%B5%D0%=
+BD%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B8" id=3D"markdown-toc-=D1=81=D0=BE=D0=
+=B3=D0=BB=D0=B0=D1=88=D0=B5=D0=BD=D0=B8=D1=8F-=D0=BE-=D0=BD=D0=B0=D0=B8=D0=
+=BC=D0=B5=D0=BD=D0=BE=D0=B2=D0=B0=D0=BD=D0=B8=D0=B8">=D0=A1=D0=BE=D0=B3=D0=
+=BB=D0=B0=D1=88=D0=B5=D0=BD=D0=B8=D1=8F =D0=BE =D0=BD=D0=B0=D0=B8=D0=BC=D0=
+=B5=D0=BD=D0=BE=D0=B2=D0=B0=D0=BD=D0=B8=D0=B8</a>    <ul>
+      <li><a href=3D"https://www.sqlstyle.guide/ru/#%D0%BE%D0%B1%D1%89%D0%B=
+5%D0%B5" id=3D"markdown-toc-=D0=BE=D0=B1=D1=89=D0=B5=D0=B5">=D0=9E=D0=B1=D1=
+=89=D0=B5=D0=B5</a></li>
+      <li><a href=3D"https://www.sqlstyle.guide/ru/#%D1%82%D0%B0%D0%B1%D0%B=
+B%D0%B8%D1%86%D1%8B" id=3D"markdown-toc-=D1=82=D0=B0=D0=B1=D0=BB=D0=B8=D1=
+=86=D1=8B">=D0=A2=D0=B0=D0=B1=D0=BB=D0=B8=D1=86=D1=8B</a></li>
+      <li><a href=3D"https://www.sqlstyle.guide/ru/#%D1%81%D1%82%D0%BE%D0%B=
+B%D0%B1%D1%86%D1%8B" id=3D"markdown-toc-=D1=81=D1=82=D0=BE=D0=BB=D0=B1=D1=
+=86=D1=8B">=D0=A1=D1=82=D0=BE=D0=BB=D0=B1=D1=86=D1=8B</a></li>
+      <li><a href=3D"https://www.sqlstyle.guide/ru/#%D0%BF%D1%81%D0%B5%D0%B=
+2%D0%B4%D0%BE%D0%BD%D0%B8%D0%BC%D1%8B%D0%BA%D0%BE%D1%80%D1%80%D0%B5%D0%BB%D=
+1%8F%D1%86%D0%B8%D0%B8" id=3D"markdown-toc-=D0=BF=D1=81=D0=B5=D0=B2=D0=B4=
+=D0=BE=D0=BD=D0=B8=D0=BC=D1=8B=D0=BA=D0=BE=D1=80=D1=80=D0=B5=D0=BB=D1=8F=D1=
+=86=D0=B8=D0=B8">=D0=9F=D1=81=D0=B5=D0=B2=D0=B4=D0=BE=D0=BD=D0=B8=D0=BC=D1=
+=8B/=D0=BA=D0=BE=D1=80=D1=80=D0=B5=D0=BB=D1=8F=D1=86=D0=B8=D0=B8</a></li>
+      <li><a href=3D"https://www.sqlstyle.guide/ru/#%D1%85%D1%80%D0%B0%D0%B=
+D%D0%B8%D0%BC%D1%8B%D0%B5-%D0%BF%D1%80%D0%BE%D1%86%D0%B5%D0%B4%D1%83%D1%80%=
+D1%8B" id=3D"markdown-toc-=D1=85=D1=80=D0=B0=D0=BD=D0=B8=D0=BC=D1=8B=D0=B5-=
+=D0=BF=D1=80=D0=BE=D1=86=D0=B5=D0=B4=D1=83=D1=80=D1=8B">=D0=A5=D1=80=D0=B0=
+=D0=BD=D0=B8=D0=BC=D1=8B=D0=B5 =D0=BF=D1=80=D0=BE=D1=86=D0=B5=D0=B4=D1=83=
+=D1=80=D1=8B</a></li>
+      <li><a href=3D"https://www.sqlstyle.guide/ru/#%D1%83%D0%BD%D0%B8%D0%B=
+2%D0%B5%D1%80%D1%81%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B5-%D1%81%D1%83%D1%84%=
+D1%84%D0%B8%D0%BA%D1%81%D1%8B" id=3D"markdown-toc-=D1=83=D0=BD=D0=B8=D0=B2=
+=D0=B5=D1=80=D1=81=D0=B0=D0=BB=D1=8C=D0=BD=D1=8B=D0=B5-=D1=81=D1=83=D1=84=
+=D1=84=D0=B8=D0=BA=D1=81=D1=8B">=D0=A3=D0=BD=D0=B8=D0=B2=D0=B5=D1=80=D1=81=
+=D0=B0=D0=BB=D1=8C=D0=BD=D1=8B=D0=B5 =D1=81=D1=83=D1=84=D1=84=D0=B8=D0=BA=
+=D1=81=D1=8B</a></li>
+    </ul>
+  </li>
+  <li><a href=3D"https://www.sqlstyle.guide/ru/#%D1%81%D0%B8%D0%BD%D1%82%D0=
+%B0%D0%BA%D1%81%D0%B8%D1%81-%D0%B7%D0%B0%D0%BF%D1%80%D0%BE%D1%81%D0%BE%D0%B=
+2" id=3D"markdown-toc-=D1=81=D0=B8=D0=BD=D1=82=D0=B0=D0=BA=D1=81=D0=B8=D1=
+=81-=D0=B7=D0=B0=D0=BF=D1=80=D0=BE=D1=81=D0=BE=D0=B2">=D0=A1=D0=B8=D0=BD=D1=
+=82=D0=B0=D0=BA=D1=81=D0=B8=D1=81 =D0=B7=D0=B0=D0=BF=D1=80=D0=BE=D1=81=D0=
+=BE=D0=B2</a>    <ul>
+      <li><a href=3D"https://www.sqlstyle.guide/ru/#%D0%B7%D0%B0%D1%80%D0%B=
+5%D0%B7%D0%B5%D1%80%D0%B2%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%BD%D1%8B%D=
+0%B5-%D1%81%D0%BB%D0%BE%D0%B2%D0%B0" id=3D"markdown-toc-=D0=B7=D0=B0=D1=80=
+=D0=B5=D0=B7=D0=B5=D1=80=D0=B2=D0=B8=D1=80=D0=BE=D0=B2=D0=B0=D0=BD=D0=BD=D1=
+=8B=D0=B5-=D1=81=D0=BB=D0=BE=D0=B2=D0=B0">=D0=97=D0=B0=D1=80=D0=B5=D0=B7=D0=
+=B5=D1=80=D0=B2=D0=B8=D1=80=D0=BE=D0=B2=D0=B0=D0=BD=D0=BD=D1=8B=D0=B5 =D1=
+=81=D0=BB=D0=BE=D0=B2=D0=B0</a></li>
+      <li><a href=3D"https://www.sqlstyle.guide/ru/#%D0%BF%D1%80%D0%BE%D0%B=
+1%D0%B5%D0%BB%D1%8C%D0%BD%D1%8B%D0%B5-%D1%81%D0%B8%D0%BC%D0%B2%D0%BE%D0%BB%=
+D1%8B" id=3D"markdown-toc-=D0=BF=D1=80=D0=BE=D0=B1=D0=B5=D0=BB=D1=8C=D0=BD=
+=D1=8B=D0=B5-=D1=81=D0=B8=D0=BC=D0=B2=D0=BE=D0=BB=D1=8B">=D0=9F=D1=80=D0=BE=
+=D0=B1=D0=B5=D0=BB=D1=8C=D0=BD=D1=8B=D0=B5 =D1=81=D0=B8=D0=BC=D0=B2=D0=BE=
+=D0=BB=D1=8B</a></li>
+      <li><a href=3D"https://www.sqlstyle.guide/ru/#%D0%BE%D1%82%D1%81%D1%8=
+2%D1%83%D0%BF%D1%8B" id=3D"markdown-toc-=D0=BE=D1=82=D1=81=D1=82=D1=83=D0=
+=BF=D1=8B">=D0=9E=D1=82=D1=81=D1=82=D1=83=D0=BF=D1=8B</a></li>
+      <li><a href=3D"https://www.sqlstyle.guide/ru/#%D1%84%D0%BE%D1%80%D0%B=
+C%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B5-%D1%82%D0%BE%D0%BD%D0%BA%D0%BE%D1%81%=
+D1%82%D0%B8" id=3D"markdown-toc-=D1=84=D0=BE=D1=80=D0=BC=D0=B0=D0=BB=D1=8C=
+=D0=BD=D1=8B=D0=B5-=D1=82=D0=BE=D0=BD=D0=BA=D0=BE=D1=81=D1=82=D0=B8">=D0=A4=
+=D0=BE=D1=80=D0=BC=D0=B0=D0=BB=D1=8C=D0=BD=D1=8B=D0=B5 =D1=82=D0=BE=D0=BD=
+=D0=BA=D0=BE=D1=81=D1=82=D0=B8</a></li>
+    </ul>
+  </li>
+  <li><a href=3D"https://www.sqlstyle.guide/ru/#%D1%81%D0%B8%D0%BD%D1%82%D0=
+%B0%D0%BA%D1%81%D0%B8%D1%81-create" id=3D"markdown-toc-=D1=81=D0=B8=D0=BD=
+=D1=82=D0=B0=D0=BA=D1=81=D0=B8=D1=81-create">=D0=A1=D0=B8=D0=BD=D1=82=D0=B0=
+=D0=BA=D1=81=D0=B8=D1=81 <code class=3D"language-plaintext highlighter-roug=
+e">CREATE</code></a>    <ul>
+      <li><a href=3D"https://www.sqlstyle.guide/ru/#%D1%82%D0%B8%D0%BF%D1%8=
+B-%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85" id=3D"markdown-toc-=D1=82=D0=B8=D0=
+=BF=D1=8B-=D0=B4=D0=B0=D0=BD=D0=BD=D1=8B=D1=85">=D0=A2=D0=B8=D0=BF=D1=8B =
+=D0=B4=D0=B0=D0=BD=D0=BD=D1=8B=D1=85</a></li>
+      <li><a href=3D"https://www.sqlstyle.guide/ru/#%D0%B7%D0%BD%D0%B0%D1%8=
+7%D0%B5%D0%BD%D0%B8%D1%8F-%D0%BF%D0%BE-%D1%83%D0%BC%D0%BE%D0%BB%D1%87%D0%B0=
+%D0%BD%D0%B8%D1%8E" id=3D"markdown-toc-=D0=B7=D0=BD=D0=B0=D1=87=D0=B5=D0=BD=
+=D0=B8=D1=8F-=D0=BF=D0=BE-=D1=83=D0=BC=D0=BE=D0=BB=D1=87=D0=B0=D0=BD=D0=B8=
+=D1=8E">=D0=97=D0=BD=D0=B0=D1=87=D0=B5=D0=BD=D0=B8=D1=8F =D0=BF=D0=BE =D1=
+=83=D0=BC=D0=BE=D0=BB=D1=87=D0=B0=D0=BD=D0=B8=D1=8E</a></li>
+      <li><a href=3D"https://www.sqlstyle.guide/ru/#%D0%BE%D0%B3%D1%80%D0%B=
+0%D0%BD%D0%B8%D1%87%D0%B5%D0%BD%D0%B8%D1%8F-%D0%B8-%D0%BA%D0%BB%D1%8E%D1%87=
+%D0%B8" id=3D"markdown-toc-=D0=BE=D0=B3=D1=80=D0=B0=D0=BD=D0=B8=D1=87=D0=B5=
+=D0=BD=D0=B8=D1=8F-=D0=B8-=D0=BA=D0=BB=D1=8E=D1=87=D0=B8">=D0=9E=D0=B3=D1=
+=80=D0=B0=D0=BD=D0=B8=D1=87=D0=B5=D0=BD=D0=B8=D1=8F =D0=B8 =D0=BA=D0=BB=D1=
+=8E=D1=87=D0=B8</a></li>
+      <li><a href=3D"https://www.sqlstyle.guide/ru/#%D1%87%D0%B5%D0%B3%D0%B=
+E-%D1%81%D0%BB%D0%B5%D0%B4%D1%83%D0%B5%D1%82-%D0%B8%D0%B7%D0%B1%D0%B5%D0%B3=
+%D0%B0%D1%82%D1%8C" id=3D"markdown-toc-=D1=87=D0=B5=D0=B3=D0=BE-=D1=81=D0=
+=BB=D0=B5=D0=B4=D1=83=D0=B5=D1=82-=D0=B8=D0=B7=D0=B1=D0=B5=D0=B3=D0=B0=D1=
+=82=D1=8C">=D0=A7=D0=B5=D0=B3=D0=BE =D1=81=D0=BB=D0=B5=D0=B4=D1=83=D0=B5=D1=
+=82 =D0=B8=D0=B7=D0=B1=D0=B5=D0=B3=D0=B0=D1=82=D1=8C</a></li>
+    </ul>
+  </li>
+  <li><a href=3D"https://www.sqlstyle.guide/ru/#%D0%BF%D1%80%D0%B8%D0%BB%D0=
+%BE%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5" id=3D"markdown-toc-=D0=BF=D1=80=D0=B8=D0=
+=BB=D0=BE=D0=B6=D0=B5=D0=BD=D0=B8=D0=B5">=D0=9F=D1=80=D0=B8=D0=BB=D0=BE=D0=
+=B6=D0=B5=D0=BD=D0=B8=D0=B5</a>    <ul>
+      <li><a href=3D"https://www.sqlstyle.guide/ru/#%D1%81%D0%BF%D0%B8%D1%8=
+1%D0%BE%D0%BA-%D0%B7%D0%B0%D1%80%D0%B5%D0%B7%D0%B5%D1%80%D0%B2%D0%B8%D1%80%=
+D0%BE%D0%B2%D0%B0%D0%BD%D0%BD%D1%8B%D1%85-%D0%BA%D0%BB%D1%8E%D1%87%D0%B5%D0=
+%B2%D1%8B%D1%85-%D1%81%D0%BB%D0%BE%D0%B2" id=3D"markdown-toc-=D1=81=D0=BF=
+=D0=B8=D1=81=D0=BE=D0=BA-=D0=B7=D0=B0=D1=80=D0=B5=D0=B7=D0=B5=D1=80=D0=B2=
+=D0=B8=D1=80=D0=BE=D0=B2=D0=B0=D0=BD=D0=BD=D1=8B=D1=85-=D0=BA=D0=BB=D1=8E=
+=D1=87=D0=B5=D0=B2=D1=8B=D1=85-=D1=81=D0=BB=D0=BE=D0=B2">=D0=A1=D0=BF=D0=B8=
+=D1=81=D0=BE=D0=BA =D0=B7=D0=B0=D1=80=D0=B5=D0=B7=D0=B5=D1=80=D0=B2=D0=B8=
+=D1=80=D0=BE=D0=B2=D0=B0=D0=BD=D0=BD=D1=8B=D1=85 =D0=BA=D0=BB=D1=8E=D1=87=
+=D0=B5=D0=B2=D1=8B=D1=85 =D1=81=D0=BB=D0=BE=D0=B2</a></li>
+    </ul>
+  </li>
+</ul>
+
+<h1 id=3D"sql-=D1=80=D1=83=D0=BA=D0=BE=D0=B2=D0=BE=D0=B4=D1=81=D1=82=D0=B2=
+=D0=BE-=D0=BF=D0=BE-=D1=81=D1=82=D0=B8=D0=BB=D1=8E">SQL: =D0=A0=D1=83=D0=BA=
+=D0=BE=D0=B2=D0=BE=D0=B4=D1=81=D1=82=D0=B2=D0=BE =D0=BF=D0=BE =D1=81=D1=82=
+=D0=B8=D0=BB=D1=8E</h1>
+
+<h2 id=3D"=D0=BF=D1=80=D0=B5=D0=B4=D0=B8=D1=81=D0=BB=D0=BE=D0=B2=D0=B8=D0=
+=B5">=D0=9F=D1=80=D0=B5=D0=B4=D0=B8=D1=81=D0=BB=D0=BE=D0=B2=D0=B8=D0=B5<a c=
+lass=3D"anchorjs-link " aria-label=3D"Anchor" data-anchorjs-icon=3D"=EE=A7=
+=8B" href=3D"https://www.sqlstyle.guide/ru/#%D0%BF%D1%80%D0%B5%D0%B4%D0%B8%=
+D1%81%D0%BB%D0%BE%D0%B2%D0%B8%D0%B5" style=3D"font: 1em / 1 anchorjs-icons;=
+ padding-left: 0.375em;"></a></h2>
+
+<p>=D0=92=D1=8B =D0=BC=D0=BE=D0=B6=D0=B5=D1=82=D0=B5 =D0=B8=D1=81=D0=BF=D0=
+=BE=D0=BB=D1=8C=D0=B7=D0=BE=D0=B2=D0=B0=D1=82=D1=8C =D1=8D=D1=82=D0=BE =D1=
+=80=D1=83=D0=BA=D0=BE=D0=B2=D0=BE=D0=B4=D1=81=D1=82=D0=B2=D0=BE =D1=86=D0=
+=B5=D0=BB=D0=B8=D0=BA=D0=BE=D0=BC, <a href=3D"https://github.com/treffynnon=
+/sqlstyle.guide/fork" title=3D"Fork SQL style guide on GitHub">=D1=81=D0=B4=
+=D0=B5=D0=BB=D0=B0=D1=82=D1=8C =D0=B5=D0=B3=D0=BE =D1=84=D0=BE=D1=80=D0=BA<=
+/a> =D0=B8=D0=BB=D0=B8
+=D1=81=D0=BE=D0=B7=D0=B4=D0=B0=D1=82=D1=8C =D1=81=D0=B2=D0=BE=D1=91 =D0=BD=
+=D0=B0 =D0=B5=D0=B3=D0=BE =D0=BE=D1=81=D0=BD=D0=BE=D0=B2=D0=B5. =D0=A6=D0=
+=B5=D0=BB=D1=8C =E2=80=94 =D0=BE=D0=BF=D1=80=D0=B5=D0=B4=D0=B5=D0=BB=D0=B8=
+=D1=82=D1=8C, =D0=BA=D0=B0=D0=BA=D0=BE=D0=B9 =D1=81=D1=82=D0=B8=D0=BB=D1=8C=
+ =D0=B2=D0=B0=D0=BC =D0=BF=D0=BE=D0=B4=D1=85=D0=BE=D0=B4=D0=B8=D1=82
+=D0=B1=D0=BE=D0=BB=D1=8C=D1=88=D0=B5, =D0=B8 =D0=BF=D1=80=D0=B8=D0=B4=D0=B5=
+=D1=80=D0=B6=D0=B8=D0=B2=D0=B0=D1=82=D1=8C=D1=81=D1=8F =D0=B5=D0=B3=D0=BE. =
+=D0=95=D1=81=D0=BB=D0=B8 =D0=B2=D1=8B =D1=85=D0=BE=D1=82=D0=B8=D1=82=D0=B5 =
+=D0=BF=D1=80=D0=B5=D0=B4=D0=BB=D0=BE=D0=B6=D0=B8=D1=82=D1=8C =D0=B8=D0=B7=
+=D0=BC=D0=B5=D0=BD=D0=B5=D0=BD=D0=B8=D0=B5 =D0=B8=D0=BB=D0=B8
+=D0=B8=D1=81=D0=BF=D1=80=D0=B0=D0=B2=D0=B8=D1=82=D1=8C =D0=BE=D1=88=D0=B8=
+=D0=B1=D0=BA=D1=83, <a href=3D"https://github.com/treffynnon/sqlstyle.guide=
+/issues" title=3D"SQL style guide issues on GitHub">=D0=BE=D1=82=D0=BA=D1=
+=80=D0=BE=D0=B9=D1=82=D0=B5 Issue</a> =D0=B8=D0=BB=D0=B8 <a href=3D"https:/=
+/github.com/treffynnon/sqlstyle.guide/pulls/" title=3D"SQL style guide pull=
+ requests on GitHub">=D1=81=D0=BE=D0=B7=D0=B4=D0=B0=D0=B9=D1=82=D0=B5 Pull =
+Request</a> =D0=BD=D0=B0
+GitHub=E2=80=99=D0=B5.</p>
+
+<p>=D0=A0=D0=B5=D0=BA=D0=BE=D0=BC=D0=B5=D0=BD=D0=B4=D0=B0=D1=86=D0=B8=D0=B8=
+, =D0=BE=D0=BF=D0=B8=D1=81=D0=B0=D0=BD=D0=BD=D1=8B=D0=B5 =D0=B2 =D1=8D=D1=
+=82=D0=BE=D0=BC =D1=80=D1=83=D0=BA=D0=BE=D0=B2=D0=BE=D0=B4=D1=81=D1=82=D0=
+=B2=D0=B5, =D0=B2=D0=BE =D0=BC=D0=BD=D0=BE=D0=B3=D0=BE=D0=BC =D0=BF=D0=B5=
+=D1=80=D0=B5=D1=81=D0=B5=D0=BA=D0=B0=D1=8E=D1=82=D1=81=D1=8F =D1=81
+=D0=BE=D0=BF=D0=B8=D1=81=D0=B0=D0=BD=D0=BD=D1=8B=D0=BC=D0=B8 =D0=B2 =D0=BA=
+=D0=BD=D0=B8=D0=B3=D0=B5 =D0=94=D0=B6=D0=BE =D0=A1=D0=B5=D0=BB=D0=BA=D0=BE
+=C2=AB<a href=3D"https://www.ozon.ru/context/detail/id/2628672" title=3D"=
+=D0=A1=D1=82=D0=B8=D0=BB=D1=8C =D0=BF=D1=80=D0=BE=D0=B3=D1=80=D0=B0=D0=BC=
+=D0=BC=D0=B8=D1=80=D0=BE=D0=B2=D0=B0=D0=BD=D0=B8=D1=8F =D0=94=D0=B6=D0=BE =
+=D0=A1=D0=B5=D0=BB=D0=BA=D0=BE =D0=BD=D0=B0 SQL">=D0=A1=D1=82=D0=B8=D0=BB=
+=D1=8C =D0=BF=D1=80=D0=BE=D0=B3=D1=80=D0=B0=D0=BC=D0=BC=D0=B8=D1=80=D0=BE=
+=D0=B2=D0=B0=D0=BD=D0=B8=D1=8F =D0=94=D0=B6=D0=BE =D0=A1=D0=B5=D0=BB=D0=BA=
+=D0=BE =D0=BD=D0=B0 SQL</a>=C2=BB (=D0=BE=D1=80=D0=B8=D0=B3=D0=B8=D0=BD=D0=
+=B0=D0=BB:
+<a href=3D"https://www.amazon.com/gp/product/0120887975/ref=3Das_li_ss_tl?i=
+e=3DUTF8&amp;linkCode=3Dll1&amp;tag=3Dtreffynnon-20&amp;linkId=3D9c88eac8cd=
+420e979675c815771313d5" title=3D"Joe Celko's SQL Programming Style (The Mor=
+gan Kaufmann Series in Data Management Systems)">SQL Programming Style</a>)=
+. =D0=AD=D1=82=D0=BE, =D0=B2 =D1=87=D0=B0=D1=81=D1=82=D0=BD=D0=BE=D1=81=D1=
+=82=D0=B8, =D0=BD=D0=B0=D0=B9=D0=B4=D1=83=D1=82 =D0=BF=D0=BE=D0=BB=D0=B5=D0=
+=B7=D0=BD=D1=8B=D0=BC =D1=82=D0=B5, =D0=BA=D1=82=D0=BE =D1=83=D0=B6=D0=B5
+=D0=B7=D0=BD=D0=B0=D0=BA=D0=BE=D0=BC =D1=81 =D1=8D=D1=82=D0=BE=D0=B9 =D0=BA=
+=D0=BD=D0=B8=D0=B3=D0=BE=D0=B9. =D0=A2=D0=B5=D0=BC =D0=BD=D0=B5 =D0=BC=D0=
+=B5=D0=BD=D0=B5=D0=B5 =D0=B0=D0=B2=D1=82=D0=BE=D1=80 =D1=8D=D1=82=D0=BE=D0=
+=B3=D0=BE =D1=80=D1=83=D0=BA=D0=BE=D0=B2=D0=BE=D0=B4=D1=81=D1=82=D0=B2=D0=
+=B0 =D0=B2 =D0=BD=D0=B5=D0=BA=D0=BE=D1=82=D0=BE=D1=80=D1=8B=D1=85
+=D0=B0=D1=81=D0=BF=D0=B5=D0=BA=D1=82=D0=B0=D1=85 =D0=B1=D0=BE=D0=BB=D0=B5=
+=D0=B5 =D0=BA=D0=B0=D1=82=D0=B5=D0=B3=D0=BE=D1=80=D0=B8=D1=87=D0=B5=D0=BD, =
+=D0=BD=D0=B5=D0=B6=D0=B5=D0=BB=D0=B8 =D0=94=D0=B6=D0=BE =D0=A1=D0=B5=D0=BB=
+=D0=BA=D0=BE, =D0=B0 =D0=B2 =D0=B4=D1=80=D1=83=D0=B3=D0=B8=D1=85, =D0=BD=D0=
+=B0=D0=BF=D1=80=D0=BE=D1=82=D0=B8=D0=B2, =D0=B1=D0=BE=D0=BB=D0=B5=D0=B5
+=D0=B3=D0=B8=D0=B1=D0=BE=D0=BA. =D0=98, =D0=BA=D0=BE=D0=BD=D0=B5=D1=87=D0=
+=BD=D0=BE, =D0=BD=D0=B5=D0=BB=D1=8C=D0=B7=D1=8F =D0=BD=D0=B5 =D0=BE=D1=82=
+=D0=BC=D0=B5=D1=82=D0=B8=D1=82=D1=8C, =D1=87=D1=82=D0=BE =D1=8D=D1=82=D0=BE=
+ =D1=80=D1=83=D0=BA=D0=BE=D0=B2=D0=BE=D0=B4=D1=81=D1=82=D0=B2=D0=BE =D0=B7=
+=D0=BD=D0=B0=D1=87=D0=B8=D1=82=D0=B5=D0=BB=D1=8C=D0=BD=D0=BE =D0=BA=D0=BE=
+=D1=80=D0=BE=D1=87=D0=B5
+=D0=B8 =D0=BB=D0=B0=D0=BA=D0=BE=D0=BD=D0=B8=D1=87=D0=BD=D0=B5=D0=B5 <a href=
+=3D"https://www.ozon.ru/context/detail/id/2628672" title=3D"=D0=A1=D1=82=D0=
+=B8=D0=BB=D1=8C =D0=BF=D1=80=D0=BE=D0=B3=D1=80=D0=B0=D0=BC=D0=BC=D0=B8=D1=
+=80=D0=BE=D0=B2=D0=B0=D0=BD=D0=B8=D1=8F =D0=94=D0=B6=D0=BE =D0=A1=D0=B5=D0=
+=BB=D0=BA=D0=BE =D0=BD=D0=B0 SQL">=D0=BA=D0=BD=D0=B8=D0=B3=D0=B8 =D0=A1=D0=
+=B5=D0=BB=D0=BA=D0=BE</a> =E2=80=94 =D0=B7=D0=B4=D0=B5=D1=81=D1=8C =D0=B2=
+=D1=8B =D0=BD=D0=B5 =D0=B2=D1=81=D1=82=D1=80=D0=B5=D1=82=D0=B8=D1=82=D0=B5 =
+=D0=BD=D0=B8 =D0=B2=D0=B5=D1=81=D1=91=D0=BB=D1=8B=D1=85
+=D0=B8=D1=81=D1=82=D0=BE=D1=80=D0=B8=D0=B9 =D0=B8=D0=B7 =D0=B6=D0=B8=D0=B7=
+=D0=BD=D0=B8, =D0=BD=D0=B0=D0=B3=D0=BB=D1=8F=D0=B4=D0=BD=D0=BE =D0=BE=D0=B1=
+=D1=8A=D1=8F=D1=81=D0=BD=D1=8F=D1=8E=D1=89=D0=B8=D1=85, =D0=BA=D0=B0=D0=BA =
+=D0=B8 =D0=BF=D0=BE=D1=87=D0=B5=D0=BC=D1=83 =D0=BB=D1=83=D1=87=D1=88=D0=B5 =
+=D0=BD=D0=B5 =D0=B4=D0=B5=D0=BB=D0=B0=D1=82=D1=8C, =D0=BD=D0=B8
+=D0=B4=D0=BB=D0=B8=D0=BD=D0=BD=D1=8B=D1=85 =D0=BF=D0=BE=D0=B2=D0=B5=D1=81=
+=D1=82=D0=B2=D0=BE=D0=B2=D0=B0=D0=BD=D0=B8=D0=B9, =D0=BC=D0=BE=D1=82=D0=B8=
+=D0=B2=D0=B8=D1=80=D1=83=D1=8E=D1=89=D0=B8=D1=85 =D0=BD=D0=B0 =D0=B8=D1=81=
+=D0=BF=D0=BE=D0=BB=D1=8C=D0=B7=D0=BE=D0=B2=D0=B0=D0=BD=D0=B8=D0=B5 =D1=82=
+=D0=BE=D0=B9 =D0=B8=D0=BB=D0=B8 =D0=B8=D0=BD=D0=BE=D0=B9
+=D1=80=D0=B5=D0=BA=D0=BE=D0=BC=D0=B5=D0=BD=D0=B4=D0=B0=D1=86=D0=B8=D0=B8.</=
+p>
+
+<p>=D0=A0=D1=83=D0=BA=D0=BE=D0=B2=D0=BE=D0=B4=D1=81=D1=82=D0=B2=D0=BE =D0=
+=BD=D0=B0=D0=BF=D0=B8=D1=81=D0=B0=D0=BD=D0=BE =D0=B2 <a href=3D"https://raw=
+.githubusercontent.com/treffynnon/sqlstyle.guide/gh-pages/_includes/sqlstyl=
+e.guide.ru.md" title=3D"Download the guide in Markdown format">=D1=84=D0=BE=
+=D1=80=D0=BC=D0=B0=D1=82=D0=B5 Markdown</a>, =D1=87=D1=82=D0=BE =D0=BF=D0=
+=BE=D0=B7=D0=B2=D0=BE=D0=BB=D1=8F=D0=B5=D1=82 =D0=BB=D0=B5=D0=B3=D0=BA=D0=
+=BE =D0=B2=D0=BA=D0=BB=D1=8E=D1=87=D0=B8=D1=82=D1=8C
+=D0=B5=D0=B3=D0=BE =D0=B2 =D0=BF=D1=80=D0=BE=D0=B5=D0=BA=D1=82 =D0=B8=D0=BB=
+=D0=B8 =D0=BF=D1=80=D0=BE=D1=81=D1=82=D0=BE =D1=81=D0=BE=D1=81=D0=BB=D0=B0=
+=D1=82=D1=8C=D1=81=D1=8F =D0=BD=D0=B0 =D0=BD=D0=B5=D0=B3=D0=BE =D0=BE=D1=82=
+=D1=82=D1=83=D0=B4=D0=B0, =D1=87=D1=82=D0=BE =D0=B3=D0=BE=D1=80=D0=B0=D0=B7=
+=D0=B4=D0=BE =D1=83=D0=B4=D0=BE=D0=B1=D0=BD=D0=B5=D0=B5, =D0=BD=D0=B5=D0=B6=
+=D0=B5=D0=BB=D0=B8
+=D1=80=D0=B0=D0=B1=D0=BE=D1=82=D0=B0=D1=82=D1=8C =D1=81 =D0=B1=D0=BE=D0=BB=
+=D1=8C=D1=88=D0=BE=D0=B9 =D0=B1=D1=83=D0=BC=D0=B0=D0=B6=D0=BD=D0=BE=D0=B9 =
+=D0=BA=D0=BD=D0=B8=D0=B3=D0=BE=D0=B9.</p>
+
+<p>=C2=ABSQL: =D0=A0=D1=83=D0=BA=D0=BE=D0=B2=D0=BE=D0=B4=D1=81=D1=82=D0=B2=
+=D0=BE =D0=BF=D0=BE =D1=81=D1=82=D0=B8=D0=BB=D1=8E=C2=BB (SQL style guide) =
+=D0=B7=D0=B0 =D0=B0=D0=B2=D1=82=D0=BE=D1=80=D1=81=D1=82=D0=B2=D0=BE=D0=BC =
+=D0=A1=D0=B0=D0=B9=D0=BC=D0=BE=D0=BD=D0=B0 =D0=A5=D0=BE=D0=BB=D0=B8=D1=83=
+=D1=8D=D0=BB=D0=BB=D0=B0
+(Simon Holywell) =D0=BD=D0=B0=D1=85=D0=BE=D0=B4=D0=B8=D1=82=D1=81=D1=8F =D0=
+=BF=D0=BE=D0=B4 =D0=BB=D0=B8=D1=86=D0=B5=D0=BD=D0=B7=D0=B8=D0=B5=D0=B9 <a h=
+ref=3D"https://creativecommons.org/licenses/by-sa/4.0/deed.ru" title=3D"Cre=
+ative Commons =C2=AB=D0=90=D1=82=D1=80=D0=B8=D0=B1=D1=83=D1=86=D0=B8=D1=8F =
+=E2=80=94 =D0=9D=D0=B0 =D1=82=D0=B5=D1=85 =D0=B6=D0=B5 =D1=83=D1=81=D0=BB=
+=D0=BE=D0=B2=D0=B8=D1=8F=D1=85=C2=BB 4.0 =D0=92=D1=81=D0=B5=D0=BC=D0=B8=D1=
+=80=D0=BD=D0=B0=D1=8F">Creative Commons =C2=AB=D0=90=D1=82=D1=80=D0=B8=D0=
+=B1=D1=83=D1=86=D0=B8=D1=8F =E2=80=94 =D0=9D=D0=B0 =D1=82=D0=B5=D1=85
+=D0=B6=D0=B5 =D1=83=D1=81=D0=BB=D0=BE=D0=B2=D0=B8=D1=8F=D1=85=C2=BB 4.0 =D0=
+=92=D1=81=D0=B5=D0=BC=D0=B8=D1=80=D0=BD=D0=B0=D1=8F</a>. =D0=9E=D1=80=D0=B8=
+=D0=B3=D0=B8=D0=BD=D0=B0=D0=BB =E2=80=94
+<a href=3D"https://www.sqlstyle.guide/" title=3D"SQL style guide by Simon H=
+olywell">https://www.sqlstyle.guide</a>.</p>
+
+<h2 id=3D"=D0=BE=D1=81=D0=BD=D0=BE=D0=B2=D0=BD=D1=8B=D0=B5-=D0=BF=D0=BE=D0=
+=BB=D0=BE=D0=B6=D0=B5=D0=BD=D0=B8=D1=8F">=D0=9E=D1=81=D0=BD=D0=BE=D0=B2=D0=
+=BD=D1=8B=D0=B5 =D0=BF=D0=BE=D0=BB=D0=BE=D0=B6=D0=B5=D0=BD=D0=B8=D1=8F<a cl=
+ass=3D"anchorjs-link " aria-label=3D"Anchor" data-anchorjs-icon=3D"=EE=A7=
+=8B" href=3D"https://www.sqlstyle.guide/ru/#%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%=
+D0%BD%D1%8B%D0%B5-%D0%BF%D0%BE%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D1%8F" s=
+tyle=3D"font: 1em / 1 anchorjs-icons; padding-left: 0.375em;"></a></h2>
+
+<h3 id=3D"=D1=85=D0=BE=D1=80=D0=BE=D1=88=D0=B8=D0=B9-=D1=81=D1=82=D0=B8=D0=
+=BB=D1=8C">=D0=A5=D0=BE=D1=80=D0=BE=D1=88=D0=B8=D0=B9 =D1=81=D1=82=D0=B8=D0=
+=BB=D1=8C<a class=3D"anchorjs-link " aria-label=3D"Anchor" data-anchorjs-ic=
+on=3D"=EE=A7=8B" href=3D"https://www.sqlstyle.guide/ru/#%D1%85%D0%BE%D1%80%=
+D0%BE%D1%88%D0%B8%D0%B9-%D1%81%D1%82%D0%B8%D0%BB%D1%8C" style=3D"font: 1em =
+/ 1 anchorjs-icons; padding-left: 0.375em;"></a></h3>
+
+<ul>
+  <li><strong>=D0=98=D0=B4=D0=B5=D0=BD=D1=82=D0=B8=D1=84=D0=B8=D0=BA=D0=B0=
+=D1=82=D0=BE=D1=80=D1=8B =D0=B8 =D0=B8=D0=BC=D0=B5=D0=BD=D0=B0</strong>. =
+=D0=9E=D1=81=D0=BC=D1=8B=D1=81=D0=BB=D0=B5=D0=BD=D0=BD=D1=8B=D0=B5 =D0=B8 =
+=D0=B2 =D0=B5=D0=B4=D0=B8=D0=BD=D0=BE=D0=BC =D1=81=D1=82=D0=B8=D0=BB=D0=B5.=
+</li>
+  <li><strong>=D0=9F=D1=80=D0=BE=D0=B1=D0=B5=D0=BB=D1=8B =D0=B8 =D0=BE=D1=
+=82=D1=81=D1=82=D1=83=D0=BF=D1=8B</strong>. =D0=9B=D0=BE=D0=B3=D0=B8=D1=87=
+=D0=BD=D0=BE =D1=80=D0=B0=D1=81=D1=81=D1=82=D0=B0=D0=B2=D0=BB=D0=B5=D0=BD=
+=D0=BD=D1=8B=D0=B5 =D0=B4=D0=BB=D1=8F =D0=BB=D1=83=D1=87=D1=88=D0=B5=D0=B9 =
+=D1=87=D0=B8=D1=82=D0=B0=D0=B5=D0=BC=D0=BE=D1=81=D1=82=D0=B8 =D0=BA=D0=BE=
+=D0=B4=D0=B0.</li>
+  <li><strong>=D0=94=D0=B0=D1=82=D0=B0 =D0=B8 =D0=B2=D1=80=D0=B5=D0=BC=D1=
+=8F</strong>. =D0=A1=D0=BE=D0=BE=D1=82=D0=B2=D0=B5=D1=82=D1=81=D1=82=D0=B2=
+=D1=83=D1=8E=D1=89=D0=B8=D0=B5 =D1=81=D1=82=D0=B0=D0=BD=D0=B4=D0=B0=D1=80=
+=D1=82=D1=83 <a href=3D"https://ru.wikipedia.org/wiki/ISO_8601" title=3D"Wi=
+kipedia: ISO 8601">ISO 8601</a>:
+<code class=3D"language-plaintext highlighter-rouge">YYYY-MM-DD HH:MM:SS.SS=
+SSS</code>.</li>
+  <li><strong>=D0=A4=D1=83=D0=BD=D0=BA=D1=86=D0=B8=D0=B8 SQL</strong>. =D0=
+=A1=D1=82=D0=B0=D0=BD=D0=B4=D0=B0=D1=80=D1=82=D0=BD=D1=8B=D0=B5 =D0=B2=D0=
+=BC=D0=B5=D1=81=D1=82=D0=BE =D1=81=D0=BF=D0=B5=D1=86=D0=B8=D1=84=D0=B8=D1=
+=87=D0=BD=D1=8B=D1=85 (=D0=BE=D0=BF=D1=80=D0=B5=D0=B4=D0=B5=D0=BB=D1=8F=D0=
+=B5=D0=BC=D1=8B=D1=85 =D0=BF=D0=BE=D1=81=D1=82=D0=B0=D0=B2=D1=89=D0=B8=D0=
+=BA=D0=BE=D0=BC) =D1=81
+=D1=86=D0=B5=D0=BB=D1=8C=D1=8E =D0=BB=D1=83=D1=87=D1=88=D0=B5=D0=B9 =D0=BF=
+=D0=B5=D1=80=D0=B5=D0=BD=D0=BE=D1=81=D0=B8=D0=BC=D0=BE=D1=81=D1=82=D0=B8.</=
+li>
+  <li><strong>=D0=9A=D0=BE=D0=B4</strong>. =D0=9B=D0=B0=D0=BA=D0=BE=D0=BD=
+=D0=B8=D1=87=D0=BD=D1=8B=D0=B9 =D0=B8 =D0=B1=D0=B5=D0=B7 =D0=B8=D0=B7=D0=BB=
+=D0=B8=D1=88=D0=B5=D1=81=D1=82=D0=B2, =D0=BA=D0=B0=D0=BA =D0=BD=D0=B0=D0=BF=
+=D1=80=D0=B8=D0=BC=D0=B5=D1=80: =D0=BD=D0=B5=D0=BD=D1=83=D0=B6=D0=BD=D1=8B=
+=D0=B5 =D0=BA=D0=B0=D0=B2=D1=8B=D1=87=D0=BA=D0=B8 =D0=B8=D0=BB=D0=B8
+=D1=81=D0=BA=D0=BE=D0=B1=D0=BA=D0=B8 =D0=B8=D0=BB=D0=B8 =D0=BD=D0=B5=D1=83=
+=D0=BC=D0=B5=D1=81=D1=82=D0=BD=D0=BE=D0=B5 =D0=B8=D1=81=D0=BF=D0=BE=D0=BB=
+=D1=8C=D0=B7=D0=BE=D0=B2=D0=B0=D0=BD=D0=B8=D0=B5 =D0=BE=D0=BF=D0=B5=D1=80=
+=D0=B0=D1=82=D0=BE=D1=80=D0=B0 <code class=3D"language-plaintext highlighte=
+r-rouge">WHERE</code>.</li>
+  <li><strong>=D0=9A=D0=BE=D0=BC=D0=BC=D0=B5=D0=BD=D1=82=D0=B0=D1=80=D0=B8=
+=D0=B8</strong>. =D0=9F=D1=80=D0=B5=D0=B4=D0=BF=D0=BE=D1=87=D1=82=D0=B8=D1=
+=82=D0=B5=D0=BB=D1=8C=D0=BD=D0=BE =D0=B2 <a href=3D"https://ru.wikipedia.or=
+g/wiki/%D0%A1%D0%B8_(%D1%8F%D0%B7%D1%8B%D0%BA_%D0%BF%D1%80%D0%BE%D0%B3%D1%8=
+0%D0%B0%D0%BC%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F)#.D0.9A=
+.D0.BE.D0.BC.D0.BC.D0.B5.D0.BD.D1.82.D0.B0.D1.80.D0.B8.D0.B8" title=3D"Wiki=
+pedia: =D0=9A=D0=BE=D0=BC=D0=BC=D0=B5=D0=BD=D1=82=D0=B0=D1=80=D0=B8=D0=B8 =
+=D0=B2 C">=D1=81=D1=82=D0=B8=D0=BB=D0=B5 C</a> =E2=80=94 <code class=3D"lan=
+guage-plaintext highlighter-rouge">/*</code>
+(=D0=BD=D0=B0=D1=87=D0=B0=D0=BB=D0=BE) =D0=B8 <code class=3D"language-plain=
+text highlighter-rouge">*/</code> (=D0=BA=D0=BE=D0=BD=D0=B5=D1=86). =D0=9B=
+=D0=B8=D0=B1=D0=BE <code class=3D"language-plaintext highlighter-rouge">--<=
+/code> =D0=BF=D0=B5=D1=80=D0=B5=D0=B4 =D0=BA=D0=BE=D0=BC=D0=BC=D0=B5=D0=BD=
+=D1=82=D0=B0=D1=80=D0=B8=D0=B5=D0=BC, =D1=82=D0=BE=D0=B3=D0=B4=D0=B0 =D0=BE=
+=D0=BA=D0=BE=D0=BD=D1=87=D0=B0=D0=BD=D0=B8=D0=B5=D0=BC
+=D0=B1=D1=83=D0=B4=D0=B5=D1=82 =D0=BD=D0=BE=D0=B2=D0=B0=D1=8F =D1=81=D1=82=
+=D1=80=D0=BE=D0=BA=D0=B0.</li>
+</ul>
+
+<div class=3D"language-sql highlighter-rouge"><div class=3D"highlight"><pre=
+ class=3D"highlight"><code><span class=3D"k">SELECT</span> <span class=3D"n=
+">file_hash</span> <span class=3D"c1">-- stored ssdeep hash</span>
+  <span class=3D"k">FROM</span> <span class=3D"n">file_system</span>
+ <span class=3D"k">WHERE</span> <span class=3D"n">file_name</span> <span cl=
+ass=3D"o">=3D</span> <span class=3D"s1">'.vimrc'</span><span class=3D"p">;<=
+/span>
+</code></pre></div></div>
+
+<div class=3D"language-sql highlighter-rouge"><div class=3D"highlight"><pre=
+ class=3D"highlight"><code><span class=3D"cm">/* Updating the file record a=
+fter writing to the file */</span>
+<span class=3D"k">UPDATE</span> <span class=3D"n">file_system</span>
+   <span class=3D"k">SET</span> <span class=3D"n">file_modified_date</span>=
+ <span class=3D"o">=3D</span> <span class=3D"s1">'1980-02-22 13:19:01.00000=
+'</span><span class=3D"p">,</span>
+       <span class=3D"n">file_size</span> <span class=3D"o">=3D</span> <spa=
+n class=3D"mi">209732</span>
+ <span class=3D"k">WHERE</span> <span class=3D"n">file_name</span> <span cl=
+ass=3D"o">=3D</span> <span class=3D"s1">'.vimrc'</span><span class=3D"p">;<=
+/span>
+</code></pre></div></div>
+
+<h3 id=3D"=D0=BF=D0=BB=D0=BE=D1=85=D0=BE=D0=B9-=D1=81=D1=82=D0=B8=D0=BB=D1=
+=8C">=D0=9F=D0=BB=D0=BE=D1=85=D0=BE=D0=B9 =D1=81=D1=82=D0=B8=D0=BB=D1=8C<a =
+class=3D"anchorjs-link " aria-label=3D"Anchor" data-anchorjs-icon=3D"=EE=A7=
+=8B" href=3D"https://www.sqlstyle.guide/ru/#%D0%BF%D0%BB%D0%BE%D1%85%D0%BE%=
+D0%B9-%D1%81%D1%82%D0%B8%D0%BB%D1%8C" style=3D"font: 1em / 1 anchorjs-icons=
+; padding-left: 0.375em;"></a></h3>
+
+<ul>
+  <li><strong>CamelCase</strong>. =D0=9D=D0=B5=D1=83=D0=B4=D0=BE=D0=B1=D0=
+=BE=D1=87=D0=B8=D1=82=D0=B0=D0=B5=D0=BC.</li>
+  <li><strong>=D0=9F=D1=80=D0=B5=D1=84=D0=B8=D0=BA=D1=81=D1=8B =D0=B8 <a hr=
+ef=3D"https://ru.wikipedia.org/wiki/%D0%92%D0%B5%D0%BD%D0%B3%D0%B5%D1%80%D1=
+%81%D0%BA%D0%B0%D1%8F_%D0%BD%D0%BE%D1%82%D0%B0%D1%86%D0%B8%D1%8F" title=3D"=
+Wikipedia: =D0=92=D0=B5=D0=BD=D0=B3=D0=B5=D1=80=D1=81=D0=BA=D0=B0=D1=8F =D0=
+=BD=D0=BE=D1=82=D0=B0=D1=86=D0=B8=D1=8F">=D0=B2=D0=B5=D0=BD=D0=B3=D0=B5=D1=
+=80=D1=81=D0=BA=D0=B0=D1=8F =D0=BD=D0=BE=D1=82=D0=B0=D1=86=D0=B8=D1=8F</a><=
+/strong>. =D0=9F=D1=80=D0=B5=D1=84=D0=B8=D0=BA=D1=81=D1=8B
+=D0=BD=D0=B0=D0=BF=D0=BE=D0=B4=D0=BE=D0=B1=D0=B8=D0=B5 <code class=3D"langu=
+age-plaintext highlighter-rouge">sp_</code> =D0=B8=D0=BB=D0=B8 <code class=
+=3D"language-plaintext highlighter-rouge">tbl_</code> =D0=B8=D0=B7=D0=B1=D1=
+=8B=D1=82=D0=BE=D1=87=D0=BD=D1=8B.</li>
+  <li><strong>=D0=9C=D0=BD=D0=BE=D0=B6=D0=B5=D1=81=D1=82=D0=B2=D0=B5=D0=BD=
+=D0=BD=D0=BE=D0=B5 =D1=87=D0=B8=D1=81=D0=BB=D0=BE</strong>. =D0=9B=D1=83=D1=
+=87=D1=88=D0=B5 =D0=B8=D1=81=D0=BF=D0=BE=D0=BB=D1=8C=D0=B7=D0=BE=D0=B2=D0=
+=B0=D1=82=D1=8C =D0=B1=D0=BE=D0=BB=D0=B5=D0=B5 =D0=B5=D1=81=D1=82=D0=B5=D1=
+=81=D1=82=D0=B2=D0=B5=D0=BD=D0=BD=D0=BE =D0=B7=D0=B2=D1=83=D1=87=D0=B0=D1=
+=89=D0=B8=D0=B5
+=D1=81=D0=BE=D0=B1=D0=B8=D1=80=D0=B0=D1=82=D0=B5=D0=BB=D1=8C=D0=BD=D1=8B=D0=
+=B5 =D0=BF=D0=BE=D0=BD=D1=8F=D1=82=D0=B8=D1=8F. =D0=9D=D0=B0=D0=BF=D1=80=D0=
+=B8=D0=BC=D0=B5=D1=80, <code class=3D"language-plaintext highlighter-rouge"=
+>staff</code> =D0=B2=D0=BC=D0=B5=D1=81=D1=82=D0=BE <code class=3D"language-=
+plaintext highlighter-rouge">employees</code> =D0=B8=D0=BB=D0=B8 <code clas=
+s=3D"language-plaintext highlighter-rouge">people</code>
+=D0=B2=D0=BC=D0=B5=D1=81=D1=82=D0=BE <code class=3D"language-plaintext high=
+lighter-rouge">individuals</code>.</li>
+  <li><strong>=D0=98=D0=B4=D0=B5=D0=BD=D1=82=D0=B8=D1=84=D0=B8=D0=BA=D0=B0=
+=D1=82=D0=BE=D1=80=D1=8B =D0=B2 =D0=BA=D0=B0=D0=B2=D1=8B=D1=87=D0=BA=D0=B0=
+=D1=85</strong>. =D0=95=D1=81=D0=BB=D0=B8 =D0=BE=D0=BD=D0=B8 =D0=BE=D0=B1=
+=D1=8F=D0=B7=D0=B0=D1=82=D0=B5=D0=BB=D1=8C=D0=BD=D0=BE =D0=BD=D1=83=D0=B6=
+=D0=BD=D1=8B, =D1=82=D0=BE=D0=B3=D0=B4=D0=B0 =D0=B8=D1=81=D0=BF=D0=BE=D0=BB=
+=D1=8C=D0=B7=D1=83=D0=B9=D1=82=D0=B5
+=D0=B4=D0=B2=D0=BE=D0=B9=D0=BD=D1=8B=D0=B5 =D0=BA=D0=B0=D0=B2=D1=8B=D1=87=
+=D0=BA=D0=B8, =D0=BE=D0=BF=D1=80=D0=B5=D0=B4=D0=B5=D0=BB=D1=91=D0=BD=D0=BD=
+=D1=8B=D0=B5 =D0=B2 =D1=81=D1=82=D0=B0=D0=BD=D0=B4=D0=B0=D1=80=D1=82=D0=B5 =
+<a href=3D"https://ru.wikipedia.org/wiki/SQL-92" title=3D"Wikipedia: SQL-92=
+">SQL-92</a> =D1=81 =D1=86=D0=B5=D0=BB=D1=8C=D1=8E =D0=BB=D1=83=D1=87=D1=88=
+=D0=B5=D0=B9
+=D0=BF=D0=B5=D1=80=D0=B5=D0=BD=D0=BE=D1=81=D0=B8=D0=BC=D0=BE=D1=81=D1=82=D0=
+=B8 =D0=B2 =D0=B4=D0=B0=D0=BB=D1=8C=D0=BD=D0=B5=D0=B9=D1=88=D0=B5=D0=BC.</l=
+i>
+  <li><strong>=D0=9F=D1=80=D0=B8=D0=BD=D1=86=D0=B8=D0=BF=D1=8B =D0=BE=D0=B1=
+=D1=8A=D0=B5=D0=BA=D1=82=D0=BD=D0=BE-=D0=BE=D1=80=D0=B8=D0=B5=D0=BD=D1=82=
+=D0=B8=D1=80=D0=BE=D0=B2=D0=B0=D0=BD=D0=BD=D0=BE=D0=B3=D0=BE =D0=BF=D1=80=
+=D0=BE=D0=B5=D0=BA=D1=82=D0=B8=D1=80=D0=BE=D0=B2=D0=B0=D0=BD=D0=B8=D1=8F</s=
+trong>. =D0=9D=D0=B5 =D0=BD=D1=83=D0=B6=D0=BD=D0=BE =D0=BF=D1=80=D0=B8=D0=
+=BC=D0=B5=D0=BD=D1=8F=D1=82=D1=8C =D0=BA
+SQL =D0=B8=D0=BB=D0=B8 =D1=81=D1=82=D1=80=D1=83=D0=BA=D1=82=D1=83=D1=80=D0=
+=B5 =D0=B1=D0=B0=D0=B7=D1=8B =D0=B4=D0=B0=D0=BD=D0=BD=D1=8B=D1=85.</li>
+</ul>
+
+<h2 id=3D"=D1=81=D0=BE=D0=B3=D0=BB=D0=B0=D1=88=D0=B5=D0=BD=D0=B8=D1=8F-=D0=
+=BE-=D0=BD=D0=B0=D0=B8=D0=BC=D0=B5=D0=BD=D0=BE=D0=B2=D0=B0=D0=BD=D0=B8=D0=
+=B8">=D0=A1=D0=BE=D0=B3=D0=BB=D0=B0=D1=88=D0=B5=D0=BD=D0=B8=D1=8F =D0=BE =
+=D0=BD=D0=B0=D0=B8=D0=BC=D0=B5=D0=BD=D0=BE=D0=B2=D0=B0=D0=BD=D0=B8=D0=B8<a =
+class=3D"anchorjs-link " aria-label=3D"Anchor" data-anchorjs-icon=3D"=EE=A7=
+=8B" href=3D"https://www.sqlstyle.guide/ru/#%D1%81%D0%BE%D0%B3%D0%BB%D0%B0%=
+D1%88%D0%B5%D0%BD%D0%B8%D1%8F-%D0%BE-%D0%BD%D0%B0%D0%B8%D0%BC%D0%B5%D0%BD%D=
+0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B8" style=3D"font: 1em / 1 anchorjs-icons; =
+padding-left: 0.375em;"></a></h2>
+
+<h3 id=3D"=D0=BE=D0=B1=D1=89=D0=B5=D0=B5">=D0=9E=D0=B1=D1=89=D0=B5=D0=B5<a =
+class=3D"anchorjs-link " aria-label=3D"Anchor" data-anchorjs-icon=3D"=EE=A7=
+=8B" href=3D"https://www.sqlstyle.guide/ru/#%D0%BE%D0%B1%D1%89%D0%B5%D0%B5"=
+ style=3D"font: 1em / 1 anchorjs-icons; padding-left: 0.375em;"></a></h3>
+
+<ul>
+  <li><strong>=D0=A3=D0=B1=D0=B5=D0=B4=D0=B8=D1=82=D0=B5=D1=81=D1=8C</stron=
+g> =D0=B2 =D1=82=D0=BE=D0=BC, =D1=87=D1=82=D0=BE =D0=B8=D0=BC=D1=8F =D1=83=
+=D0=BD=D0=B8=D0=BA=D0=B0=D0=BB=D1=8C=D0=BD=D0=BE =D0=B8 =D0=B5=D0=B3=D0=BE =
+=D0=BD=D0=B5=D1=82 =D0=B2
+<a href=3D"https://www.sqlstyle.guide/ru/#reserved-keyword-reference" title=
+=3D"Reserved keyword reference">=D1=81=D0=BF=D0=B8=D1=81=D0=BA=D0=B5 =D0=B7=
+=D0=B0=D1=80=D0=B5=D0=B7=D0=B5=D1=80=D0=B2=D0=B8=D1=80=D0=BE=D0=B2=D0=B0=D0=
+=BD=D0=BD=D1=8B=D1=85 =D0=BA=D0=BB=D1=8E=D1=87=D0=B5=D0=B2=D1=8B=D1=85 =D1=
+=81=D0=BB=D0=BE=D0=B2</a>.</li>
+  <li><strong>=D0=9E=D0=B3=D1=80=D0=B0=D0=BD=D0=B8=D1=87=D0=B8=D0=B2=D0=B0=
+=D0=B9=D1=82=D0=B5</strong> =D0=B4=D0=BB=D0=B8=D0=BD=D1=83 =D0=B8=D0=BC=D0=
+=B5=D0=BD=D0=B8 30 =D0=B1=D0=B0=D0=B9=D1=82=D0=B0=D0=BC=D0=B8 (=D1=8D=D1=82=
+=D0=BE 30 =D1=81=D0=B8=D0=BC=D0=B2=D0=BE=D0=BB=D0=BE=D0=B2, =D0=B5=D1=81=D0=
+=BB=D0=B8 =D0=BD=D0=B5
+=D0=B8=D1=81=D0=BF=D0=BE=D0=BB=D1=8C=D0=B7=D1=83=D0=B5=D1=82=D1=81=D1=8F =
+=D0=BC=D0=BD=D0=BE=D0=B3=D0=BE=D0=B1=D0=B0=D0=B9=D1=82=D0=BD=D1=8B=D0=B9 =
+=D0=BD=D0=B0=D0=B1=D0=BE=D1=80 =D1=81=D0=B8=D0=BC=D0=B2=D0=BE=D0=BB=D0=BE=
+=D0=B2).</li>
+  <li><strong>=D0=9D=D0=B0=D1=87=D0=B8=D0=BD=D0=B0=D0=B9=D1=82=D0=B5</stron=
+g> =D0=B8=D0=BC=D0=B5=D0=BD=D0=B0 =D1=81 =D0=B1=D1=83=D0=BA=D0=B2=D1=8B =D0=
+=B8 <strong>=D0=BD=D0=B5 =D0=B7=D0=B0=D0=BA=D0=B0=D0=BD=D1=87=D0=B8=D0=B2=
+=D0=B0=D0=B9=D1=82=D0=B5</strong> =D0=B8=D1=85 =D1=81=D0=B8=D0=BC=D0=B2=D0=
+=BE=D0=BB=D0=BE=D0=BC =D0=BF=D0=BE=D0=B4=D1=87=D1=91=D1=80=D0=BA=D0=B8=D0=
+=B2=D0=B0=D0=BD=D0=B8=D1=8F.</li>
+  <li><strong>=D0=98=D1=81=D0=BF=D0=BE=D0=BB=D1=8C=D0=B7=D1=83=D0=B9=D1=82=
+=D0=B5</strong> =D0=B2 =D0=B8=D0=BC=D0=B5=D0=BD=D0=B0=D1=85 =D1=82=D0=BE=D0=
+=BB=D1=8C=D0=BA=D0=BE =D0=B1=D1=83=D0=BA=D0=B2=D1=8B, =D1=86=D0=B8=D1=84=D1=
+=80=D1=8B =D0=B8 =D1=81=D0=B8=D0=BC=D0=B2=D0=BE=D0=BB =D0=BF=D0=BE=D0=B4=D1=
+=87=D1=91=D1=80=D0=BA=D0=B8=D0=B2=D0=B0=D0=BD=D0=B8=D1=8F.</li>
+  <li><strong>=D0=98=D0=B7=D0=B1=D0=B5=D0=B3=D0=B0=D0=B9=D1=82=D0=B5</stron=
+g> =D0=BD=D0=B5=D1=81=D0=BA=D0=BE=D0=BB=D1=8C=D0=BA=D0=B8=D1=85 =D0=BF=D0=
+=BE=D0=B4=D1=80=D1=8F=D0=B4 =D0=B8=D0=B4=D1=83=D1=89=D0=B8=D1=85 =D1=81=D0=
+=B8=D0=BC=D0=B2=D0=BE=D0=BB=D0=BE=D0=B2 =D0=BF=D0=BE=D0=B4=D1=87=D1=91=D1=
+=80=D0=BA=D0=B8=D0=B2=D0=B0=D0=BD=D0=B8=D1=8F.</li>
+  <li><strong>=D0=98=D1=81=D0=BF=D0=BE=D0=BB=D1=8C=D0=B7=D1=83=D0=B9=D1=82=
+=D0=B5</strong> =D1=81=D0=B8=D0=BC=D0=B2=D0=BE=D0=BB =D0=BF=D0=BE=D0=B4=D1=
+=87=D1=91=D1=80=D0=BA=D0=B8=D0=B2=D0=B0=D0=BD=D0=B8=D1=8F =D1=82=D0=B0=D0=
+=BC, =D0=B3=D0=B4=D0=B5 =D0=B2=D1=8B =D0=B1=D1=8B =D0=BF=D0=BE=D1=81=D1=82=
+=D0=B0=D0=B2=D0=B8=D0=BB=D0=B8 =D0=BF=D1=80=D0=BE=D0=B1=D0=B5=D0=BB =D0=B2
+=D1=80=D0=B5=D0=B0=D0=BB=D1=8C=D0=BD=D0=BE=D0=B9 =D0=B6=D0=B8=D0=B7=D0=BD=
+=D0=B8 (=D0=BD=D0=B0=D0=BF=D1=80=D0=B8=D0=BC=D0=B5=D1=80, <code class=3D"la=
+nguage-plaintext highlighter-rouge">first name</code> =D1=81=D1=82=D0=B0=D0=
+=BD=D0=B5=D1=82 <code class=3D"language-plaintext highlighter-rouge">first_=
+name</code>).</li>
+  <li><strong>=D0=98=D0=B7=D0=B1=D0=B5=D0=B3=D0=B0=D0=B9=D1=82=D0=B5</stron=
+g> =D1=81=D0=BE=D0=BA=D1=80=D0=B0=D1=89=D0=B5=D0=BD=D0=B8=D0=B9. =D0=95=D1=
+=81=D0=BB=D0=B8 =D0=B8=D1=85 =D0=B2=D1=81=D1=91 =D0=B6=D0=B5 =D0=BD=D1=83=
+=D0=B6=D0=BD=D0=BE =D0=B8=D1=81=D0=BF=D0=BE=D0=BB=D1=8C=D0=B7=D0=BE=D0=B2=
+=D0=B0=D1=82=D1=8C, =D1=83=D0=B1=D0=B5=D0=B4=D0=B8=D1=82=D0=B5=D1=81=D1=8C =
+=D0=B2
+=D1=82=D0=BE=D0=BC, =D1=87=D1=82=D0=BE =D0=BE=D0=BD=D0=B8 =D0=BE=D0=B1=D1=
+=89=D0=B5=D0=BF=D0=BE=D0=BD=D1=8F=D1=82=D0=BD=D1=8B.</li>
+</ul>
+
+<div class=3D"language-sql highlighter-rouge"><div class=3D"highlight"><pre=
+ class=3D"highlight"><code><span class=3D"k">SELECT</span> <span class=3D"n=
+">first_name</span>
+  <span class=3D"k">FROM</span> <span class=3D"n">staff</span><span class=
+=3D"p">;</span>
+</code></pre></div></div>
+
+<h3 id=3D"=D1=82=D0=B0=D0=B1=D0=BB=D0=B8=D1=86=D1=8B">=D0=A2=D0=B0=D0=B1=D0=
+=BB=D0=B8=D1=86=D1=8B<a class=3D"anchorjs-link " aria-label=3D"Anchor" data=
+-anchorjs-icon=3D"=EE=A7=8B" href=3D"https://www.sqlstyle.guide/ru/#%D1%82%=
+D0%B0%D0%B1%D0%BB%D0%B8%D1%86%D1%8B" style=3D"font: 1em / 1 anchorjs-icons;=
+ padding-left: 0.375em;"></a></h3>
+
+<ul>
+  <li><strong>=D0=98=D1=81=D0=BF=D0=BE=D0=BB=D1=8C=D0=B7=D1=83=D0=B9=D1=82=
+=D0=B5</strong> =D1=81=D0=BE=D0=B1=D0=B8=D1=80=D0=B0=D1=82=D0=B5=D0=BB=D1=
+=8C=D0=BD=D1=8B=D0=B5 =D0=B8=D0=BC=D0=B5=D0=BD=D0=B0 =D0=B8=D0=BB=D0=B8, =
+=D1=87=D1=82=D0=BE =D0=BC=D0=B5=D0=BD=D0=B5=D0=B5 =D0=BF=D1=80=D0=B5=D0=B4=
+=D0=BF=D0=BE=D1=87=D1=82=D0=B8=D1=82=D0=B5=D0=BB=D1=8C=D0=BD=D0=BE, =D1=84=
+=D0=BE=D1=80=D0=BC=D1=83
+=D0=BC=D0=BD=D0=BE=D0=B6=D0=B5=D1=81=D1=82=D0=B2=D0=B5=D0=BD=D0=BD=D0=BE=D0=
+=B3=D0=BE =D1=87=D0=B8=D1=81=D0=BB=D0=B0. =D0=9D=D0=B0=D0=BF=D1=80=D0=B8=D0=
+=BC=D0=B5=D1=80, <code class=3D"language-plaintext highlighter-rouge">staff=
+</code> =D0=B8 <code class=3D"language-plaintext highlighter-rouge">employe=
+es</code> (=D0=B2 =D0=BF=D0=BE=D1=80=D1=8F=D0=B4=D0=BA=D0=B5 =D1=83=D0=B1=
+=D1=8B=D0=B2=D0=B0=D0=BD=D0=B8=D1=8F
+=D0=BF=D1=80=D0=B5=D0=B4=D0=BF=D0=BE=D1=87=D1=82=D0=B5=D0=BD=D0=B8=D1=8F).<=
+/li>
+  <li><strong>=D0=9D=D0=B5 =D0=B8=D1=81=D0=BF=D0=BE=D0=BB=D1=8C=D0=B7=D1=83=
+=D0=B9=D1=82=D0=B5</strong> =D0=BE=D0=BF=D0=B8=D1=81=D0=B0=D1=82=D0=B5=D0=
+=BB=D1=8C=D0=BD=D1=8B=D0=B5 =D0=BF=D1=80=D0=B5=D1=84=D0=B8=D0=BA=D1=81=D1=
+=8B =D0=B2=D0=B8=D0=B4=D0=B0 <code class=3D"language-plaintext highlighter-=
+rouge">tbl_</code> =D0=B8 =D0=B2=D0=B5=D0=BD=D0=B3=D0=B5=D1=80=D1=81=D0=BA=
+=D1=83=D1=8E =D0=BD=D0=BE=D1=82=D0=B0=D1=86=D0=B8=D1=8E =D0=B2
+=D1=86=D0=B5=D0=BB=D0=BE=D0=BC.</li>
+  <li><strong>=D0=9D=D0=B5 =D0=B4=D0=BE=D0=BF=D1=83=D1=81=D0=BA=D0=B0=D0=B9=
+=D1=82=D0=B5</strong> =D1=81=D0=BE=D0=B2=D0=BF=D0=B0=D0=B4=D0=B5=D0=BD=D0=
+=B8=D0=B9 =D0=BD=D0=B0=D0=B7=D0=B2=D0=B0=D0=BD=D0=B8=D1=8F =D1=82=D0=B0=D0=
+=B1=D0=BB=D0=B8=D1=86=D1=8B =D1=81 =D0=BD=D0=B0=D0=B7=D0=B2=D0=B0=D0=BD=D0=
+=B8=D0=B5=D0=BC =D0=BB=D1=8E=D0=B1=D0=BE=D0=B3=D0=BE =D0=B8=D0=B7 =D0=B5=D1=
+=91
+=D1=81=D1=82=D0=BE=D0=BB=D0=B1=D1=86=D0=BE=D0=B2.</li>
+  <li>=D0=9F=D0=BE =D0=B2=D0=BE=D0=B7=D0=BC=D0=BE=D0=B6=D0=BD=D0=BE=D1=81=
+=D1=82=D0=B8 <strong>=D0=B8=D0=B7=D0=B1=D0=B5=D0=B3=D0=B0=D0=B9=D1=82=D0=B5=
+</strong> =D0=BE=D0=B1=D1=8A=D0=B5=D0=B4=D0=B8=D0=BD=D0=B5=D0=BD=D0=B8=D1=
+=8F =D0=BD=D0=B0=D0=B7=D0=B2=D0=B0=D0=BD=D0=B8=D0=B9 =D0=B4=D0=B2=D1=83=D1=
+=85 =D1=82=D0=B0=D0=B1=D0=BB=D0=B8=D1=86 =D0=B4=D0=BB=D1=8F =D0=BF=D0=BE=D1=
+=81=D1=82=D1=80=D0=BE=D0=B5=D0=BD=D0=B8=D1=8F
+=D1=82=D0=B0=D0=B1=D0=BB=D0=B8=D1=86=D1=8B =D0=BE=D1=82=D0=BD=D0=BE=D1=88=
+=D0=B5=D0=BD=D0=B8=D0=B9. =D0=9D=D0=B0=D0=BF=D1=80=D0=B8=D0=BC=D0=B5=D1=80,=
+ =D0=B2=D0=BC=D0=B5=D1=81=D1=82=D0=BE =D0=BD=D0=B0=D0=B7=D0=B2=D0=B0=D0=BD=
+=D0=B8=D1=8F <code class=3D"language-plaintext highlighter-rouge">cars_mech=
+anics</code> =D0=BB=D1=83=D1=87=D1=88=D0=B5 =D0=BF=D0=BE=D0=B4=D0=BE=D0=B9=
+=D0=B4=D1=91=D1=82
+<code class=3D"language-plaintext highlighter-rouge">services</code>.</li>
+</ul>
+
+<h3 id=3D"=D1=81=D1=82=D0=BE=D0=BB=D0=B1=D1=86=D1=8B">=D0=A1=D1=82=D0=BE=D0=
+=BB=D0=B1=D1=86=D1=8B<a class=3D"anchorjs-link " aria-label=3D"Anchor" data=
+-anchorjs-icon=3D"=EE=A7=8B" href=3D"https://www.sqlstyle.guide/ru/#%D1%81%=
+D1%82%D0%BE%D0%BB%D0%B1%D1%86%D1%8B" style=3D"font: 1em / 1 anchorjs-icons;=
+ padding-left: 0.375em;"></a></h3>
+
+<ul>
+  <li>=D0=9D=D0=B0=D0=B7=D0=B2=D0=B0=D0=BD=D0=B8=D1=8F =D0=B2=D1=81=D0=B5=
+=D0=B3=D0=B4=D0=B0 <strong>=D0=B4=D0=B0=D0=B2=D0=B0=D0=B9=D1=82=D0=B5</stro=
+ng> =D0=B2 =D0=B5=D0=B4=D0=B8=D0=BD=D1=81=D1=82=D0=B2=D0=B5=D0=BD=D0=BD=D0=
+=BE=D0=BC =D1=87=D0=B8=D1=81=D0=BB=D0=B5.</li>
+  <li>=D0=9F=D0=BE =D0=B2=D0=BE=D0=B7=D0=BC=D0=BE=D0=B6=D0=BD=D0=BE=D1=81=
+=D1=82=D0=B8 <strong>=D0=BD=D0=B5 =D0=B8=D1=81=D0=BF=D0=BE=D0=BB=D1=8C=D0=
+=B7=D1=83=D0=B9=D1=82=D0=B5</strong> <code class=3D"language-plaintext high=
+lighter-rouge">id</code> =D0=B2 =D0=BA=D0=B0=D1=87=D0=B5=D1=81=D1=82=D0=B2=
+=D0=B5 =D0=BF=D0=B5=D1=80=D0=B2=D0=B8=D1=87=D0=BD=D0=BE=D0=B3=D0=BE =D0=B8=
+=D0=B4=D0=B5=D0=BD=D1=82=D0=B8=D1=84=D0=B8=D0=BA=D0=B0=D1=82=D0=BE=D1=80=D0=
+=B0
+=D1=82=D0=B0=D0=B1=D0=BB=D0=B8=D1=86=D1=8B.</li>
+  <li><strong>=D0=9D=D0=B5 =D1=81=D0=BE=D0=B7=D0=B4=D0=B0=D0=B2=D0=B0=D0=B9=
+=D1=82=D0=B5</strong> =D0=B2 =D1=82=D0=B0=D0=B1=D0=BB=D0=B8=D1=86=D0=B5 =D1=
+=81=D1=82=D0=BE=D0=BB=D0=B1=D1=86=D0=BE=D0=B2 =D1=81 =D1=82=D0=B0=D0=BA=D0=
+=B8=D0=BC =D0=B6=D0=B5 =D0=BD=D0=B0=D0=B7=D0=B2=D0=B0=D0=BD=D0=B8=D0=B5=D0=
+=BC, =D0=BA=D0=B0=D0=BA =D1=83 =D0=BD=D0=B5=D1=91 =D1=81=D0=B0=D0=BC=D0=BE=
+=D0=B9.</li>
+  <li>=D0=9D=D0=B0=D0=B7=D0=B2=D0=B0=D0=BD=D0=B8=D1=8F <strong>=D0=B2=D1=81=
+=D0=B5=D0=B3=D0=B4=D0=B0 =D0=BF=D0=B8=D1=88=D0=B8=D1=82=D0=B5</strong> =D1=
+=81=D0=BE =D1=81=D1=82=D1=80=D0=BE=D1=87=D0=BD=D0=BE=D0=B9 =D0=B1=D1=83=D0=
+=BA=D0=B2=D1=8B. =D0=9C=D0=BE=D0=B3=D1=83=D1=82 =D0=B1=D1=8B=D1=82=D1=8C =
+=D0=B8=D1=81=D0=BA=D0=BB=D1=8E=D1=87=D0=B5=D0=BD=D0=B8=D1=8F,
+=D0=BD=D0=B0=D0=BF=D1=80=D0=B8=D0=BC=D0=B5=D1=80 =D0=B8=D1=81=D0=BF=D0=BE=
+=D0=BB=D1=8C=D0=B7=D0=BE=D0=B2=D0=B0=D0=BD=D0=B8=D0=B5 =D0=B8=D0=BC=D0=B5=
+=D0=BD=D0=B8 =D1=81=D0=BE=D0=B1=D1=81=D1=82=D0=B2=D0=B5=D0=BD=D0=BD=D0=BE=
+=D0=B3=D0=BE.</li>
+</ul>
+
+<h3 id=3D"=D0=BF=D1=81=D0=B5=D0=B2=D0=B4=D0=BE=D0=BD=D0=B8=D0=BC=D1=8B=D0=
+=BA=D0=BE=D1=80=D1=80=D0=B5=D0=BB=D1=8F=D1=86=D0=B8=D0=B8">=D0=9F=D1=81=D0=
+=B5=D0=B2=D0=B4=D0=BE=D0=BD=D0=B8=D0=BC=D1=8B/=D0=BA=D0=BE=D1=80=D1=80=D0=
+=B5=D0=BB=D1=8F=D1=86=D0=B8=D0=B8<a class=3D"anchorjs-link " aria-label=3D"=
+Anchor" data-anchorjs-icon=3D"=EE=A7=8B" href=3D"https://www.sqlstyle.guide=
+/ru/#%D0%BF%D1%81%D0%B5%D0%B2%D0%B4%D0%BE%D0%BD%D0%B8%D0%BC%D1%8B%D0%BA%D0%=
+BE%D1%80%D1%80%D0%B5%D0%BB%D1%8F%D1%86%D0%B8%D0%B8" style=3D"font: 1em / 1 =
+anchorjs-icons; padding-left: 0.375em;"></a></h3>
+
+<ul>
+  <li><strong>=D0=94=D0=BE=D0=BB=D0=B6=D0=BD=D1=8B</strong> =D1=82=D0=B0=D0=
+=BA =D0=B8=D0=BB=D0=B8 =D0=B8=D0=BD=D0=B0=D1=87=D0=B5 =D0=B1=D1=8B=D1=82=D1=
+=8C =D1=81=D0=B2=D1=8F=D0=B7=D0=B0=D0=BD=D1=8B =D1=81 =D0=BE=D0=B1=D1=8A=D0=
+=B5=D0=BA=D1=82=D0=B0=D0=BC=D0=B8 =D0=B8=D0=BB=D0=B8 =D0=B2=D1=8B=D1=80=D0=
+=B0=D0=B6=D0=B5=D0=BD=D0=B8=D1=8F=D0=BC=D0=B8,
+=D0=BF=D1=81=D0=B5=D0=B2=D0=B4=D0=BE=D0=BD=D0=B8=D0=BC=D0=BE=D0=BC =D0=BA=
+=D0=BE=D1=82=D0=BE=D1=80=D1=8B=D1=85 =D0=BE=D0=BD=D0=B8 =D1=8F=D0=B2=D0=BB=
+=D1=8F=D1=8E=D1=82=D1=81=D1=8F.</li>
+  <li>=D0=98=D0=BC=D1=8F =D0=BA=D0=BE=D1=80=D1=80=D0=B5=D0=BB=D1=8F=D1=86=
+=D0=B8=D0=B8 <strong>=D0=BE=D0=B1=D1=8B=D1=87=D0=BD=D0=BE =D1=81=D0=BE=D1=
+=81=D1=82=D0=B0=D0=B2=D0=BB=D1=8F=D0=B5=D1=82=D1=81=D1=8F</strong> =D0=B8=
+=D0=B7 =D0=BF=D0=B5=D1=80=D0=B2=D1=8B=D1=85 =D0=B1=D1=83=D0=BA=D0=B2 =D0=BA=
+=D0=B0=D0=B6=D0=B4=D0=BE=D0=B3=D0=BE =D1=81=D0=BB=D0=BE=D0=B2=D0=B0 =D0=B2 =
+=D0=B8=D0=BC=D0=B5=D0=BD=D0=B8
+=D0=BE=D0=B1=D1=8A=D0=B5=D0=BA=D1=82=D0=B0.</li>
+  <li><strong>=D0=94=D0=BE=D0=B1=D0=B0=D0=B2=D1=8C=D1=82=D0=B5</strong> =D1=
+=86=D0=B8=D1=84=D1=80=D1=83 =D0=BA =D0=B8=D0=BC=D0=B5=D0=BD=D0=B8, =D0=B5=
+=D1=81=D0=BB=D0=B8 =D1=82=D0=B0=D0=BA=D0=BE=D0=B5 =D1=83=D0=B6=D0=B5 =D1=81=
+=D1=83=D1=89=D0=B5=D1=81=D1=82=D0=B2=D1=83=D0=B5=D1=82.</li>
+  <li>=D0=92=D1=81=D0=B5=D0=B3=D0=B4=D0=B0 <strong>=D0=B8=D1=81=D0=BF=D0=BE=
+=D0=BB=D1=8C=D0=B7=D1=83=D0=B9=D1=82=D0=B5</strong> =D0=BA=D0=BB=D1=8E=D1=
+=87=D0=B5=D0=B2=D0=BE=D0=B5 =D1=81=D0=BB=D0=BE=D0=B2=D0=BE <code class=3D"l=
+anguage-plaintext highlighter-rouge">AS</code> =D0=B4=D0=BB=D1=8F =D0=BB=D1=
+=83=D1=87=D1=88=D0=B5=D0=B9 =D1=87=D0=B8=D1=82=D0=B0=D0=B5=D0=BC=D0=BE=D1=
+=81=D1=82=D0=B8.</li>
+  <li>=D0=94=D0=BB=D1=8F =D0=B2=D1=8B=D1=87=D0=B8=D1=81=D0=BB=D0=B8=D0=BC=
+=D1=8B=D1=85 =D0=B4=D0=B0=D0=BD=D0=BD=D1=8B=D1=85 (<code class=3D"language-=
+plaintext highlighter-rouge">SUM()</code> =D0=B8=D0=BB=D0=B8 <code class=3D=
+"language-plaintext highlighter-rouge">AVG()</code>) <strong>=D0=B8=D1=81=
+=D0=BF=D0=BE=D0=BB=D1=8C=D0=B7=D1=83=D0=B9=D1=82=D0=B5</strong> =D1=82=D0=
+=B0=D0=BA=D0=B8=D0=B5 =D0=B8=D0=BC=D0=B5=D0=BD=D0=B0,
+=D0=BA=D0=BE=D1=82=D0=BE=D1=80=D1=8B=D0=B5 =D0=B2=D1=8B =D0=B1=D1=8B =D0=B4=
+=D0=B0=D0=BB=D0=B8, =D0=B1=D1=83=D0=B4=D1=8C =D0=BE=D0=BD=D0=B8 =D1=81=D1=
+=82=D0=BE=D0=BB=D0=B1=D1=86=D0=B0=D0=BC=D0=B8 =D0=B2 =D1=82=D0=B0=D0=B1=D0=
+=BB=D0=B8=D1=86=D0=B5.</li>
+</ul>
+
+<div class=3D"language-sql highlighter-rouge"><div class=3D"highlight"><pre=
+ class=3D"highlight"><code><span class=3D"k">SELECT</span> <span class=3D"n=
+">first_name</span> <span class=3D"k">AS</span> <span class=3D"n">fn</span>
+  <span class=3D"k">FROM</span> <span class=3D"n">staff</span> <span class=
+=3D"k">AS</span> <span class=3D"n">s1</span>
+  <span class=3D"k">JOIN</span> <span class=3D"n">students</span> <span cla=
+ss=3D"k">AS</span> <span class=3D"n">s2</span>
+    <span class=3D"k">ON</span> <span class=3D"n">s2</span><span class=3D"p=
+">.</span><span class=3D"n">mentor_id</span> <span class=3D"o">=3D</span> <=
+span class=3D"n">s1</span><span class=3D"p">.</span><span class=3D"n">staff=
+_num</span><span class=3D"p">;</span>
+</code></pre></div></div>
+
+<div class=3D"language-sql highlighter-rouge"><div class=3D"highlight"><pre=
+ class=3D"highlight"><code><span class=3D"k">SELECT</span> <span class=3D"k=
+">SUM</span><span class=3D"p">(</span><span class=3D"n">s</span><span class=
+=3D"p">.</span><span class=3D"n">monitor_tally</span><span class=3D"p">)</s=
+pan> <span class=3D"k">AS</span> <span class=3D"n">monitor_total</span>
+  <span class=3D"k">FROM</span> <span class=3D"n">staff</span> <span class=
+=3D"k">AS</span> <span class=3D"n">s</span><span class=3D"p">;</span>
+</code></pre></div></div>
+
+<h3 id=3D"=D1=85=D1=80=D0=B0=D0=BD=D0=B8=D0=BC=D1=8B=D0=B5-=D0=BF=D1=80=D0=
+=BE=D1=86=D0=B5=D0=B4=D1=83=D1=80=D1=8B">=D0=A5=D1=80=D0=B0=D0=BD=D0=B8=D0=
+=BC=D1=8B=D0=B5 =D0=BF=D1=80=D0=BE=D1=86=D0=B5=D0=B4=D1=83=D1=80=D1=8B<a cl=
+ass=3D"anchorjs-link " aria-label=3D"Anchor" data-anchorjs-icon=3D"=EE=A7=
+=8B" href=3D"https://www.sqlstyle.guide/ru/#%D1%85%D1%80%D0%B0%D0%BD%D0%B8%=
+D0%BC%D1%8B%D0%B5-%D0%BF%D1%80%D0%BE%D1%86%D0%B5%D0%B4%D1%83%D1%80%D1%8B" s=
+tyle=3D"font: 1em / 1 anchorjs-icons; padding-left: 0.375em;"></a></h3>
+
+<ul>
+  <li>=D0=98=D0=BC=D1=8F <strong>=D0=B4=D0=BE=D0=BB=D0=B6=D0=BD=D0=BE</stro=
+ng> =D1=81=D0=BE=D0=B4=D0=B5=D1=80=D0=B6=D0=B0=D1=82=D1=8C =D0=B3=D0=BB=D0=
+=B0=D0=B3=D0=BE=D0=BB.</li>
+  <li><strong>=D0=9D=D0=B5 =D0=B8=D1=81=D0=BF=D0=BE=D0=BB=D1=8C=D0=B7=D1=83=
+=D0=B9=D1=82=D0=B5</strong> =D0=BE=D0=BF=D0=B8=D1=81=D0=B0=D1=82=D0=B5=D0=
+=BB=D1=8C=D0=BD=D1=8B=D0=B5 =D0=BF=D1=80=D0=B5=D1=84=D0=B8=D0=BA=D1=81=D1=
+=8B =D0=B2=D0=B8=D0=B4=D0=B0 <code class=3D"language-plaintext highlighter-=
+rouge">sp_</code> =D0=B8 =D0=B2=D0=B5=D0=BD=D0=B3=D0=B5=D1=80=D1=81=D0=BA=
+=D1=83=D1=8E =D0=BD=D0=BE=D1=82=D0=B0=D1=86=D0=B8=D1=8E =D0=B2
+=D1=86=D0=B5=D0=BB=D0=BE=D0=BC.</li>
+</ul>
+
+<h3 id=3D"=D1=83=D0=BD=D0=B8=D0=B2=D0=B5=D1=80=D1=81=D0=B0=D0=BB=D1=8C=D0=
+=BD=D1=8B=D0=B5-=D1=81=D1=83=D1=84=D1=84=D0=B8=D0=BA=D1=81=D1=8B">=D0=A3=D0=
+=BD=D0=B8=D0=B2=D0=B5=D1=80=D1=81=D0=B0=D0=BB=D1=8C=D0=BD=D1=8B=D0=B5 =D1=
+=81=D1=83=D1=84=D1=84=D0=B8=D0=BA=D1=81=D1=8B<a class=3D"anchorjs-link " ar=
+ia-label=3D"Anchor" data-anchorjs-icon=3D"=EE=A7=8B" href=3D"https://www.sq=
+lstyle.guide/ru/#%D1%83%D0%BD%D0%B8%D0%B2%D0%B5%D1%80%D1%81%D0%B0%D0%BB%D1%=
+8C%D0%BD%D1%8B%D0%B5-%D1%81%D1%83%D1%84%D1%84%D0%B8%D0%BA%D1%81%D1%8B" styl=
+e=3D"font: 1em / 1 anchorjs-icons; padding-left: 0.375em;"></a></h3>
+
+<p>=D0=9F=D1=80=D0=B8=D0=B2=D0=B5=D0=B4=D1=91=D0=BD=D0=BD=D1=8B=D0=B5 =D0=
+=BD=D0=B8=D0=B6=D0=B5 =D1=81=D1=83=D1=84=D1=84=D0=B8=D0=BA=D1=81=D1=8B =D1=
+=83=D0=BD=D0=B8=D0=B2=D0=B5=D1=80=D1=81=D0=B0=D0=BB=D1=8C=D0=BD=D1=8B, =D1=
+=87=D1=82=D0=BE =D0=B3=D0=B0=D1=80=D0=B0=D0=BD=D1=82=D0=B8=D1=80=D1=83=D0=
+=B5=D1=82 =D0=BF=D1=80=D0=BE=D1=81=D1=82=D0=BE=D1=82=D1=83 =D0=BF=D0=BE=D0=
+=BD=D0=B8=D0=BC=D0=B0=D0=BD=D0=B8=D1=8F
+=D0=B7=D0=BD=D0=B0=D1=87=D0=B5=D0=BD=D0=B8=D1=8F =D1=81=D1=82=D0=BE=D0=BB=
+=D0=B1=D1=86=D0=BE=D0=B2 =D0=B8=D0=B7 =D0=BA=D0=BE=D0=B4=D0=B0 SQL.</p>
+
+<ul>
+  <li><code class=3D"language-plaintext highlighter-rouge">_id</code> =E2=
+=80=94 =D1=83=D0=BD=D0=B8=D0=BA=D0=B0=D0=BB=D1=8C=D0=BD=D1=8B=D0=B9 =D0=B8=
+=D0=B4=D0=B5=D0=BD=D1=82=D0=B8=D1=84=D0=B8=D0=BA=D0=B0=D1=82=D0=BE=D1=80, =
+=D0=BD=D0=B0=D0=BF=D1=80=D0=B8=D0=BC=D0=B5=D1=80 =D0=BF=D0=B5=D1=80=D0=B2=
+=D0=B8=D1=87=D0=BD=D1=8B=D0=B9 =D0=BA=D0=BB=D1=8E=D1=87.</li>
+  <li><code class=3D"language-plaintext highlighter-rouge">_status</code> =
+=E2=80=94 =D1=84=D0=BB=D0=B0=D0=B3 =D0=B8=D0=BB=D0=B8 =D0=BB=D1=8E=D0=B1=D0=
+=BE=D0=B9 =D1=81=D1=82=D0=B0=D1=82=D1=83=D1=81, =D0=BD=D0=B0=D0=BF=D1=80=D0=
+=B8=D0=BC=D0=B5=D1=80 <code class=3D"language-plaintext highlighter-rouge">=
+publication_status</code>.</li>
+  <li><code class=3D"language-plaintext highlighter-rouge">_total</code> =
+=E2=80=94 =D0=BE=D0=B1=D1=89=D0=B5=D0=B5 =D0=BA=D0=BE=D0=BB=D0=B8=D1=87=D0=
+=B5=D1=81=D1=82=D0=B2=D0=BE =D0=B8=D0=BB=D0=B8 =D1=81=D1=83=D0=BC=D0=BC=D0=
+=B0 =D0=B7=D0=BD=D0=B0=D1=87=D0=B5=D0=BD=D0=B8=D0=B9.</li>
+  <li><code class=3D"language-plaintext highlighter-rouge">_num</code> =E2=
+=80=94 =D0=BF=D0=BE=D0=BB=D0=B5, =D1=81=D0=BE=D0=B4=D0=B5=D1=80=D0=B6=D0=B0=
+=D1=89=D0=B5=D0=B5 =D1=87=D0=B8=D1=81=D0=BB=D0=BE.</li>
+  <li><code class=3D"language-plaintext highlighter-rouge">_name</code> =E2=
+=80=94 =D0=BB=D1=8E=D0=B1=D0=BE=D0=B5 =D0=B8=D0=BC=D1=8F, =D0=BD=D0=B0=D0=
+=BF=D1=80=D0=B8=D0=BC=D0=B5=D1=80 <code class=3D"language-plaintext highlig=
+hter-rouge">first_name</code>.</li>
+  <li><code class=3D"language-plaintext highlighter-rouge">_seq</code> =E2=
+=80=94 =D0=BD=D0=B5=D0=BF=D1=80=D0=B5=D1=80=D1=8B=D0=B2=D0=BD=D0=B0=D1=8F =
+=D0=BF=D0=BE=D1=81=D0=BB=D0=B5=D0=B4=D0=BE=D0=B2=D0=B0=D1=82=D0=B5=D0=BB=D1=
+=8C=D0=BD=D0=BE=D1=81=D1=82=D1=8C =D0=B7=D0=BD=D0=B0=D1=87=D0=B5=D0=BD=D0=
+=B8=D0=B9.</li>
+  <li><code class=3D"language-plaintext highlighter-rouge">_date</code> =E2=
+=80=94 =D0=BA=D0=BE=D0=BB=D0=BE=D0=BD=D0=BA=D0=B0, =D1=81=D0=BE=D0=B4=D0=B5=
+=D1=80=D0=B6=D0=B0=D1=89=D0=B0=D1=8F =D0=B4=D0=B0=D1=82=D1=83.</li>
+  <li><code class=3D"language-plaintext highlighter-rouge">_tally</code> =
+=E2=80=94 =D1=81=D1=87=D1=91=D1=82=D1=87=D0=B8=D0=BA.</li>
+  <li><code class=3D"language-plaintext highlighter-rouge">_size</code> =E2=
+=80=94 =D1=80=D0=B0=D0=B7=D0=BC=D0=B5=D1=80 =D0=B8=D0=BB=D0=B8 =D0=B2=D0=B5=
+=D0=BB=D0=B8=D1=87=D0=B8=D0=BD=D0=B0 =D1=87=D0=B5=D0=B3=D0=BE-=D0=BB=D0=B8=
+=D0=B1=D0=BE, =D0=BD=D0=B0=D0=BF=D1=80=D0=B8=D0=BC=D0=B5=D1=80 =D1=80=D0=B0=
+=D0=B7=D0=BC=D0=B5=D1=80 =D1=84=D0=B0=D0=B9=D0=BB=D0=B0.</li>
+  <li><code class=3D"language-plaintext highlighter-rouge">_addr</code> =E2=
+=80=94 =D1=84=D0=B8=D0=B7=D0=B8=D1=87=D0=B5=D1=81=D0=BA=D0=B8=D0=B9 =D0=B8=
+=D0=BB=D0=B8 =D0=B0=D0=B1=D1=81=D1=82=D1=80=D0=B0=D0=BA=D1=82=D0=BD=D1=8B=
+=D0=B9 =D0=B0=D0=B4=D1=80=D0=B5=D1=81, =D0=BD=D0=B0=D0=BF=D1=80=D0=B8=D0=BC=
+=D0=B5=D1=80 <code class=3D"language-plaintext highlighter-rouge">ip_addr</=
+code>.</li>
+</ul>
+
+<h2 id=3D"=D1=81=D0=B8=D0=BD=D1=82=D0=B0=D0=BA=D1=81=D0=B8=D1=81-=D0=B7=D0=
+=B0=D0=BF=D1=80=D0=BE=D1=81=D0=BE=D0=B2">=D0=A1=D0=B8=D0=BD=D1=82=D0=B0=D0=
+=BA=D1=81=D0=B8=D1=81 =D0=B7=D0=B0=D0=BF=D1=80=D0=BE=D1=81=D0=BE=D0=B2<a cl=
+ass=3D"anchorjs-link " aria-label=3D"Anchor" data-anchorjs-icon=3D"=EE=A7=
+=8B" href=3D"https://www.sqlstyle.guide/ru/#%D1%81%D0%B8%D0%BD%D1%82%D0%B0%=
+D0%BA%D1%81%D0%B8%D1%81-%D0%B7%D0%B0%D0%BF%D1%80%D0%BE%D1%81%D0%BE%D0%B2" s=
+tyle=3D"font: 1em / 1 anchorjs-icons; padding-left: 0.375em;"></a></h2>
+
+<h3 id=3D"=D0=B7=D0=B0=D1=80=D0=B5=D0=B7=D0=B5=D1=80=D0=B2=D0=B8=D1=80=D0=
+=BE=D0=B2=D0=B0=D0=BD=D0=BD=D1=8B=D0=B5-=D1=81=D0=BB=D0=BE=D0=B2=D0=B0">=D0=
+=97=D0=B0=D1=80=D0=B5=D0=B7=D0=B5=D1=80=D0=B2=D0=B8=D1=80=D0=BE=D0=B2=D0=B0=
+=D0=BD=D0=BD=D1=8B=D0=B5 =D1=81=D0=BB=D0=BE=D0=B2=D0=B0<a class=3D"anchorjs=
+-link " aria-label=3D"Anchor" data-anchorjs-icon=3D"=EE=A7=8B" href=3D"http=
+s://www.sqlstyle.guide/ru/#%D0%B7%D0%B0%D1%80%D0%B5%D0%B7%D0%B5%D1%80%D0%B2=
+%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%BD%D1%8B%D0%B5-%D1%81%D0%BB%D0%BE%D=
+0%B2%D0%B0" style=3D"font: 1em / 1 anchorjs-icons; padding-left: 0.375em;">=
+</a></h3>
+
+<p><a href=3D"https://www.sqlstyle.guide/ru/#reserved-keyword-reference" ti=
+tle=3D"Reserved keyword reference">=D0=97=D0=B0=D1=80=D0=B5=D0=B7=D0=B5=D1=
+=80=D0=B2=D0=B8=D1=80=D0=BE=D0=B2=D0=B0=D0=BD=D0=BD=D1=8B=D0=B5 =D0=BA=D0=
+=BB=D1=8E=D1=87=D0=B5=D0=B2=D1=8B=D0=B5 =D1=81=D0=BB=D0=BE=D0=B2=D0=B0</a> =
+=D0=B2=D1=81=D0=B5=D0=B3=D0=B4=D0=B0 =D0=BF=D0=B8=D1=88=D0=B8=D1=82=D0=B5 =
+=D0=BF=D1=80=D0=BE=D0=BF=D0=B8=D1=81=D0=BD=D1=8B=D0=BC=D0=B8
+=D0=B1=D1=83=D0=BA=D0=B2=D0=B0=D0=BC=D0=B8, =D0=BD=D0=B0=D0=BF=D1=80=D0=B8=
+=D0=BC=D0=B5=D1=80 <code class=3D"language-plaintext highlighter-rouge">SEL=
+ECT</code>, <code class=3D"language-plaintext highlighter-rouge">WHERE</cod=
+e>.</p>
+
+<p>=D0=9D=D0=B5 =D0=B8=D1=81=D0=BF=D0=BE=D0=BB=D1=8C=D0=B7=D1=83=D0=B9=D1=
+=82=D0=B5 =D1=81=D0=BE=D0=BA=D1=80=D0=B0=D1=89=D1=91=D0=BD=D0=BD=D1=8B=D0=
+=B9 =D0=B2=D0=B0=D1=80=D0=B8=D0=B0=D0=BD=D1=82 =D0=BA=D0=BB=D1=8E=D1=87=D0=
+=B5=D0=B2=D0=BE=D0=B3=D0=BE =D1=81=D0=BB=D0=BE=D0=B2=D0=B0, =D0=B5=D1=81=D0=
+=BB=D0=B8 =D0=B8=D0=BC=D0=B5=D0=B5=D1=82=D1=81=D1=8F =D0=BF=D0=BE=D0=BB=D0=
+=BD=D1=8B=D0=B9.
+=D0=9D=D0=B0=D0=BF=D1=80=D0=B8=D0=BC=D0=B5=D1=80, =D0=B8=D1=81=D0=BF=D0=BE=
+=D0=BB=D1=8C=D0=B7=D1=83=D0=B9=D1=82=D0=B5 <code class=3D"language-plaintex=
+t highlighter-rouge">ABSOLUTE</code> =D0=B2=D0=BC=D0=B5=D1=81=D1=82=D0=BE <=
+code class=3D"language-plaintext highlighter-rouge">ABS</code>.</p>
+
+<p>=D0=9D=D0=B5 =D0=B8=D1=81=D0=BF=D0=BE=D0=BB=D1=8C=D0=B7=D1=83=D0=B9=D1=
+=82=D0=B5 =D1=81=D0=BF=D0=B5=D1=86=D0=B8=D1=84=D0=B8=D1=87=D0=BD=D1=8B=D0=
+=B5 =D0=B4=D0=BB=D1=8F =D0=BA=D0=B0=D0=BA=D0=BE=D0=B3=D0=BE-=D0=BB=D0=B8=D0=
+=B1=D0=BE =D0=BF=D0=BE=D1=81=D1=82=D0=B0=D0=B2=D1=89=D0=B8=D0=BA=D0=B0 =D0=
+=A1=D0=A3=D0=91=D0=94 =D0=BA=D0=BB=D1=8E=D1=87=D0=B5=D0=B2=D1=8B=D0=B5 =D1=
+=81=D0=BB=D0=BE=D0=B2=D0=B0,
+=D0=B5=D1=81=D0=BB=D0=B8 =D0=B2 ANSI SQL =D0=B5=D1=81=D1=82=D1=8C =D0=BA=D0=
+=BB=D1=8E=D1=87=D0=B5=D0=B2=D1=8B=D0=B5 =D1=81=D0=BB=D0=BE=D0=B2=D0=B0, =D0=
+=B2=D1=8B=D0=BF=D0=BE=D0=BB=D0=BD=D1=8F=D1=8E=D1=89=D0=B8=D0=B5 =D1=82=D0=
+=B0=D0=BA=D0=B8=D0=B5 =D0=B6=D0=B5 =D1=84=D1=83=D0=BD=D0=BA=D1=86=D0=B8=D0=
+=B8. =D0=AD=D1=82=D0=BE =D1=81=D0=B4=D0=B5=D0=BB=D0=B0=D0=B5=D1=82
+=D0=B2=D0=B0=D1=88 =D0=BA=D0=BE=D0=B4 =D0=B1=D0=BE=D0=BB=D0=B5=D0=B5 =D0=BF=
+=D0=B5=D1=80=D0=B5=D0=BD=D0=BE=D1=81=D0=B8=D0=BC=D1=8B=D0=BC.</p>
+
+<div class=3D"language-sql highlighter-rouge"><div class=3D"highlight"><pre=
+ class=3D"highlight"><code><span class=3D"k">SELECT</span> <span class=3D"n=
+">model_num</span>
+  <span class=3D"k">FROM</span> <span class=3D"n">phones</span> <span class=
+=3D"k">AS</span> <span class=3D"n">p</span>
+ <span class=3D"k">WHERE</span> <span class=3D"n">p</span><span class=3D"p"=
+>.</span><span class=3D"n">release_date</span> <span class=3D"o">&gt;</span=
+> <span class=3D"s1">'2014-09-30'</span><span class=3D"p">;</span>
+</code></pre></div></div>
+
+<h3 id=3D"=D0=BF=D1=80=D0=BE=D0=B1=D0=B5=D0=BB=D1=8C=D0=BD=D1=8B=D0=B5-=D1=
+=81=D0=B8=D0=BC=D0=B2=D0=BE=D0=BB=D1=8B">=D0=9F=D1=80=D0=BE=D0=B1=D0=B5=D0=
+=BB=D1=8C=D0=BD=D1=8B=D0=B5 =D1=81=D0=B8=D0=BC=D0=B2=D0=BE=D0=BB=D1=8B<a cl=
+ass=3D"anchorjs-link " aria-label=3D"Anchor" data-anchorjs-icon=3D"=EE=A7=
+=8B" href=3D"https://www.sqlstyle.guide/ru/#%D0%BF%D1%80%D0%BE%D0%B1%D0%B5%=
+D0%BB%D1%8C%D0%BD%D1%8B%D0%B5-%D1%81%D0%B8%D0%BC%D0%B2%D0%BE%D0%BB%D1%8B" s=
+tyle=3D"font: 1em / 1 anchorjs-icons; padding-left: 0.375em;"></a></h3>
+
+<p>=D0=94=D0=BB=D1=8F =D0=BB=D1=83=D1=87=D1=88=D0=B5=D0=B9 =D1=83=D0=B4=D0=
+=BE=D0=B1=D0=BE=D1=87=D0=B8=D1=82=D0=B0=D0=B5=D0=BC=D0=BE=D1=81=D1=82=D0=B8=
+ =D0=BA=D0=BE=D0=B4=D0=B0 =D0=B2=D0=B0=D0=B6=D0=BD=D0=BE =D0=BF=D1=80=D0=B0=
+=D0=B2=D0=B8=D0=BB=D1=8C=D0=BD=D0=BE =D0=B8=D1=81=D0=BF=D0=BE=D0=BB=D1=8C=
+=D0=B7=D0=BE=D0=B2=D0=B0=D1=82=D1=8C =D0=BF=D1=80=D0=BE=D0=B1=D0=B5=D0=BB=
+=D1=8C=D0=BD=D1=8B=D0=B5 =D1=81=D0=B8=D0=BC=D0=B2=D0=BE=D0=BB=D1=8B.
+=D0=9D=D0=B5 =D0=BD=D1=83=D0=B6=D0=BD=D0=BE =D0=BD=D0=B0=D0=B3=D1=80=D0=BE=
+=D0=BC=D0=BE=D0=B6=D0=B4=D0=B0=D1=82=D1=8C =D0=BA=D0=BE=D0=B4 =D0=B8=D0=BB=
+=D0=B8 =D1=83=D0=B4=D0=B0=D0=BB=D1=8F=D1=82=D1=8C =D0=BF=D1=80=D0=BE=D0=B1=
+=D0=B5=D0=BB=D1=8B, =D0=BF=D1=80=D0=B8=D1=81=D1=83=D1=89=D0=B8=D0=B5 =D0=B5=
+=D1=81=D1=82=D0=B5=D1=81=D1=82=D0=B2=D0=B5=D0=BD=D0=BD=D0=BE=D0=BC=D1=83 =
+=D1=8F=D0=B7=D1=8B=D0=BA=D1=83.</p>
+
+<h4 id=3D"=D0=BF=D1=80=D0=BE=D0=B1=D0=B5=D0=BB=D1=8B">=D0=9F=D1=80=D0=BE=D0=
+=B1=D0=B5=D0=BB=D1=8B<a class=3D"anchorjs-link " aria-label=3D"Anchor" data=
+-anchorjs-icon=3D"=EE=A7=8B" href=3D"https://www.sqlstyle.guide/ru/#%D0%BF%=
+D1%80%D0%BE%D0%B1%D0%B5%D0%BB%D1%8B" style=3D"font: 1em / 1 anchorjs-icons;=
+ padding-left: 0.375em;"></a></h4>
+
+<p>=D0=9C=D0=BE=D0=B6=D0=BD=D0=BE =D0=B8 =D0=BD=D1=83=D0=B6=D0=BD=D0=BE =D0=
+=B8=D1=81=D0=BF=D0=BE=D0=BB=D1=8C=D0=B7=D0=BE=D0=B2=D0=B0=D1=82=D1=8C =D0=
+=BF=D1=80=D0=BE=D0=B1=D0=B5=D0=BB=D1=8B =D0=B4=D0=BB=D1=8F =D0=B2=D1=8B=D1=
+=80=D0=B0=D0=B2=D0=BD=D0=B8=D0=B2=D0=B0=D0=BD=D0=B8=D1=8F =D0=BE=D1=81=D0=
+=BD=D0=BE=D0=B2=D0=BD=D1=8B=D1=85 =D0=BA=D0=BB=D1=8E=D1=87=D0=B5=D0=B2=D1=
+=8B=D1=85 =D1=81=D0=BB=D0=BE=D0=B2 =D0=BF=D0=BE
+=D0=B8=D1=85 =D0=BF=D1=80=D0=B0=D0=B2=D0=BE=D0=BC=D1=83 =D0=BA=D1=80=D0=B0=
+=D1=8E. =D0=92 =D1=82=D0=B8=D0=BF=D0=BE=D0=B3=D1=80=D0=B0=D1=84=D0=B8=D0=BA=
+=D0=B5 =D0=BF=D0=BE=D0=BB=D1=83=D1=87=D0=B0=D1=8E=D1=89=D0=B8=D0=B5=D1=81=
+=D1=8F =D1=82=D0=B0=D0=BA=D0=B8=D0=BC =D0=BE=D0=B1=D1=80=D0=B0=D0=B7=D0=BE=
+=D0=BC
+=C2=AB<a href=3D"https://ru.wikipedia.org/wiki/%D0%9A%D0%BE%D1%80%D0%B8%D0%=
+B4%D0%BE%D1%80_(%D1%82%D0%B8%D0%BF%D0%BE%D0%B3%D1%80%D0%B0%D1%84%D0%B8%D0%B=
+A%D0%B0)" title=3D"=D0=9A=D0=BE=D1=80=D0=B8=D0=B4=D0=BE=D1=80=D1=8B =D0=B2 =
+=D1=82=D0=B8=D0=BF=D0=BE=D0=B3=D1=80=D0=B0=D1=84=D0=B8=D0=BA=D0=B5">=D0=BA=
+=D0=BE=D1=80=D0=B8=D0=B4=D0=BE=D1=80=D1=8B</a>=C2=BB =D1=81=D1=82=D0=B0=D1=
+=80=D0=B0=D1=8E=D1=82=D1=81=D1=8F =D0=B8=D0=B7=D0=B1=D0=B5=D0=B3=D0=B0=D1=
+=82=D1=8C, =D0=B2 =D1=82=D0=BE =D0=B6=D0=B5 =D0=B2=D1=80=D0=B5=D0=BC=D1=8F =
+=D0=B2 =D0=BD=D0=B0=D1=88=D0=B5=D0=BC =D1=81=D0=BB=D1=83=D1=87=D0=B0=D0=B5 =
+=D0=BE=D0=BD=D0=B8,
+=D0=BD=D0=B0=D0=BF=D1=80=D0=BE=D1=82=D0=B8=D0=B2, =D0=BF=D0=BE=D0=BC=D0=BE=
+=D0=B3=D0=B0=D1=8E=D1=82 =D0=BB=D1=83=D1=87=D1=88=D0=B5 =D0=B2=D1=8B=D1=87=
+=D0=BB=D0=B5=D0=BD=D1=8F=D1=82=D1=8C =D0=B2=D0=B0=D0=B6=D0=BD=D1=8B=D0=B5 =
+=D0=BA=D0=BB=D1=8E=D1=87=D0=B5=D0=B2=D1=8B=D0=B5 =D1=81=D0=BB=D0=BE=D0=B2=
+=D0=B0.</p>
+
+<div class=3D"language-sql highlighter-rouge"><div class=3D"highlight"><pre=
+ class=3D"highlight"><code><span class=3D"p">(</span><span class=3D"k">SELE=
+CT</span> <span class=3D"n">f</span><span class=3D"p">.</span><span class=
+=3D"n">species_name</span><span class=3D"p">,</span>
+        <span class=3D"k">AVG</span><span class=3D"p">(</span><span class=
+=3D"n">f</span><span class=3D"p">.</span><span class=3D"n">height</span><sp=
+an class=3D"p">)</span> <span class=3D"k">AS</span> <span class=3D"n">avera=
+ge_height</span><span class=3D"p">,</span> <span class=3D"k">AVG</span><spa=
+n class=3D"p">(</span><span class=3D"n">f</span><span class=3D"p">.</span><=
+span class=3D"n">diameter</span><span class=3D"p">)</span> <span class=3D"k=
+">AS</span> <span class=3D"n">average_diameter</span>
+   <span class=3D"k">FROM</span> <span class=3D"n">flora</span> <span class=
+=3D"k">AS</span> <span class=3D"n">f</span>
+  <span class=3D"k">WHERE</span> <span class=3D"n">f</span><span class=3D"p=
+">.</span><span class=3D"n">species_name</span> <span class=3D"o">=3D</span=
+> <span class=3D"s1">'Banksia'</span>
+     <span class=3D"k">OR</span> <span class=3D"n">f</span><span class=3D"p=
+">.</span><span class=3D"n">species_name</span> <span class=3D"o">=3D</span=
+> <span class=3D"s1">'Sheoak'</span>
+     <span class=3D"k">OR</span> <span class=3D"n">f</span><span class=3D"p=
+">.</span><span class=3D"n">species_name</span> <span class=3D"o">=3D</span=
+> <span class=3D"s1">'Wattle'</span>
+  <span class=3D"k">GROUP</span> <span class=3D"k">BY</span> <span class=3D=
+"n">f</span><span class=3D"p">.</span><span class=3D"n">species_name</span>=
+<span class=3D"p">,</span> <span class=3D"n">f</span><span class=3D"p">.</s=
+pan><span class=3D"n">observation_date</span><span class=3D"p">)</span>
+
+  <span class=3D"k">UNION</span> <span class=3D"k">ALL</span>
+
+<span class=3D"p">(</span><span class=3D"k">SELECT</span> <span class=3D"n"=
+>b</span><span class=3D"p">.</span><span class=3D"n">species_name</span><sp=
+an class=3D"p">,</span>
+        <span class=3D"k">AVG</span><span class=3D"p">(</span><span class=
+=3D"n">b</span><span class=3D"p">.</span><span class=3D"n">height</span><sp=
+an class=3D"p">)</span> <span class=3D"k">AS</span> <span class=3D"n">avera=
+ge_height</span><span class=3D"p">,</span> <span class=3D"k">AVG</span><spa=
+n class=3D"p">(</span><span class=3D"n">b</span><span class=3D"p">.</span><=
+span class=3D"n">diameter</span><span class=3D"p">)</span> <span class=3D"k=
+">AS</span> <span class=3D"n">average_diameter</span>
+   <span class=3D"k">FROM</span> <span class=3D"n">botanic_garden_flora</sp=
+an> <span class=3D"k">AS</span> <span class=3D"n">b</span>
+  <span class=3D"k">WHERE</span> <span class=3D"n">b</span><span class=3D"p=
+">.</span><span class=3D"n">species_name</span> <span class=3D"o">=3D</span=
+> <span class=3D"s1">'Banksia'</span>
+     <span class=3D"k">OR</span> <span class=3D"n">b</span><span class=3D"p=
+">.</span><span class=3D"n">species_name</span> <span class=3D"o">=3D</span=
+> <span class=3D"s1">'Sheoak'</span>
+     <span class=3D"k">OR</span> <span class=3D"n">b</span><span class=3D"p=
+">.</span><span class=3D"n">species_name</span> <span class=3D"o">=3D</span=
+> <span class=3D"s1">'Wattle'</span>
+  <span class=3D"k">GROUP</span> <span class=3D"k">BY</span> <span class=3D=
+"n">b</span><span class=3D"p">.</span><span class=3D"n">species_name</span>=
+<span class=3D"p">,</span> <span class=3D"n">b</span><span class=3D"p">.</s=
+pan><span class=3D"n">observation_date</span><span class=3D"p">);</span>
+</code></pre></div></div>
+
+<p>=D0=9E=D0=B1=D1=80=D0=B0=D1=82=D0=B8=D1=82=D0=B5 =D0=B2=D0=BD=D0=B8=D0=
+=BC=D0=B0=D0=BD=D0=B8=D0=B5, =D1=87=D1=82=D0=BE =D0=BA=D0=BB=D1=8E=D1=87=D0=
+=B5=D0=B2=D1=8B=D0=B5 =D1=81=D0=BB=D0=BE=D0=B2=D0=B0 <code class=3D"languag=
+e-plaintext highlighter-rouge">SELECT</code>, <code class=3D"language-plain=
+text highlighter-rouge">FROM</code> =D0=B8 =D1=82.=D0=B4. =D0=B2=D1=8B=D1=
+=80=D0=BE=D0=B2=D0=BD=D0=B5=D0=BD=D1=8B =D0=BF=D0=BE
+=D0=BF=D1=80=D0=B0=D0=B2=D0=BE=D0=BC=D1=83 =D0=BA=D1=80=D0=B0=D1=8E, =D0=BF=
+=D1=80=D0=B8 =D1=8D=D1=82=D0=BE=D0=BC =D0=BD=D0=B0=D0=B7=D0=B2=D0=B0=D0=BD=
+=D0=B8=D1=8F =D1=81=D1=82=D0=BE=D0=BB=D0=B1=D1=86=D0=BE=D0=B2 =D0=B8 =D1=80=
+=D0=B0=D0=B7=D0=BB=D0=B8=D1=87=D0=BD=D1=8B=D0=B5 =D1=83=D1=81=D0=BB=D0=BE=
+=D0=B2=D0=B8=D1=8F =E2=80=94 =D0=BF=D0=BE =D0=BB=D0=B5=D0=B2=D0=BE=D0=BC=D1=
+=83.</p>
+
+<p>=D0=9F=D0=BE=D0=BC=D0=B8=D0=BC=D0=BE =D1=8D=D1=82=D0=BE=D0=B3=D0=BE, =D1=
+=81=D1=82=D0=B0=D1=80=D0=B0=D0=B9=D1=82=D0=B5=D1=81=D1=8C =D1=80=D0=B0=D1=
+=81=D1=81=D1=82=D0=B0=D0=B2=D0=BB=D1=8F=D1=82=D1=8C =D0=BF=D1=80=D0=BE=D0=
+=B1=D0=B5=D0=BB=D1=8B:</p>
+
+<ul>
+  <li><strong>=D0=B4=D0=BE</strong> =D0=B8 <strong>=D0=BF=D0=BE=D1=81=D0=BB=
+=D0=B5</strong> =D0=B7=D0=BD=D0=B0=D0=BA=D0=B0 =D1=80=D0=B0=D0=B2=D0=BD=D0=
+=BE (<code class=3D"language-plaintext highlighter-rouge">=3D</code>)</li>
+  <li><strong>=D0=BF=D0=BE=D1=81=D0=BB=D0=B5</strong> =D0=B7=D0=B0=D0=BF=D1=
+=8F=D1=82=D1=8B=D1=85 (<code class=3D"language-plaintext highlighter-rouge"=
+>,</code>)</li>
+  <li><strong>=D0=B4=D0=BE</strong> =D0=BE=D1=82=D0=BA=D1=80=D1=8B=D0=B2=D0=
+=B0=D1=8E=D1=89=D0=B5=D0=B3=D0=BE =D0=B8 <strong>=D0=BF=D0=BE=D1=81=D0=BB=
+=D0=B5</strong> =D0=B7=D0=B0=D0=BA=D1=80=D1=8B=D0=B2=D0=B0=D1=8E=D1=89=D0=
+=B5=D0=B3=D0=BE =D0=B0=D0=BF=D0=BE=D1=81=D1=82=D1=80=D0=BE=D1=84=D0=BE=D0=
+=B2 (<code class=3D"language-plaintext highlighter-rouge">'</code>), =D0=B5=
+=D1=81=D0=BB=D0=B8 =D0=BF=D0=BE=D1=81=D0=BB=D0=B5=D0=B4=D0=BD=D0=B8=D0=B9
+=D0=BD=D0=B5 =D0=B2=D0=BD=D1=83=D1=82=D1=80=D0=B8 =D1=81=D0=BA=D0=BE=D0=B1=
+=D0=BE=D0=BA, =D0=B8=D0=BB=D0=B8 =D0=B1=D0=B5=D0=B7 =D0=BF=D0=BE=D1=81=D0=
+=BB=D0=B5=D0=B4=D1=83=D1=8E=D1=89=D0=B8=D1=85 =D0=B7=D0=B0=D0=BF=D1=8F=D1=
+=82=D0=BE=D0=B9 =D0=B8=D0=BB=D0=B8 =D1=82=D0=BE=D1=87=D0=BA=D0=B8 =D1=81 =
+=D0=B7=D0=B0=D0=BF=D1=8F=D1=82=D0=BE=D0=B9, =D0=B8=D0=BB=D0=B8 =D0=BD=D0=B5=
+ =D0=B2
+=D0=BA=D0=BE=D0=BD=D1=86=D0=B5 =D1=81=D1=82=D1=80=D0=BE=D0=BA=D0=B8</li>
+</ul>
+
+<div class=3D"language-sql highlighter-rouge"><div class=3D"highlight"><pre=
+ class=3D"highlight"><code><span class=3D"k">SELECT</span> <span class=3D"n=
+">a</span><span class=3D"p">.</span><span class=3D"n">title</span><span cla=
+ss=3D"p">,</span> <span class=3D"n">a</span><span class=3D"p">.</span><span=
+ class=3D"n">release_date</span><span class=3D"p">,</span> <span class=3D"n=
+">a</span><span class=3D"p">.</span><span class=3D"n">recording_date</span>
+  <span class=3D"k">FROM</span> <span class=3D"n">albums</span> <span class=
+=3D"k">AS</span> <span class=3D"n">a</span>
+ <span class=3D"k">WHERE</span> <span class=3D"n">a</span><span class=3D"p"=
+>.</span><span class=3D"n">title</span> <span class=3D"o">=3D</span> <span =
+class=3D"s1">'Charcoal Lane'</span>
+    <span class=3D"k">OR</span> <span class=3D"n">a</span><span class=3D"p"=
+>.</span><span class=3D"n">title</span> <span class=3D"o">=3D</span> <span =
+class=3D"s1">'The New Danger'</span><span class=3D"p">;</span>
+</code></pre></div></div>
+
+<h4 id=3D"=D0=BF=D0=B5=D1=80=D0=B5=D0=B2=D0=BE=D0=B4=D1=8B-=D1=81=D1=82=D1=
+=80=D0=BE=D0=BA=D0=B8">=D0=9F=D0=B5=D1=80=D0=B5=D0=B2=D0=BE=D0=B4=D1=8B =D1=
+=81=D1=82=D1=80=D0=BE=D0=BA=D0=B8<a class=3D"anchorjs-link " aria-label=3D"=
+Anchor" data-anchorjs-icon=3D"=EE=A7=8B" href=3D"https://www.sqlstyle.guide=
+/ru/#%D0%BF%D0%B5%D1%80%D0%B5%D0%B2%D0%BE%D0%B4%D1%8B-%D1%81%D1%82%D1%80%D0=
+%BE%D0%BA%D0%B8" style=3D"font: 1em / 1 anchorjs-icons; padding-left: 0.375=
+em;"></a></h4>
+
+<p>=D0=92=D1=81=D0=B5=D0=B3=D0=B4=D0=B0 =D0=B4=D0=B5=D0=BB=D0=B0=D0=B9=D1=
+=82=D0=B5 =D0=BF=D0=B5=D1=80=D0=B5=D0=BD=D0=BE=D1=81 =D1=81=D1=82=D1=80=D0=
+=BE=D0=BA=D0=B8:</p>
+
+<ul>
+  <li><strong>=D0=BF=D0=B5=D1=80=D0=B5=D0=B4</strong> <code class=3D"langua=
+ge-plaintext highlighter-rouge">AND</code> =D0=B8=D0=BB=D0=B8 <code class=
+=3D"language-plaintext highlighter-rouge">OR</code></li>
+  <li><strong>=D0=BF=D0=BE=D1=81=D0=BB=D0=B5</strong> =D1=82=D0=BE=D1=87=D0=
+=BA=D0=B8 =D1=81 =D0=B7=D0=B0=D0=BF=D1=8F=D1=82=D0=BE=D0=B9 (=D0=B4=D0=BB=
+=D1=8F =D1=80=D0=B0=D0=B7=D0=B4=D0=B5=D0=BB=D0=B5=D0=BD=D0=B8=D1=8F =D0=B7=
+=D0=B0=D0=BF=D1=80=D0=BE=D1=81=D0=BE=D0=B2)</li>
+  <li><strong>=D0=BF=D0=BE=D1=81=D0=BB=D0=B5</strong> =D0=BA=D0=B0=D0=B6=D0=
+=B4=D0=BE=D0=B3=D0=BE =D0=BE=D1=81=D0=BD=D0=BE=D0=B2=D0=BD=D0=BE=D0=B3=D0=
+=BE =D0=BA=D0=BB=D1=8E=D1=87=D0=B5=D0=B2=D0=BE=D0=B3=D0=BE =D1=81=D0=BB=D0=
+=BE=D0=B2=D0=B0</li>
+  <li><strong>=D0=BF=D0=BE=D1=81=D0=BB=D0=B5</strong> =D0=B7=D0=B0=D0=BF=D1=
+=8F=D1=82=D0=BE=D0=B9 (=D0=BF=D1=80=D0=B8 =D0=B2=D1=8B=D0=B4=D0=B5=D0=BB=D0=
+=B5=D0=BD=D0=B8=D0=B8 =D0=BB=D0=BE=D0=B3=D0=B8=D1=87=D0=B5=D1=81=D0=BA=D0=
+=B8=D1=85 =D0=B3=D1=80=D1=83=D0=BF=D0=BF =D1=81=D1=82=D0=BE=D0=BB=D0=B1=D1=
+=86=D0=BE=D0=B2)</li>
+</ul>
+
+<p>=D0=A1=D0=BB=D0=B5=D0=B4=D1=83=D1=8F =D0=BF=D1=80=D0=B8=D0=BD=D1=86=D0=
+=B8=D0=BF=D1=83, =D1=87=D1=82=D0=BE =D0=BA=D0=BB=D1=8E=D1=87=D0=B5=D0=B2=D1=
+=8B=D0=B5 =D1=81=D0=BB=D0=BE=D0=B2=D0=B0 =D0=B2=D1=8B=D1=80=D0=B0=D0=B2=D0=
+=BD=D0=B8=D0=B2=D0=B0=D1=8E=D1=82=D1=81=D1=8F =D0=BF=D0=BE =D0=BF=D1=80=D0=
+=B0=D0=B2=D0=BE=D0=BC=D1=83 =D0=BA=D1=80=D0=B0=D1=8E, =D0=B0 =D0=B2=D1=81=
+=D1=91
+=D0=BE=D1=81=D1=82=D0=B0=D0=BB=D1=8C=D0=BD=D0=BE=D0=B5 =E2=80=94 =D0=BF=D0=
+=BE =D0=BB=D0=B5=D0=B2=D0=BE=D0=BC=D1=83, =D0=BC=D1=8B =D0=B4=D0=BE=D0=B1=
+=D0=B8=D0=B2=D0=B0=D0=B5=D0=BC=D1=81=D1=8F =D0=B4=D0=BE=D1=81=D1=82=D0=B0=
+=D1=82=D0=BE=D1=87=D0=BD=D0=BE =D1=83=D0=B4=D0=BE=D0=B1=D0=BD=D0=BE=D0=B3=
+=D0=BE =D1=80=D0=B0=D1=81=D0=BF=D0=BE=D0=BB=D0=BE=D0=B6=D0=B5=D0=BD=D0=B8=
+=D1=8F =D1=87=D0=B0=D1=81=D1=82=D0=B5=D0=B9
+=D0=BA=D0=BE=D0=B4=D0=B0, =D0=B2=D1=81=D0=BB=D0=B5=D0=B4=D1=81=D1=82=D0=B2=
+=D0=B8=D0=B5 =D1=87=D0=B5=D0=B3=D0=BE =D1=83=D0=BB=D1=83=D1=87=D1=88=D0=B0=
+=D0=B5=D1=82=D1=81=D1=8F =D0=B7=D1=80=D0=B8=D1=82=D0=B5=D0=BB=D1=8C=D0=BD=
+=D0=B0=D1=8F =D0=BD=D0=B0=D0=B2=D0=B8=D0=B3=D0=B0=D1=86=D0=B8=D1=8F =D0=BF=
+=D0=BE =D0=BD=D0=B5=D0=BC=D1=83.</p>
+
+<div class=3D"language-sql highlighter-rouge"><div class=3D"highlight"><pre=
+ class=3D"highlight"><code><span class=3D"k">INSERT</span> <span class=3D"k=
+">INTO</span> <span class=3D"n">albums</span> <span class=3D"p">(</span><sp=
+an class=3D"n">title</span><span class=3D"p">,</span> <span class=3D"n">rel=
+ease_date</span><span class=3D"p">,</span> <span class=3D"n">recording_date=
+</span><span class=3D"p">)</span>
+<span class=3D"k">VALUES</span> <span class=3D"p">(</span><span class=3D"s1=
+">'Charcoal Lane'</span><span class=3D"p">,</span> <span class=3D"s1">'1990=
+-01-01 01:01:01.00000'</span><span class=3D"p">,</span> <span class=3D"s1">=
+'1990-01-01 01:01:01.00000'</span><span class=3D"p">),</span>
+       <span class=3D"p">(</span><span class=3D"s1">'The New Danger'</span>=
+<span class=3D"p">,</span> <span class=3D"s1">'2008-01-01 01:01:01.00000'</=
+span><span class=3D"p">,</span> <span class=3D"s1">'1990-01-01 01:01:01.000=
+00'</span><span class=3D"p">);</span>
+</code></pre></div></div>
+
+<div class=3D"language-sql highlighter-rouge"><div class=3D"highlight"><pre=
+ class=3D"highlight"><code><span class=3D"k">UPDATE</span> <span class=3D"n=
+">albums</span>
+   <span class=3D"k">SET</span> <span class=3D"n">release_date</span> <span=
+ class=3D"o">=3D</span> <span class=3D"s1">'1990-01-01 01:01:01.00000'</spa=
+n>
+ <span class=3D"k">WHERE</span> <span class=3D"n">title</span> <span class=
+=3D"o">=3D</span> <span class=3D"s1">'The New Danger'</span><span class=3D"=
+p">;</span>
+</code></pre></div></div>
+
+<div class=3D"language-sql highlighter-rouge"><div class=3D"highlight"><pre=
+ class=3D"highlight"><code><span class=3D"k">SELECT</span> <span class=3D"n=
+">a</span><span class=3D"p">.</span><span class=3D"n">title</span><span cla=
+ss=3D"p">,</span>
+       <span class=3D"n">a</span><span class=3D"p">.</span><span class=3D"n=
+">release_date</span><span class=3D"p">,</span> <span class=3D"n">a</span><=
+span class=3D"p">.</span><span class=3D"n">recording_date</span><span class=
+=3D"p">,</span> <span class=3D"n">a</span><span class=3D"p">.</span><span c=
+lass=3D"n">production_date</span> <span class=3D"c1">-- grouped dates toget=
+her</span>
+  <span class=3D"k">FROM</span> <span class=3D"n">albums</span> <span class=
+=3D"k">AS</span> <span class=3D"n">a</span>
+ <span class=3D"k">WHERE</span> <span class=3D"n">a</span><span class=3D"p"=
+>.</span><span class=3D"n">title</span> <span class=3D"o">=3D</span> <span =
+class=3D"s1">'Charcoal Lane'</span>
+    <span class=3D"k">OR</span> <span class=3D"n">a</span><span class=3D"p"=
+>.</span><span class=3D"n">title</span> <span class=3D"o">=3D</span> <span =
+class=3D"s1">'The New Danger'</span><span class=3D"p">;</span>
+</code></pre></div></div>
+
+<h3 id=3D"=D0=BE=D1=82=D1=81=D1=82=D1=83=D0=BF=D1=8B">=D0=9E=D1=82=D1=81=D1=
+=82=D1=83=D0=BF=D1=8B<a class=3D"anchorjs-link " aria-label=3D"Anchor" data=
+-anchorjs-icon=3D"=EE=A7=8B" href=3D"https://www.sqlstyle.guide/ru/#%D0%BE%=
+D1%82%D1%81%D1%82%D1%83%D0%BF%D1%8B" style=3D"font: 1em / 1 anchorjs-icons;=
+ padding-left: 0.375em;"></a></h3>
+
+<p>=D0=94=D0=BB=D1=8F =D1=82=D0=BE=D0=B3=D0=BE, =D1=87=D1=82=D0=BE=D0=B1=D1=
+=8B SQL =D0=B1=D1=8B=D0=BB =D1=83=D0=B4=D0=BE=D0=B1=D0=BE=D1=87=D0=B8=D1=82=
+=D0=B0=D0=B5=D0=BC, =D0=B2=D0=B0=D0=B6=D0=BD=D0=BE =D1=82=D0=B0=D0=BA=D0=B6=
+=D0=B5 =D1=81=D0=BB=D0=B5=D0=B4=D0=BE=D0=B2=D0=B0=D1=82=D1=8C =D1=81=D1=82=
+=D0=B0=D0=BD=D0=B4=D0=B0=D1=80=D1=82=D0=B0=D0=BC
+=D1=80=D0=B0=D1=81=D1=81=D1=82=D0=B0=D0=BD=D0=BE=D0=B2=D0=BA=D0=B8 =D0=BE=
+=D1=82=D1=81=D1=82=D1=83=D0=BF=D0=BE=D0=B2.</p>
+
+<h4 id=3D"join"><code class=3D"language-plaintext highlighter-rouge">JOIN</=
+code><a class=3D"anchorjs-link " aria-label=3D"Anchor" data-anchorjs-icon=
+=3D"=EE=A7=8B" href=3D"https://www.sqlstyle.guide/ru/#join" style=3D"font: =
+1em / 1 anchorjs-icons; padding-left: 0.375em;"></a></h4>
+
+<p>=D0=9E=D0=B1=D1=8A=D0=B5=D0=B4=D0=B8=D0=BD=D0=B5=D0=BD=D0=B8=D1=8F (<cod=
+e class=3D"language-plaintext highlighter-rouge">JOIN</code>) =D0=B4=D0=BE=
+=D0=BB=D0=B6=D0=BD=D1=8B =D1=80=D0=B0=D1=81=D0=BF=D0=BE=D0=BB=D0=B0=D0=B3=
+=D0=B0=D1=82=D1=8C=D1=81=D1=8F =D0=BF=D0=BE =D0=BF=D1=80=D0=B0=D0=B2=D1=83=
+=D1=8E =D1=87=D0=B0=D1=81=D1=82=D1=8C =C2=AB=D0=BA=D0=BE=D1=80=D0=B8=D0=B4=
+=D0=BE=D1=80=D0=B0=C2=BB. =D0=9F=D1=80=D0=B8
+=D0=BD=D0=B5=D0=BE=D0=B1=D1=85=D0=BE=D0=B4=D0=B8=D0=BC=D0=BE=D1=81=D1=82=D0=
+=B8 =D0=BC=D0=B5=D0=B6=D0=B4=D1=83 =D0=BD=D0=B8=D0=BC=D0=B8 =D0=BC=D0=BE=D0=
+=B6=D0=BD=D0=BE =D0=B4=D0=BE=D0=B1=D0=B0=D0=B2=D0=B8=D1=82=D1=8C =D0=BF=D1=
+=83=D1=81=D1=82=D1=83=D1=8E =D1=81=D1=82=D1=80=D0=BE=D0=BA=D1=83.</p>
+
+<div class=3D"language-sql highlighter-rouge"><div class=3D"highlight"><pre=
+ class=3D"highlight"><code><span class=3D"k">SELECT</span> <span class=3D"n=
+">r</span><span class=3D"p">.</span><span class=3D"n">last_name</span>
+  <span class=3D"k">FROM</span> <span class=3D"n">riders</span> <span class=
+=3D"k">AS</span> <span class=3D"n">r</span>
+       <span class=3D"k">INNER</span> <span class=3D"k">JOIN</span> <span c=
+lass=3D"n">bikes</span> <span class=3D"k">AS</span> <span class=3D"n">b</sp=
+an>
+       <span class=3D"k">ON</span> <span class=3D"n">r</span><span class=3D=
+"p">.</span><span class=3D"n">bike_vin_num</span> <span class=3D"o">=3D</sp=
+an> <span class=3D"n">b</span><span class=3D"p">.</span><span class=3D"n">v=
+in_num</span>
+          <span class=3D"k">AND</span> <span class=3D"n">b</span><span clas=
+s=3D"p">.</span><span class=3D"n">engine_tally</span> <span class=3D"o">&gt=
+;</span> <span class=3D"mi">2</span>
+
+       <span class=3D"k">INNER</span> <span class=3D"k">JOIN</span> <span c=
+lass=3D"n">crew</span> <span class=3D"k">AS</span> <span class=3D"k">c</spa=
+n>
+       <span class=3D"k">ON</span> <span class=3D"n">r</span><span class=3D=
+"p">.</span><span class=3D"n">crew_chief_last_name</span> <span class=3D"o"=
+>=3D</span> <span class=3D"k">c</span><span class=3D"p">.</span><span class=
+=3D"n">last_name</span>
+          <span class=3D"k">AND</span> <span class=3D"k">c</span><span clas=
+s=3D"p">.</span><span class=3D"n">chief</span> <span class=3D"o">=3D</span>=
+ <span class=3D"s1">'Y'</span><span class=3D"p">;</span>
+</code></pre></div></div>
+
+<h4 id=3D"=D0=BF=D0=BE=D0=B4=D0=B7=D0=B0=D0=BF=D1=80=D0=BE=D1=81=D1=8B">=D0=
+=9F=D0=BE=D0=B4=D0=B7=D0=B0=D0=BF=D1=80=D0=BE=D1=81=D1=8B<a class=3D"anchor=
+js-link " aria-label=3D"Anchor" data-anchorjs-icon=3D"=EE=A7=8B" href=3D"ht=
+tps://www.sqlstyle.guide/ru/#%D0%BF%D0%BE%D0%B4%D0%B7%D0%B0%D0%BF%D1%80%D0%=
+BE%D1%81%D1%8B" style=3D"font: 1em / 1 anchorjs-icons; padding-left: 0.375e=
+m;"></a></h4>
+
+<p>=D0=9F=D0=BE=D0=B4=D0=B7=D0=B0=D0=BF=D1=80=D0=BE=D1=81=D1=8B =D1=82=D0=
+=BE=D0=B6=D0=B5 =D0=B4=D0=BE=D0=BB=D0=B6=D0=BD=D1=8B =D0=B1=D1=8B=D1=82=D1=
+=8C =D0=B2=D1=8B=D1=80=D0=BE=D0=B2=D0=BD=D0=B5=D0=BD=D1=8B =D0=BF=D0=BE =D0=
+=BF=D1=80=D0=B0=D0=B2=D0=BE=D0=BC=D1=83 =D0=BA=D1=80=D0=B0=D1=8E =C2=AB=D0=
+=BA=D0=BE=D1=80=D0=B8=D0=B4=D0=BE=D1=80=D0=B0=C2=BB, =D0=B0 =D0=B2=D0=BD=D1=
+=83=D1=82=D1=80=D0=B8 =D0=BD=D0=B8=D1=85
+=D1=81=D0=B0=D0=BC=D0=B8=D1=85 =D0=BF=D1=80=D0=B8=D0=BC=D0=B5=D0=BD=D1=8F=
+=D1=8E=D1=82=D1=81=D1=8F =D1=82=D0=B5 =D0=B6=D0=B5 =D0=BF=D1=80=D0=B0=D0=B2=
+=D0=B8=D0=BB=D0=B0 =D1=84=D0=BE=D1=80=D0=BC=D0=B0=D1=82=D0=B8=D1=80=D0=BE=
+=D0=B2=D0=B0=D0=BD=D0=B8=D1=8F, =D1=87=D1=82=D0=BE =D0=B8 =D0=B2 =D0=BB=D1=
+=8E=D0=B1=D0=BE=D0=BC =D0=B4=D1=80=D1=83=D0=B3=D0=BE=D0=BC =D0=B7=D0=B0=D0=
+=BF=D1=80=D0=BE=D1=81=D0=B5.
+=D0=95=D1=81=D0=BB=D0=B8 =D0=B8=D1=81=D0=BF=D0=BE=D0=BB=D1=8C=D0=B7=D1=83=
+=D1=8E=D1=82=D1=81=D1=8F =D0=B2=D0=BB=D0=BE=D0=B6=D0=B5=D0=BD=D0=BD=D1=8B=
+=D0=B5 =D0=BF=D0=BE=D0=B4=D0=B7=D0=B0=D0=BF=D1=80=D0=BE=D1=81=D1=8B, =D0=BC=
+=D0=BE=D0=B6=D0=B5=D1=82 =D0=B8=D0=BC=D0=B5=D1=82=D1=8C =D1=81=D0=BC=D1=8B=
+=D1=81=D0=BB =D0=BF=D0=BE=D1=81=D1=82=D0=B0=D0=B2=D0=B8=D1=82=D1=8C
+=D0=B7=D0=B0=D0=BA=D1=80=D1=8B=D0=B2=D0=B0=D1=8E=D1=89=D1=83=D1=8E =D1=81=
+=D0=BA=D0=BE=D0=B1=D0=BA=D1=83 =D0=BD=D0=B0 =D0=BD=D0=BE=D0=B2=D0=BE=D0=B9 =
+=D1=81=D1=82=D1=80=D0=BE=D0=BA=D0=B5 =D1=80=D0=BE=D0=B2=D0=BD=D0=BE =D0=BF=
+=D0=BE=D0=B4 =D0=BF=D0=B0=D1=80=D0=BD=D0=BE=D0=B9 =D0=B5=D0=B9 =D0=BE=D1=82=
+=D0=BA=D1=80=D1=8B=D0=B2=D0=B0=D1=8E=D1=89=D0=B5=D0=B9 =D1=81=D0=BA=D0=BE=
+=D0=B1=D0=BA=D0=BE=D0=B9.</p>
+
+<div class=3D"language-sql highlighter-rouge"><div class=3D"highlight"><pre=
+ class=3D"highlight"><code><span class=3D"k">SELECT</span> <span class=3D"n=
+">r</span><span class=3D"p">.</span><span class=3D"n">last_name</span><span=
+ class=3D"p">,</span>
+       <span class=3D"p">(</span><span class=3D"k">SELECT</span> <span clas=
+s=3D"k">MAX</span><span class=3D"p">(</span><span class=3D"nb">YEAR</span><=
+span class=3D"p">(</span><span class=3D"n">championship_date</span><span cl=
+ass=3D"p">))</span>
+          <span class=3D"k">FROM</span> <span class=3D"n">champions</span> =
+<span class=3D"k">AS</span> <span class=3D"k">c</span>
+         <span class=3D"k">WHERE</span> <span class=3D"k">c</span><span cla=
+ss=3D"p">.</span><span class=3D"n">last_name</span> <span class=3D"o">=3D</=
+span> <span class=3D"n">r</span><span class=3D"p">.</span><span class=3D"n"=
+>last_name</span>
+           <span class=3D"k">AND</span> <span class=3D"k">c</span><span cla=
+ss=3D"p">.</span><span class=3D"n">confirmed</span> <span class=3D"o">=3D</=
+span> <span class=3D"s1">'Y'</span><span class=3D"p">)</span> <span class=
+=3D"k">AS</span> <span class=3D"n">last_championship_year</span>
+  <span class=3D"k">FROM</span> <span class=3D"n">riders</span> <span class=
+=3D"k">AS</span> <span class=3D"n">r</span>
+ <span class=3D"k">WHERE</span> <span class=3D"n">r</span><span class=3D"p"=
+>.</span><span class=3D"n">last_name</span> <span class=3D"k">IN</span>
+       <span class=3D"p">(</span><span class=3D"k">SELECT</span> <span clas=
+s=3D"k">c</span><span class=3D"p">.</span><span class=3D"n">last_name</span=
+>
+          <span class=3D"k">FROM</span> <span class=3D"n">champions</span> =
+<span class=3D"k">AS</span> <span class=3D"k">c</span>
+         <span class=3D"k">WHERE</span> <span class=3D"nb">YEAR</span><span=
+ class=3D"p">(</span><span class=3D"n">championship_date</span><span class=
+=3D"p">)</span> <span class=3D"o">&gt;</span> <span class=3D"s1">'2008'</sp=
+an>
+           <span class=3D"k">AND</span> <span class=3D"k">c</span><span cla=
+ss=3D"p">.</span><span class=3D"n">confirmed</span> <span class=3D"o">=3D</=
+span> <span class=3D"s1">'Y'</span><span class=3D"p">);</span>
+</code></pre></div></div>
+
+<h3 id=3D"=D1=84=D0=BE=D1=80=D0=BC=D0=B0=D0=BB=D1=8C=D0=BD=D1=8B=D0=B5-=D1=
+=82=D0=BE=D0=BD=D0=BA=D0=BE=D1=81=D1=82=D0=B8">=D0=A4=D0=BE=D1=80=D0=BC=D0=
+=B0=D0=BB=D1=8C=D0=BD=D1=8B=D0=B5 =D1=82=D0=BE=D0=BD=D0=BA=D0=BE=D1=81=D1=
+=82=D0=B8<a class=3D"anchorjs-link " aria-label=3D"Anchor" data-anchorjs-ic=
+on=3D"=EE=A7=8B" href=3D"https://www.sqlstyle.guide/ru/#%D1%84%D0%BE%D1%80%=
+D0%BC%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B5-%D1%82%D0%BE%D0%BD%D0%BA%D0%BE%D1=
+%81%D1%82%D0%B8" style=3D"font: 1em / 1 anchorjs-icons; padding-left: 0.375=
+em;"></a></h3>
+
+<ul>
+  <li><strong>=D0=98=D1=81=D0=BF=D0=BE=D0=BB=D1=8C=D0=B7=D1=83=D0=B9=D1=82=
+=D0=B5</strong> <code class=3D"language-plaintext highlighter-rouge">BETWEE=
+N</code>, =D0=B3=D0=B4=D0=B5 =D0=B2=D0=BE=D0=B7=D0=BC=D0=BE=D0=B6=D0=BD=D0=
+=BE, =D0=B2=D0=BC=D0=B5=D1=81=D1=82=D0=BE =D0=BD=D0=B0=D0=B3=D1=80=D0=BE=D0=
+=BC=D0=BE=D0=B6=D0=B4=D0=B5=D0=BD=D0=B8=D1=8F =D1=83=D1=81=D0=BB=D0=BE=D0=
+=B2=D0=B8=D0=B9 <code class=3D"language-plaintext highlighter-rouge">AND</c=
+ode>.</li>
+  <li>=D0=A2=D0=B0=D0=BA=D0=B8=D0=BC =D0=B6=D0=B5 =D0=BE=D0=B1=D1=80=D0=B0=
+=D0=B7=D0=BE=D0=BC =D1=81=D1=82=D0=B0=D1=80=D0=B0=D0=B9=D1=82=D0=B5=D1=81=
+=D1=8C <strong>=D0=B8=D1=81=D0=BF=D0=BE=D0=BB=D1=8C=D0=B7=D0=BE=D0=B2=D0=B0=
+=D1=82=D1=8C</strong> <code class=3D"language-plaintext highlighter-rouge">=
+IN()</code> =D0=B2=D0=BC=D0=B5=D1=81=D1=82=D0=BE <code class=3D"language-pl=
+aintext highlighter-rouge">OR</code>.</li>
+  <li><strong>=D0=98=D1=81=D0=BF=D0=BE=D0=BB=D1=8C=D0=B7=D1=83=D0=B9=D1=82=
+=D0=B5</strong> <code class=3D"language-plaintext highlighter-rouge">CASE</=
+code>, =D0=B5=D1=81=D0=BB=D0=B8 =D0=B7=D0=BD=D0=B0=D1=87=D0=B5=D0=BD=D0=B8=
+=D0=B5 =D0=B4=D0=BE=D0=BB=D0=B6=D0=BD=D0=BE =D0=B1=D1=8B=D1=82=D1=8C =D0=B8=
+=D0=BD=D1=82=D0=B5=D1=80=D0=BF=D1=80=D0=B5=D1=82=D0=B8=D1=80=D0=BE=D0=B2=D0=
+=B0=D0=BD=D0=BE =D0=B4=D0=BE
+=D0=BE=D0=BA=D0=BE=D0=BD=D1=87=D0=B0=D0=BD=D0=B8=D1=8F =D0=B2=D1=8B=D0=BF=
+=D0=BE=D0=BB=D0=BD=D0=B5=D0=BD=D0=B8=D1=8F =D0=B7=D0=B0=D0=BF=D1=80=D0=BE=
+=D1=81=D0=B0. =D0=A1 =D0=BF=D0=BE=D0=BC=D0=BE=D1=89=D1=8C=D1=8E <code class=
+=3D"language-plaintext highlighter-rouge">CASE</code> =D0=BC=D0=BE=D0=B6=D0=
+=BD=D0=BE =D1=82=D0=B0=D0=BA=D0=B6=D0=B5 =D1=84=D0=BE=D1=80=D0=BC=D0=B8=D1=
+=80=D0=BE=D0=B2=D0=B0=D1=82=D1=8C
+=D1=81=D0=BB=D0=BE=D0=B6=D0=BD=D1=8B=D0=B5 =D0=BB=D0=BE=D0=B3=D0=B8=D1=87=
+=D0=B5=D1=81=D0=BA=D0=B8=D0=B5 =D1=81=D1=82=D1=80=D1=83=D0=BA=D1=82=D1=83=
+=D1=80=D1=8B.</li>
+  <li>=D0=9F=D0=BE =D0=B2=D0=BE=D0=B7=D0=BC=D0=BE=D0=B6=D0=BD=D0=BE=D1=81=
+=D1=82=D0=B8 <strong>=D0=B8=D0=B7=D0=B1=D0=B5=D0=B3=D0=B0=D0=B9=D1=82=D0=B5=
+</strong> =D0=B8=D1=81=D0=BF=D0=BE=D0=BB=D1=8C=D0=B7=D0=BE=D0=B2=D0=B0=D0=
+=BD=D0=B8=D1=8F <code class=3D"language-plaintext highlighter-rouge">UNION<=
+/code> =D0=B8 =D0=B2=D1=80=D0=B5=D0=BC=D0=B5=D0=BD=D0=BD=D1=8B=D1=85 =D1=82=
+=D0=B0=D0=B1=D0=BB=D0=B8=D1=86.</li>
+</ul>
+
+<div class=3D"language-sql highlighter-rouge"><div class=3D"highlight"><pre=
+ class=3D"highlight"><code><span class=3D"k">SELECT</span> <span class=3D"k=
+">CASE</span> <span class=3D"n">postcode</span>
+       <span class=3D"k">WHEN</span> <span class=3D"s1">'BN1'</span> <span =
+class=3D"k">THEN</span> <span class=3D"s1">'Brighton'</span>
+       <span class=3D"k">WHEN</span> <span class=3D"s1">'EH1'</span> <span =
+class=3D"k">THEN</span> <span class=3D"s1">'Edinburgh'</span>
+       <span class=3D"k">END</span> <span class=3D"k">AS</span> <span class=
+=3D"n">city</span>
+  <span class=3D"k">FROM</span> <span class=3D"n">office_locations</span>
+ <span class=3D"k">WHERE</span> <span class=3D"n">country</span> <span clas=
+s=3D"o">=3D</span> <span class=3D"s1">'United Kingdom'</span>
+   <span class=3D"k">AND</span> <span class=3D"n">opening_time</span> <span=
+ class=3D"k">BETWEEN</span> <span class=3D"mi">8</span> <span class=3D"k">A=
+ND</span> <span class=3D"mi">9</span>
+   <span class=3D"k">AND</span> <span class=3D"n">postcode</span> <span cla=
+ss=3D"k">IN</span> <span class=3D"p">(</span><span class=3D"s1">'EH1'</span=
+><span class=3D"p">,</span> <span class=3D"s1">'BN1'</span><span class=3D"p=
+">,</span> <span class=3D"s1">'NN1'</span><span class=3D"p">,</span> <span =
+class=3D"s1">'KW1'</span><span class=3D"p">);</span>
+</code></pre></div></div>
+
+<h2 id=3D"=D1=81=D0=B8=D0=BD=D1=82=D0=B0=D0=BA=D1=81=D0=B8=D1=81-create">=
+=D0=A1=D0=B8=D0=BD=D1=82=D0=B0=D0=BA=D1=81=D0=B8=D1=81 <code class=3D"langu=
+age-plaintext highlighter-rouge">CREATE</code><a class=3D"anchorjs-link " a=
+ria-label=3D"Anchor" data-anchorjs-icon=3D"=EE=A7=8B" href=3D"https://www.s=
+qlstyle.guide/ru/#%D1%81%D0%B8%D0%BD%D1%82%D0%B0%D0%BA%D1%81%D0%B8%D1%81-cr=
+eate" style=3D"font: 1em / 1 anchorjs-icons; padding-left: 0.375em;"></a></=
+h2>
+
+<p>=D0=9F=D1=80=D0=B8 =D1=80=D0=B0=D0=B7=D1=80=D0=B0=D0=B1=D0=BE=D1=82=D0=
+=BA=D0=B5 =D1=81=D1=85=D0=B5=D0=BC=D1=8B =D0=B4=D0=B0=D0=BD=D0=BD=D1=8B=D1=
+=85 =D0=B2=D0=B0=D0=B6=D0=BD=D0=BE =D1=81=D0=BE=D0=B7=D0=B4=D0=B0=D0=B2=D0=
+=B0=D1=82=D1=8C =D1=87=D0=B5=D0=BB=D0=BE=D0=B2=D0=B5=D0=BA=D0=BE=D1=87=D0=
+=B8=D1=82=D0=B0=D0=B5=D0=BC=D1=8B=D0=B9 =D0=BA=D0=BE=D0=B4. =D0=A3=D0=B1=D0=
+=B5=D0=B4=D0=B8=D1=82=D0=B5=D1=81=D1=8C =D0=B2
+=D1=82=D0=BE=D0=BC, =D1=87=D1=82=D0=BE =D0=BE=D0=B1=D1=8A=D1=8F=D0=B2=D0=BB=
+=D0=B5=D0=BD=D0=B8=D1=8F =D1=81=D1=82=D0=BE=D0=BB=D0=B1=D1=86=D0=BE=D0=B2 =
+=D0=BB=D0=BE=D0=B3=D0=B8=D1=87=D0=B5=D1=81=D0=BA=D0=B8 =D1=81=D1=82=D1=80=
+=D1=83=D0=BA=D1=82=D1=83=D1=80=D0=B8=D1=80=D0=BE=D0=B2=D0=B0=D0=BD=D1=8B =
+=D0=B8 =D1=81=D0=B3=D1=80=D1=83=D0=BF=D0=BF=D0=B8=D1=80=D0=BE=D0=B2=D0=B0=
+=D0=BD=D1=8B.</p>
+
+<p>=D0=92=D0=BD=D1=83=D1=82=D1=80=D0=B8 =D0=BE=D0=B1=D1=8A=D1=8F=D0=B2=D0=
+=BB=D0=B5=D0=BD=D0=B8=D1=8F <code class=3D"language-plaintext highlighter-r=
+ouge">CREATE</code> =D0=B4=D0=B5=D0=BB=D0=B0=D0=B9=D1=82=D0=B5 =D0=BE=D1=82=
+=D1=81=D1=82=D1=83=D0=BF, =D1=80=D0=B0=D0=B2=D0=BD=D1=8B=D0=B9 4 =D0=BF=D1=
+=80=D0=BE=D0=B1=D0=B5=D0=BB=D0=B0=D0=BC.</p>
+
+<h3 id=3D"=D1=82=D0=B8=D0=BF=D1=8B-=D0=B4=D0=B0=D0=BD=D0=BD=D1=8B=D1=85">=
+=D0=A2=D0=B8=D0=BF=D1=8B =D0=B4=D0=B0=D0=BD=D0=BD=D1=8B=D1=85<a class=3D"an=
+chorjs-link " aria-label=3D"Anchor" data-anchorjs-icon=3D"=EE=A7=8B" href=
+=3D"https://www.sqlstyle.guide/ru/#%D1%82%D0%B8%D0%BF%D1%8B-%D0%B4%D0%B0%D0=
+%BD%D0%BD%D1%8B%D1%85" style=3D"font: 1em / 1 anchorjs-icons; padding-left:=
+ 0.375em;"></a></h3>
+
+<ul>
+  <li>=D0=9F=D0=BE =D0=B2=D0=BE=D0=B7=D0=BC=D0=BE=D0=B6=D0=BD=D0=BE=D1=81=
+=D1=82=D0=B8 <strong>=D0=BD=D0=B5 =D0=B8=D1=81=D0=BF=D0=BE=D0=BB=D1=8C=D0=
+=B7=D1=83=D0=B9=D1=82=D0=B5</strong> =D1=81=D0=BF=D0=B5=D1=86=D0=B8=D1=84=
+=D0=B8=D1=87=D0=BD=D1=8B=D0=B5 =D0=B4=D0=BB=D1=8F =D1=82=D0=BE=D0=B9 =D0=B8=
+=D0=BB=D0=B8 =D0=B8=D0=BD=D0=BE=D0=B9 =D0=A1=D0=A3=D0=91=D0=94 =D1=82=D0=B8=
+=D0=BF=D1=8B
+=D0=B4=D0=B0=D0=BD=D0=BD=D1=8B=D1=85. =D0=AD=D1=82=D0=BE =D0=BC=D0=BE=D0=B6=
+=D0=B5=D1=82 =D0=BD=D0=B5=D0=B3=D0=B0=D1=82=D0=B8=D0=B2=D0=BD=D0=BE =D1=81=
+=D0=BA=D0=B0=D0=B7=D0=B0=D1=82=D1=8C=D1=81=D1=8F =D0=BD=D0=B0 =D0=BF=D0=B5=
+=D1=80=D0=B5=D0=BD=D0=BE=D1=81=D0=B8=D0=BC=D0=BE=D1=81=D1=82=D0=B8, =D0=B0 =
+=D1=82=D0=B0=D0=BA=D0=B6=D0=B5 =D1=8D=D1=82=D0=B8=D1=85 =D1=82=D0=B8=D0=BF=
+=D0=BE=D0=B2
+=D0=BC=D0=BE=D0=B6=D0=B5=D1=82 =D0=BD=D0=B5 =D0=BE=D0=BA=D0=B0=D0=B7=D0=B0=
+=D1=82=D1=8C=D1=81=D1=8F =D0=B2 =D1=81=D1=82=D0=B0=D1=80=D1=8B=D1=85 =D0=B2=
+=D0=B5=D1=80=D1=81=D0=B8=D1=8F=D1=85 =D1=8D=D1=82=D0=B8=D1=85 =D0=B6=D0=B5 =
+=D0=A1=D0=A3=D0=91=D0=94.</li>
+  <li>=D0=94=D0=BB=D1=8F =D1=80=D0=B0=D0=B1=D0=BE=D1=82=D1=8B =D1=81 =D0=BF=
+=D0=BB=D0=B0=D0=B2=D0=B0=D1=8E=D1=89=D0=B5=D0=B9 =D1=82=D0=BE=D1=87=D0=BA=
+=D0=BE=D0=B9 <strong>=D0=B8=D1=81=D0=BF=D0=BE=D0=BB=D1=8C=D0=B7=D1=83=D0=B9=
+=D1=82=D0=B5</strong> =D1=82=D0=BE=D0=BB=D1=8C=D0=BA=D0=BE <code class=3D"l=
+anguage-plaintext highlighter-rouge">REAL</code> =D0=B8=D0=BB=D0=B8 <code c=
+lass=3D"language-plaintext highlighter-rouge">FLOAT</code>, =D0=BD=D0=BE
+=D0=B3=D0=B4=D0=B5 =D0=BD=D0=B5=D1=82 =D0=BD=D0=B5=D0=BE=D0=B1=D1=85=D0=BE=
+=D0=B4=D0=B8=D0=BC=D0=BE=D1=81=D1=82=D0=B8 =D0=B2 =D0=BF=D0=BE=D0=B4=D0=BE=
+=D0=B1=D0=BD=D1=8B=D1=85 =D0=B2=D1=8B=D1=87=D0=B8=D1=81=D0=BB=D0=B5=D0=BD=
+=D0=B8=D1=8F=D1=85, =D0=B2=D1=81=D0=B5=D0=B3=D0=B4=D0=B0 <strong>=D0=B8=D1=
+=81=D0=BF=D0=BE=D0=BB=D1=8C=D0=B7=D1=83=D0=B9=D1=82=D0=B5</strong>
+<code class=3D"language-plaintext highlighter-rouge">NUMERIC</code> =D0=B8 =
+<code class=3D"language-plaintext highlighter-rouge">DECIMAL</code>. =D0=9E=
+=D1=88=D0=B8=D0=B1=D0=BA=D0=B8 =D0=BE=D0=BA=D1=80=D1=83=D0=B3=D0=BB=D0=B5=
+=D0=BD=D0=B8=D1=8F =D0=B2 =D0=BE=D0=BF=D0=B5=D1=80=D0=B0=D1=86=D0=B8=D1=8F=
+=D1=85 =D1=81 =D0=BF=D0=BB=D0=B0=D0=B2=D0=B0=D1=8E=D1=89=D0=B5=D0=B9 =D1=82=
+=D0=BE=D1=87=D0=BA=D0=BE=D0=B9
+=D0=BC=D0=BE=D0=B3=D1=83=D1=82 =D0=BE=D0=BA=D0=B0=D0=B7=D0=B0=D1=82=D1=8C=
+=D1=81=D1=8F =D0=BE=D1=87=D0=B5=D0=BD=D1=8C =D0=BD=D0=B5=D0=BA=D1=81=D1=82=
+=D0=B0=D1=82=D0=B8.</li>
+</ul>
+
+<h3 id=3D"=D0=B7=D0=BD=D0=B0=D1=87=D0=B5=D0=BD=D0=B8=D1=8F-=D0=BF=D0=BE-=D1=
+=83=D0=BC=D0=BE=D0=BB=D1=87=D0=B0=D0=BD=D0=B8=D1=8E">=D0=97=D0=BD=D0=B0=D1=
+=87=D0=B5=D0=BD=D0=B8=D1=8F =D0=BF=D0=BE =D1=83=D0=BC=D0=BE=D0=BB=D1=87=D0=
+=B0=D0=BD=D0=B8=D1=8E<a class=3D"anchorjs-link " aria-label=3D"Anchor" data=
+-anchorjs-icon=3D"=EE=A7=8B" href=3D"https://www.sqlstyle.guide/ru/#%D0%B7%=
+D0%BD%D0%B0%D1%87%D0%B5%D0%BD%D0%B8%D1%8F-%D0%BF%D0%BE-%D1%83%D0%BC%D0%BE%D=
+0%BB%D1%87%D0%B0%D0%BD%D0%B8%D1%8E" style=3D"font: 1em / 1 anchorjs-icons; =
+padding-left: 0.375em;"></a></h3>
+
+<ul>
+  <li>=D0=97=D0=BD=D0=B0=D1=87=D0=B5=D0=BD=D0=B8=D0=B5 =D0=BF=D0=BE =D1=83=
+=D0=BC=D0=BE=D0=BB=D1=87=D0=B0=D0=BD=D0=B8=D1=8E =D0=B2=D1=81=D0=B5=D0=B3=
+=D0=B4=D0=B0 =D0=B4=D0=BE=D0=BB=D0=B6=D0=BD=D0=BE <strong>=D1=81=D0=BE=D0=
+=B2=D0=BF=D0=B0=D0=B4=D0=B0=D1=82=D1=8C</strong> =D0=BF=D0=BE =D1=82=D0=B8=
+=D0=BF=D1=83 =D1=81=D0=BE =D1=81=D1=82=D0=BE=D0=BB=D0=B1=D1=86=D0=BE=D0=BC.=
+ =D0=95=D1=81=D0=BB=D0=B8,
+=D1=81=D0=BA=D0=B0=D0=B6=D0=B5=D0=BC, =D1=81=D1=82=D0=BE=D0=BB=D0=B1=D0=B5=
+=D1=86 =D0=BE=D0=B1=D1=8A=D1=8F=D0=B2=D0=BB=D0=B5=D0=BD =D0=BA=D0=B0=D0=BA =
+<code class=3D"language-plaintext highlighter-rouge">DECIMAL</code>, =D0=BD=
+=D0=B5 =D0=BD=D1=83=D0=B6=D0=BD=D0=BE =D0=B2 =D0=BA=D0=B0=D1=87=D0=B5=D1=81=
+=D1=82=D0=B2=D0=B5 =D1=83=D0=BC=D0=BE=D0=BB=D1=87=D0=B0=D0=BD=D0=B8=D1=8F
+=D1=83=D0=BA=D0=B0=D0=B7=D1=8B=D0=B2=D0=B0=D1=82=D1=8C =D0=B7=D0=BD=D0=B0=
+=D1=87=D0=B5=D0=BD=D0=B8=D0=B5 =D1=82=D0=B8=D0=BF=D0=B0 <code class=3D"lang=
+uage-plaintext highlighter-rouge">INTEGER</code>.</li>
+  <li>=D0=97=D0=BD=D0=B0=D1=87=D0=B5=D0=BD=D0=B8=D1=8F =D0=BF=D0=BE =D1=83=
+=D0=BC=D0=BE=D0=BB=D1=87=D0=B0=D0=BD=D0=B8=D1=8E =D0=B4=D0=BE=D0=BB=D0=B6=
+=D0=BD=D1=8B =D1=80=D0=B0=D1=81=D0=BF=D0=BE=D0=BB=D0=B0=D0=B3=D0=B0=D1=82=
+=D1=8C=D1=81=D1=8F <strong>=D0=BF=D0=BE=D1=81=D0=BB=D0=B5</strong> =D0=BE=
+=D0=B1=D1=8A=D1=8F=D0=B2=D0=BB=D0=B5=D0=BD=D0=B8=D1=8F =D1=82=D0=B8=D0=BF=
+=D0=B0 =D1=81=D1=82=D0=BE=D0=BB=D0=B1=D1=86=D0=B0
+=D0=B8 <strong>=D0=BF=D0=B5=D1=80=D0=B5=D0=B4</strong> =D0=BF=D0=BE=D0=BC=
+=D0=B5=D1=82=D0=BA=D0=BE=D0=B9 <code class=3D"language-plaintext highlighte=
+r-rouge">NOT NULL</code>.</li>
+</ul>
+
+<h3 id=3D"=D0=BE=D0=B3=D1=80=D0=B0=D0=BD=D0=B8=D1=87=D0=B5=D0=BD=D0=B8=D1=
+=8F-=D0=B8-=D0=BA=D0=BB=D1=8E=D1=87=D0=B8">=D0=9E=D0=B3=D1=80=D0=B0=D0=BD=
+=D0=B8=D1=87=D0=B5=D0=BD=D0=B8=D1=8F =D0=B8 =D0=BA=D0=BB=D1=8E=D1=87=D0=B8<=
+a class=3D"anchorjs-link " aria-label=3D"Anchor" data-anchorjs-icon=3D"=EE=
+=A7=8B" href=3D"https://www.sqlstyle.guide/ru/#%D0%BE%D0%B3%D1%80%D0%B0%D0%=
+BD%D0%B8%D1%87%D0%B5%D0%BD%D0%B8%D1%8F-%D0%B8-%D0%BA%D0%BB%D1%8E%D1%87%D0%B=
+8" style=3D"font: 1em / 1 anchorjs-icons; padding-left: 0.375em;"></a></h3>
+
+<p>=D0=9E=D0=B3=D1=80=D0=B0=D0=BD=D0=B8=D1=87=D0=B5=D0=BD=D0=B8=D1=8F =D0=
+=B8 =D0=B8=D1=85 =D0=BF=D0=BE=D0=B4=D0=BC=D0=BD=D0=BE=D0=B6=D0=B5=D1=81=D1=
+=82=D0=B2=D0=BE, =D0=BA=D0=BB=D1=8E=D1=87=D0=B8, =E2=80=94 =D0=B2=D0=B0=D0=
+=B6=D0=BD=D0=B0=D1=8F =D1=87=D0=B0=D1=81=D1=82=D1=8C =D0=BB=D1=8E=D0=B1=D0=
+=BE=D0=B9 =D1=81=D1=82=D1=80=D1=83=D0=BA=D1=82=D1=83=D1=80=D1=8B =D0=B1=D0=
+=B0=D0=B7=D1=8B
+=D0=B4=D0=B0=D0=BD=D0=BD=D1=8B=D1=85, =D0=BF=D0=BE=D1=8D=D1=82=D0=BE=D0=BC=
+=D1=83 =D0=B2=D0=B0=D0=B6=D0=BD=D0=BE =D1=81=D0=BB=D0=B5=D0=B4=D0=BE=D0=B2=
+=D0=B0=D1=82=D1=8C =D1=81=D1=82=D0=B0=D0=BD=D0=B4=D0=B0=D1=80=D1=82=D0=B0=
+=D0=BC =D0=B8=D1=85 =D0=BE=D0=B1=D1=8A=D1=8F=D0=B2=D0=BB=D0=B5=D0=BD=D0=B8=
+=D1=8F, =D1=87=D1=82=D0=BE=D0=B1=D1=8B =D0=B8=D0=B7=D0=B1=D0=B5=D0=B6=D0=B0=
+=D1=82=D1=8C
+=D1=82=D1=80=D1=83=D0=B4=D0=BD=D0=BE=D1=81=D1=82=D0=B5=D0=B9 =D0=B2 =D0=BF=
+=D0=BE=D1=81=D0=BB=D0=B5=D0=B4=D1=83=D1=8E=D1=89=D0=B5=D0=B9 =D0=BF=D0=BE=
+=D0=B4=D0=B4=D0=B5=D1=80=D0=B6=D0=BA=D0=B5 =D0=BD=D0=B0=D0=BF=D0=B8=D1=81=
+=D0=B0=D0=BD=D0=BD=D0=BE=D0=B3=D0=BE.</p>
+
+<h4 id=3D"=D0=BA=D0=BB=D1=8E=D1=87=D0=B8">=D0=9A=D0=BB=D1=8E=D1=87=D0=B8<a =
+class=3D"anchorjs-link " aria-label=3D"Anchor" data-anchorjs-icon=3D"=EE=A7=
+=8B" href=3D"https://www.sqlstyle.guide/ru/#%D0%BA%D0%BB%D1%8E%D1%87%D0%B8"=
+ style=3D"font: 1em / 1 anchorjs-icons; padding-left: 0.375em;"></a></h4>
+
+<p>=D0=92=D1=8B=D0=B1=D0=BE=D1=80 =D1=81=D1=82=D0=BE=D0=BB=D0=B1=D1=86=D0=
+=BE=D0=B2, =D0=BA=D0=BE=D1=82=D0=BE=D1=80=D1=8B=D0=B5 =D0=B1=D1=83=D0=B4=D1=
+=83=D1=82 =D0=B8=D0=B3=D1=80=D0=B0=D1=82=D1=8C =D1=80=D0=BE=D0=BB=D1=8C =D0=
+=BA=D0=BB=D1=8E=D1=87=D0=B5=D0=B9, =D0=B4=D0=BE=D0=BB=D0=B6=D0=B5=D0=BD =D0=
+=B1=D1=8B=D1=82=D1=8C =D0=BE=D0=B1=D0=BE=D1=81=D0=BD=D0=BE=D0=B2=D0=B0=D0=
+=BD =D0=B8
+=D0=BF=D1=80=D0=B5=D0=B4=D0=B5=D0=BB=D1=8C=D0=BD=D0=BE =D0=B2=D1=8B=D0=B2=
+=D0=B5=D1=80=D0=B5=D0=BD, =D0=BF=D0=BE=D1=81=D0=BA=D0=BE=D0=BB=D1=8C=D0=BA=
+=D1=83 =D0=BE=D1=82 =D0=BD=D0=B8=D1=85 =D0=BD=D0=B0=D0=BF=D1=80=D1=8F=D0=BC=
+=D1=83=D1=8E =D0=B7=D0=B0=D0=B2=D0=B8=D1=81=D0=B8=D1=82 =D0=BF=D1=80=D0=BE=
+=D0=B8=D0=B7=D0=B2=D0=BE=D0=B4=D0=B8=D1=82=D0=B5=D0=BB=D1=8C=D0=BD=D0=BE=D1=
+=81=D1=82=D1=8C =D0=B8
+=D1=86=D0=B5=D0=BB=D0=BE=D1=81=D1=82=D0=BD=D0=BE=D1=81=D1=82=D1=8C =D0=B4=
+=D0=B0=D0=BD=D0=BD=D1=8B=D1=85.</p>
+
+<ol>
+  <li>=D0=9A=D0=BB=D1=8E=D1=87 =D0=B4=D0=BE=D0=BB=D0=B6=D0=B5=D0=BD =D0=B1=
+=D1=8B=D1=82=D1=8C =D0=B2 =D0=BA=D0=B0=D0=BA=D0=BE=D0=B9-=D1=82=D0=BE =D1=
+=81=D1=82=D0=B5=D0=BF=D0=B5=D0=BD=D0=B8 =D1=83=D0=BD=D0=B8=D0=BA=D0=B0=D0=
+=BB=D1=8C=D0=BD=D1=8B=D0=BC.</li>
+  <li>=D0=94=D0=BE=D0=BB=D0=B6=D0=BD=D0=B0 =D0=B1=D1=8B=D1=82=D1=8C =D1=81=
+=D0=BE=D0=B3=D0=BB=D0=B0=D1=81=D0=BE=D0=B2=D0=B0=D0=BD=D0=BD=D0=BE=D1=81=D1=
+=82=D1=8C =D0=BF=D0=BE =D1=82=D0=B8=D0=BF=D1=83 =D0=B4=D0=B0=D0=BD=D0=BD=D1=
+=8B=D1=85 =D0=B4=D0=BB=D1=8F =D0=B7=D0=BD=D0=B0=D1=87=D0=B5=D0=BD=D0=B8=D1=
+=8F =D0=B2=D0=BE =D0=B2=D1=81=D0=B5=D0=B9 =D1=81=D1=85=D0=B5=D0=BC=D0=B5, =
+=D0=B0
+  =D1=82=D0=B0=D0=BA=D0=B6=D0=B5 =D1=87=D0=B5=D0=BC =D0=BD=D0=B8=D0=B6=D0=
+=B5 =D0=B2=D0=B5=D1=80=D0=BE=D1=8F=D1=82=D0=BD=D0=BE=D1=81=D1=82=D1=8C =D1=
+=82=D0=BE=D0=B3=D0=BE, =D1=87=D1=82=D0=BE =D1=8D=D1=82=D0=BE =D0=B8=D0=B7=
+=D0=BC=D0=B5=D0=BD=D0=B8=D1=82=D1=81=D1=8F =D0=B2 =D0=B1=D1=83=D0=B4=D1=83=
+=D1=89=D0=B5=D0=BC, =D1=82=D0=B5=D0=BC =D0=BB=D1=83=D1=87=D1=88=D0=B5.</li>
+  <li>=D0=9C=D0=BE=D0=B6=D0=BD=D0=BE =D0=BB=D0=B8 =D0=BF=D1=80=D0=BE=D0=B2=
+=D0=B5=D1=80=D0=B8=D1=82=D1=8C =D0=B7=D0=BD=D0=B0=D1=87=D0=B5=D0=BD=D0=B8=
+=D0=B5 =D0=BD=D0=B0 =D1=81=D0=BE=D0=BE=D1=82=D0=B2=D0=B5=D1=82=D1=81=D1=82=
+=D0=B2=D0=B8=D0=B5 =D1=81=D1=82=D0=B0=D0=BD=D0=B4=D0=B0=D1=80=D1=82=D1=83 (=
+=D0=BD=D0=B0=D0=BF=D1=80=D0=B8=D0=BC=D0=B5=D1=80, ISO)?</li>
+  <li>=D0=9A=D0=BB=D1=8E=D1=87 =D0=B4=D0=BE=D0=BB=D0=B6=D0=B5=D0=BD =D0=B1=
+=D1=8B=D1=82=D1=8C =D0=BA=D0=B0=D0=BA =D0=BC=D0=BE=D0=B6=D0=BD=D0=BE =D0=BF=
+=D1=80=D0=BE=D1=89=D0=B5, =D1=87=D1=82=D0=BE=D0=B1=D1=8B =D0=BC=D0=BE=D0=B6=
+=D0=BD=D0=BE =D0=B1=D1=8B=D0=BB=D0=BE =D0=B1=D0=B5=D0=B7 =D1=82=D1=80=D1=83=
+=D0=B4=D0=BD=D0=BE=D1=81=D1=82=D0=B5=D0=B9
+  =D0=B8=D1=81=D0=BF=D0=BE=D0=BB=D1=8C=D0=B7=D0=BE=D0=B2=D0=B0=D1=82=D1=8C =
+=D1=81=D0=BE=D1=81=D1=82=D0=B0=D0=B2=D0=BD=D1=8B=D0=B5 =D0=BA=D0=BB=D1=8E=
+=D1=87=D0=B8.</li>
+</ol>
+
+<p>=D0=AD=D1=82=D0=BE =D1=81=D0=B2=D0=BE=D0=B5=D0=B3=D0=BE =D1=80=D0=BE=D0=
+=B4=D0=B0 =D0=BA=D0=BE=D0=BD=D0=B2=D0=B5=D0=BD=D1=86=D0=B8=D0=B8, =D0=BA=D0=
+=BE=D1=82=D0=BE=D1=80=D1=8B=D0=B5 =D0=BD=D1=83=D0=B6=D0=BD=D0=BE =D1=81=D1=
+=84=D0=BE=D1=80=D0=BC=D1=83=D0=BB=D0=B8=D1=80=D0=BE=D0=B2=D0=B0=D1=82=D1=8C=
+ =D0=BF=D1=80=D0=B8 =D0=BF=D1=80=D0=BE=D0=B5=D0=BA=D1=82=D0=B8=D1=80=D0=BE=
+=D0=B2=D0=B0=D0=BD=D0=B8=D0=B8
+=D0=B1=D0=B0=D0=B7=D1=8B =D0=B4=D0=B0=D0=BD=D0=BD=D1=8B=D1=85. =D0=95=D1=81=
+=D0=BB=D0=B8 =D1=82=D1=80=D0=B5=D0=B1=D0=BE=D0=B2=D0=B0=D0=BD=D0=B8=D1=8F =
+=D0=B2=D0=BF=D0=BE=D1=81=D0=BB=D0=B5=D0=B4=D1=81=D1=82=D0=B2=D0=B8=D0=B8 =
+=D0=B1=D1=83=D0=B4=D1=83=D1=82 =D1=80=D0=B0=D0=B7=D1=80=D0=B0=D1=81=D1=82=
+=D0=B0=D1=82=D1=8C=D1=81=D1=8F, =D0=BC=D0=BE=D0=B6=D0=BD=D0=BE =D0=B8 =D0=
+=BD=D1=83=D0=B6=D0=BD=D0=BE
+=D0=B2=D0=BD=D0=BE=D1=81=D0=B8=D1=82=D1=8C =D0=B8=D0=B7=D0=BC=D0=B5=D0=BD=
+=D0=B5=D0=BD=D0=B8=D1=8F =D0=B2 =D1=81=D1=82=D1=80=D1=83=D0=BA=D1=82=D1=83=
+=D1=80=D1=83 =D0=B1=D0=B0=D0=B7=D1=8B, =D1=87=D1=82=D0=BE=D0=B1=D1=8B =D0=
+=BF=D0=BE=D0=B4=D0=B4=D0=B5=D1=80=D0=B6=D0=B8=D0=B2=D0=B0=D1=82=D1=8C =D0=
+=B5=D1=91 =D0=B2 =D0=B0=D0=BA=D1=82=D1=83=D0=B0=D0=BB=D1=8C=D0=BD=D0=BE=D0=
+=BC
+=D1=81=D0=BE=D1=81=D1=82=D0=BE=D1=8F=D0=BD=D0=B8=D0=B8.</p>
+
+<h4 id=3D"=D0=BE=D0=B3=D1=80=D0=B0=D0=BD=D0=B8=D1=87=D0=B5=D0=BD=D0=B8=D1=
+=8F">=D0=9E=D0=B3=D1=80=D0=B0=D0=BD=D0=B8=D1=87=D0=B5=D0=BD=D0=B8=D1=8F<a c=
+lass=3D"anchorjs-link " aria-label=3D"Anchor" data-anchorjs-icon=3D"=EE=A7=
+=8B" href=3D"https://www.sqlstyle.guide/ru/#%D0%BE%D0%B3%D1%80%D0%B0%D0%BD%=
+D0%B8%D1%87%D0%B5%D0%BD%D0%B8%D1%8F" style=3D"font: 1em / 1 anchorjs-icons;=
+ padding-left: 0.375em;"></a></h4>
+
+<p>=D0=9A=D0=B0=D0=BA =D1=82=D0=BE=D0=BB=D1=8C=D0=BA=D0=BE =D1=80=D0=B5=D1=
+=88=D0=B5=D0=BD=D0=BE, =D0=BA=D0=B0=D0=BA=D0=B8=D0=B5 =D0=BA=D0=BB=D1=8E=D1=
+=87=D0=B8 =D0=B4=D0=BE=D0=BB=D0=B6=D0=BD=D1=8B =D0=B8=D1=81=D0=BF=D0=BE=D0=
+=BB=D1=8C=D0=B7=D0=BE=D0=B2=D0=B0=D1=82=D1=8C=D1=81=D1=8F, =D0=BD=D1=83=D0=
+=B6=D0=BD=D0=BE =D0=BE=D0=BF=D1=80=D0=B5=D0=B4=D0=B5=D0=BB=D0=B8=D1=82=D1=
+=8C =D0=B8=D1=85 =D0=B2 =D0=B1=D0=B0=D0=B7=D0=B5
+=D1=81 =D0=BF=D0=BE=D0=BC=D0=BE=D1=89=D1=8C=D1=8E =D0=BE=D0=B3=D1=80=D0=B0=
+=D0=BD=D0=B8=D1=87=D0=B5=D0=BD=D0=B8=D0=B9 =D0=BD=D0=B0=D1=80=D1=8F=D0=B4=
+=D1=83 =D1=81 =D0=B2=D0=B0=D0=BB=D0=B8=D0=B4=D0=B0=D1=86=D0=B8=D0=B5=D0=B9 =
+=D0=B7=D0=BD=D0=B0=D1=87=D0=B5=D0=BD=D0=B8=D0=B9 =D0=BF=D0=BE=D0=BB=D0=B5=
+=D0=B9.</p>
+
+<h5 id=3D"=D0=BE=D0=B1=D1=89=D0=B5=D0=B5-1">=D0=9E=D0=B1=D1=89=D0=B5=D0=B5<=
+a class=3D"anchorjs-link " aria-label=3D"Anchor" data-anchorjs-icon=3D"=EE=
+=A7=8B" href=3D"https://www.sqlstyle.guide/ru/#%D0%BE%D0%B1%D1%89%D0%B5%D0%=
+B5-1" style=3D"font: 1em / 1 anchorjs-icons; padding-left: 0.375em;"></a></=
+h5>
+
+<ul>
+  <li>=D0=A3 =D0=BA=D0=B0=D0=B6=D0=B4=D0=BE=D0=B9 =D1=82=D0=B0=D0=B1=D0=BB=
+=D0=B8=D1=86=D1=8B <strong>=D0=B4=D0=BE=D0=BB=D0=B6=D0=B5=D0=BD =D0=B1=D1=
+=8B=D1=82=D1=8C</strong> =D1=85=D0=BE=D1=82=D1=8F =D0=B1=D1=8B =D0=BE=D0=B4=
+=D0=B8=D0=BD =D0=BA=D0=BB=D1=8E=D1=87.</li>
+  <li>=D0=9E=D0=B3=D1=80=D0=B0=D0=BD=D0=B8=D1=87=D0=B5=D0=BD=D0=B8=D1=8F=D0=
+=BC =D0=BD=D1=83=D0=B6=D0=BD=D0=BE <strong>=D0=BF=D1=80=D0=B8=D1=81=D0=B2=
+=D0=B0=D0=B8=D0=B2=D0=B0=D1=82=D1=8C</strong> =D0=B2=D1=80=D0=B0=D0=B7=D1=
+=83=D0=BC=D0=B8=D1=82=D0=B5=D0=BB=D1=8C=D0=BD=D1=8B=D0=B5 =D0=B8=D0=BC=D0=
+=B5=D0=BD=D0=B0. =D0=94=D0=BB=D1=8F <code class=3D"language-plaintext highl=
+ighter-rouge">UNIQUE</code>,
+<code class=3D"language-plaintext highlighter-rouge">PRIMARY KEY</code> =D0=
+=B8 <code class=3D"language-plaintext highlighter-rouge">FOREIGN KEY</code>=
+ =D0=BF=D0=BE=D0=B4=D0=BE=D0=B1=D0=BD=D1=8B=D0=B5 =D0=B8=D0=BC=D0=B5=D0=BD=
+=D0=B0 =D1=81=D0=BE=D0=B7=D0=B4=D0=B0=D1=8E=D1=82=D1=81=D1=8F =D0=B0=D0=B2=
+=D1=82=D0=BE=D0=BC=D0=B0=D1=82=D0=B8=D1=87=D0=B5=D1=81=D0=BA=D0=B8,
+=D0=BF=D0=BE=D1=8D=D1=82=D0=BE=D0=BC=D1=83 =D0=BD=D1=83=D0=B6=D0=BD=D0=BE =
+=D0=BF=D0=BE=D0=B7=D0=B0=D0=B1=D0=BE=D1=82=D0=B8=D1=82=D1=8C=D1=81=D1=8F =
+=D0=BE=D0=B1 =D0=BE=D1=81=D1=82=D0=B0=D0=BB=D1=8C=D0=BD=D1=8B=D1=85 =D0=BE=
+=D0=B3=D1=80=D0=B0=D0=BD=D0=B8=D1=87=D0=B5=D0=BD=D0=B8=D1=8F=D1=85.</li>
+</ul>
+
+<h5 id=3D"=D1=80=D0=B0=D1=81=D0=BF=D0=BE=D0=BB=D0=BE=D0=B6=D0=B5=D0=BD=D0=
+=B8=D0=B5-=D0=B8-=D0=BF=D0=BE=D1=80=D1=8F=D0=B4=D0=BE=D0=BA">=D0=A0=D0=B0=
+=D1=81=D0=BF=D0=BE=D0=BB=D0=BE=D0=B6=D0=B5=D0=BD=D0=B8=D0=B5 =D0=B8 =D0=BF=
+=D0=BE=D1=80=D1=8F=D0=B4=D0=BE=D0=BA<a class=3D"anchorjs-link " aria-label=
+=3D"Anchor" data-anchorjs-icon=3D"=EE=A7=8B" href=3D"https://www.sqlstyle.g=
+uide/ru/#%D1%80%D0%B0%D1%81%D0%BF%D0%BE%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8=
+%D0%B5-%D0%B8-%D0%BF%D0%BE%D1%80%D1%8F%D0%B4%D0%BE%D0%BA" style=3D"font: 1e=
+m / 1 anchorjs-icons; padding-left: 0.375em;"></a></h5>
+
+<ul>
+  <li>=D0=9F=D0=B5=D1=80=D0=B2=D0=B8=D1=87=D0=BD=D1=8B=D0=B9 =D0=BA=D0=BB=
+=D1=8E=D1=87 =D0=B4=D0=BE=D0=BB=D0=B6=D0=B5=D0=BD =D0=B1=D1=8B=D1=82=D1=8C =
+<strong>=D0=BE=D0=B1=D1=8A=D1=8F=D0=B2=D0=BB=D0=B5=D0=BD</strong> =D0=B2 =
+=D1=81=D0=B0=D0=BC=D0=BE=D0=BC =D0=BD=D0=B0=D1=87=D0=B0=D0=BB=D0=B5, =D1=81=
+=D1=80=D0=B0=D0=B7=D1=83 =D0=BF=D0=BE=D1=81=D0=BB=D0=B5
+=D0=BE=D0=BF=D0=B5=D1=80=D0=B0=D1=82=D0=BE=D1=80=D0=B0 <code class=3D"langu=
+age-plaintext highlighter-rouge">CREATE TABLE</code>.</li>
+  <li>=D0=9E=D0=B3=D1=80=D0=B0=D0=BD=D0=B8=D1=87=D0=B5=D0=BD=D0=B8=D1=8F =
+=D0=B4=D0=BE=D0=BB=D0=B6=D0=BD=D1=8B =D0=B1=D1=8B=D1=82=D1=8C <strong>=D0=
+=BE=D0=B1=D1=8A=D1=8F=D0=B2=D0=BB=D0=B5=D0=BD=D1=8B</strong> =D1=81=D1=82=
+=D1=80=D0=BE=D0=B3=D0=BE =D0=BD=D0=B8=D0=B6=D0=B5 =D1=81=D1=82=D0=BE=D0=BB=
+=D0=B1=D1=86=D0=B0, =D1=81 =D0=BA=D0=BE=D1=82=D0=BE=D1=80=D1=8B=D0=BC =D0=
+=BE=D0=BD=D0=B8
+=D1=81=D0=B2=D1=8F=D0=B7=D0=B0=D0=BD=D1=8B. =D0=A0=D0=B0=D1=81=D1=81=D1=82=
+=D0=B0=D0=B2=D1=8C=D1=82=D0=B5 =D0=BE=D1=82=D1=81=D1=82=D1=83=D0=BF=D1=8B =
+=D1=82=D0=B0=D0=BA, =D1=87=D1=82=D0=BE=D0=B1=D1=8B =D0=BE=D0=B1=D1=8A=D1=8F=
+=D0=B2=D0=BB=D0=B5=D0=BD=D0=B8=D0=B5 =D0=BE=D0=B3=D1=80=D0=B0=D0=BD=D0=B8=
+=D1=87=D0=B5=D0=BD=D0=B8=D1=8F =D0=BD=D0=B0=D1=87=D0=B8=D0=BD=D0=B0=D0=BB=
+=D0=BE=D1=81=D1=8C
+=D0=BF=D0=BE=D1=81=D0=BB=D0=B5 =D0=BD=D0=B0=D0=B7=D0=B2=D0=B0=D0=BD=D0=B8=
+=D1=8F =D1=81=D1=82=D0=BE=D0=BB=D0=B1=D1=86=D0=B0.</li>
+  <li>=D0=92 =D1=81=D0=BB=D1=83=D1=87=D0=B0=D0=B5 =D0=BE=D0=B3=D1=80=D0=B0=
+=D0=BD=D0=B8=D1=87=D0=B5=D0=BD=D0=B8=D0=B9, =D0=B7=D0=B0=D1=82=D1=80=D0=B0=
+=D0=B3=D0=B8=D0=B2=D0=B0=D1=8E=D1=89=D0=B8=D1=85 =D0=BD=D0=B5=D1=81=D0=BA=
+=D0=BE=D0=BB=D1=8C=D0=BA=D0=BE =D1=81=D1=82=D0=BE=D0=BB=D0=B1=D1=86=D0=BE=
+=D0=B2, =D1=81=D1=82=D0=B0=D1=80=D0=B0=D0=B9=D1=82=D0=B5=D1=81=D1=8C
+<strong>=D0=BE=D0=B1=D1=8A=D1=8F=D0=B2=D0=BB=D1=8F=D1=82=D1=8C</strong> =D0=
+=B8=D1=85 =D0=BA=D0=B0=D0=BA =D0=BC=D0=BE=D0=B6=D0=BD=D0=BE =D0=B1=D0=BB=D0=
+=B8=D0=B6=D0=B5 =D0=BA =D0=BE=D0=BF=D0=B8=D1=81=D0=B0=D0=BD=D0=B8=D1=8E =D0=
+=BF=D0=BE=D1=81=D0=BB=D0=B5=D0=B4=D0=BD=D0=B5=D0=B3=D0=BE =D0=B8=D0=B7 =D0=
+=BD=D0=B8=D1=85. =D0=92 =D0=BA=D1=80=D0=B0=D0=B9=D0=BD=D0=B5=D0=BC
+=D1=81=D0=BB=D1=83=D1=87=D0=B0=D0=B5 =D0=BE=D0=B1=D1=8A=D1=8F=D0=B2=D0=BB=
+=D1=8F=D0=B9=D1=82=D0=B5 =D0=BE=D0=B3=D1=80=D0=B0=D0=BD=D0=B8=D1=87=D0=B5=
+=D0=BD=D0=B8=D0=B5 =D0=B2 =D0=BA=D0=BE=D0=BD=D1=86=D0=B5 =D1=82=D0=B5=D0=BB=
+=D0=B0 <code class=3D"language-plaintext highlighter-rouge">CREATE TABLE</c=
+ode>.</li>
+  <li>=D0=9E=D0=B3=D1=80=D0=B0=D0=BD=D0=B8=D1=87=D0=B5=D0=BD=D0=B8=D1=8F =
+=D1=86=D0=B5=D0=BB=D0=BE=D1=81=D1=82=D0=BD=D0=BE=D1=81=D1=82=D0=B8 =D1=83=
+=D1=80=D0=BE=D0=B2=D0=BD=D1=8F =D1=82=D0=B0=D0=B1=D0=BB=D0=B8=D1=86=D1=8B =
+=D0=B4=D0=BE=D0=BB=D0=B6=D0=BD=D1=8B <strong>=D1=80=D0=B0=D1=81=D0=BF=D0=BE=
+=D0=BB=D0=B0=D0=B3=D0=B0=D1=82=D1=8C=D1=81=D1=8F</strong> =D0=B2 =D0=BA=D0=
+=BE=D0=BD=D1=86=D0=B5.</li>
+  <li><strong>=D0=98=D1=81=D0=BF=D0=BE=D0=BB=D1=8C=D0=B7=D1=83=D0=B9=D1=82=
+=D0=B5</strong> =D0=B0=D0=BB=D1=84=D0=B0=D0=B2=D0=B8=D1=82=D0=BD=D1=8B=D0=
+=B9 =D0=BF=D0=BE=D1=80=D1=8F=D0=B4=D0=BE=D0=BA =D1=82=D0=B0=D0=BC, =D0=B3=
+=D0=B4=D0=B5 <code class=3D"language-plaintext highlighter-rouge">ON DELETE=
+</code> =D0=BF=D1=80=D0=B5=D0=B4=D1=88=D0=B5=D1=81=D1=82=D0=B2=D1=83=D0=B5=
+=D1=82
+<code class=3D"language-plaintext highlighter-rouge">ON UPDATE</code>.</li>
+  <li>=D0=92=D0=BD=D1=83=D1=82=D1=80=D0=B8 =D0=B7=D0=B0=D0=BF=D1=80=D0=BE=
+=D1=81=D0=B0 =D0=BC=D0=BE=D0=B6=D0=BD=D0=BE <strong>=D0=B2=D1=8B=D1=80=D0=
+=B0=D0=B2=D0=BD=D0=B8=D0=B2=D0=B0=D1=82=D1=8C</strong> =D0=BA=D0=B0=D0=B6=
+=D0=B4=D1=8B=D0=B9 =D1=83=D1=80=D0=BE=D0=B2=D0=B5=D0=BD=D1=8C =D0=BF=D0=BE-=
+=D1=81=D0=B2=D0=BE=D0=B5=D0=BC=D1=83. =D0=9D=D0=B0=D0=BF=D1=80=D0=B8=D0=BC=
+=D0=B5=D1=80,
+=D0=BC=D0=BE=D0=B6=D0=BD=D0=BE =D0=B4=D0=BE=D0=B1=D0=B0=D0=B2=D0=B8=D1=82=
+=D1=8C =D0=BE=D1=82=D1=81=D1=82=D1=83=D0=BF=D1=8B =D0=BF=D0=BE=D1=81=D0=BB=
+=D0=B5 =D0=BD=D0=B0=D0=B7=D0=B2=D0=B0=D0=BD=D0=B8=D1=8F =D1=81=D1=82=D0=BE=
+=D0=BB=D0=B1=D1=86=D0=BE=D0=B2, =D1=87=D1=82=D0=BE=D0=B1=D1=8B =D1=82=D0=B8=
+=D0=BF=D1=8B =D0=B4=D0=B0=D0=BD=D0=BD=D1=8B=D1=85 =D0=BD=D0=B0=D1=87=D0=B8=
+=D0=BD=D0=B0=D0=BB=D0=B8=D1=81=D1=8C
+=D1=81 =D0=BE=D0=B4=D0=BD=D0=BE=D0=B9 =D0=BF=D0=BE=D0=B7=D0=B8=D1=86=D0=B8=
+=D0=B8, =D0=B0 =D0=B7=D0=B0=D1=82=D0=B5=D0=BC =D0=B5=D1=89=D1=91 =D0=B4=D0=
+=BE=D0=B1=D0=B0=D0=B2=D0=B8=D1=82=D1=8C =D0=BE=D1=82=D1=81=D1=82=D1=83=D0=
+=BF=D0=BE=D0=B2 =D0=B2 =D0=BD=D1=83=D0=B6=D0=BD=D0=BE=D0=BC =D0=BA=D0=BE=D0=
+=BB=D0=B8=D1=87=D0=B5=D1=81=D1=82=D0=B2=D0=B5, =D1=87=D1=82=D0=BE=D0=B1=D1=
+=8B
+=D0=B2=D1=81=D0=B5 =D0=BE=D0=B1=D1=8A=D1=8F=D0=B2=D0=BB=D0=B5=D0=BD=D0=B8=
+=D1=8F <code class=3D"language-plaintext highlighter-rouge">NOT NULL</code>=
+ =D1=82=D0=BE=D0=B6=D0=B5 =D0=B1=D1=8B=D0=BB=D0=B8 =D0=B2=D1=8B=D1=80=D0=BE=
+=D0=B2=D0=BD=D0=B5=D0=BD=D1=8B =D0=BF=D0=BE =D0=BB=D0=B5=D0=B2=D0=BE=D0=BC=
+=D1=83 =D0=BA=D1=80=D0=B0=D1=8E. =D0=9F=D0=BE=D0=B4=D0=BE=D0=B1=D0=BD=D0=BE=
+=D0=B5
+=D1=84=D0=BE=D1=80=D0=BC=D0=B0=D1=82=D0=B8=D1=80=D0=BE=D0=B2=D0=B0=D0=BD=D0=
+=B8=D0=B5 =D0=BF=D0=BE=D0=B7=D0=B2=D0=BE=D0=BB=D0=B8=D1=82 =D0=B1=D1=8B=D1=
+=81=D1=82=D1=80=D0=B5=D0=B5 =D0=BE=D1=80=D0=B8=D0=B5=D0=BD=D1=82=D0=B8=D1=
+=80=D0=BE=D0=B2=D0=B0=D1=82=D1=8C=D1=81=D1=8F =D0=B2 =D0=BA=D0=BE=D0=B4=D0=
+=B5.</li>
+</ul>
+
+<h5 id=3D"=D0=B2=D0=B0=D0=BB=D0=B8=D0=B4=D0=B0=D1=86=D0=B8=D1=8F">=D0=92=D0=
+=B0=D0=BB=D0=B8=D0=B4=D0=B0=D1=86=D0=B8=D1=8F<a class=3D"anchorjs-link " ar=
+ia-label=3D"Anchor" data-anchorjs-icon=3D"=EE=A7=8B" href=3D"https://www.sq=
+lstyle.guide/ru/#%D0%B2%D0%B0%D0%BB%D0%B8%D0%B4%D0%B0%D1%86%D0%B8%D1%8F" st=
+yle=3D"font: 1em / 1 anchorjs-icons; padding-left: 0.375em;"></a></h5>
+
+<ul>
+  <li><strong>=D0=98=D1=81=D0=BF=D0=BE=D0=BB=D1=8C=D0=B7=D1=83=D0=B9=D1=82=
+=D0=B5</strong> <code class=3D"language-plaintext highlighter-rouge">LIKE</=
+code> =D0=B8 <code class=3D"language-plaintext highlighter-rouge">SIMILAR T=
+O</code> =D0=B4=D0=BB=D1=8F =D0=BE=D0=B1=D0=B5=D1=81=D0=BF=D0=B5=D1=87=D0=
+=B5=D0=BD=D0=B8=D1=8F =D1=86=D0=B5=D0=BB=D0=BE=D1=81=D1=82=D0=BD=D0=BE=D1=
+=81=D1=82=D0=B8 =D1=81=D1=82=D1=80=D0=BE=D0=BA =D1=81
+=D0=B8=D0=B7=D0=B2=D0=B5=D1=81=D1=82=D0=BD=D1=8B=D0=BC =D1=84=D0=BE=D1=80=
+=D0=BC=D0=B0=D1=82=D0=BE=D0=BC.</li>
+  <li>=D0=95=D1=81=D0=BB=D0=B8 =D0=B4=D0=B8=D0=B0=D0=BF=D0=B0=D0=B7=D0=BE=
+=D0=BD =D1=87=D0=B8=D1=81=D0=BB=D0=BE=D0=B2=D1=8B=D1=85 =D0=B7=D0=BD=D0=B0=
+=D1=87=D0=B5=D0=BD=D0=B8=D0=B9 =D0=B4=D0=BB=D1=8F =D1=81=D1=82=D0=BE=D0=BB=
+=D0=B1=D1=86=D0=B0 =D0=B8=D0=B7=D0=B2=D0=B5=D1=81=D1=82=D0=B5=D0=BD, <stron=
+g>=D0=B8=D1=81=D0=BF=D0=BE=D0=BB=D1=8C=D0=B7=D1=83=D0=B9=D1=82=D0=B5</stron=
+g>
+<code class=3D"language-plaintext highlighter-rouge">CHECK()</code> =D0=B4=
+=D0=BB=D1=8F =D0=BF=D1=80=D0=B5=D0=B4=D0=BE=D1=82=D0=B2=D1=80=D0=B0=D1=89=
+=D0=B5=D0=BD=D0=B8=D1=8F =D0=B2=D0=BD=D0=B5=D1=81=D0=B5=D0=BD=D0=B8=D1=8F =
+=D0=B2 =D0=B1=D0=B0=D0=B7=D1=83 =D0=BD=D0=B5=D0=BA=D0=BE=D1=80=D1=80=D0=B5=
+=D0=BA=D1=82=D0=BD=D1=8B=D1=85 =D0=B4=D0=B0=D0=BD=D0=BD=D1=8B=D1=85 =D0=B8=
+=D0=BB=D0=B8
+=D1=81=D0=BA=D1=80=D1=8B=D1=82=D0=BE=D0=B3=D0=BE =D0=BE=D1=82=D1=81=D0=B5=
+=D1=87=D0=B5=D0=BD=D0=B8=D1=8F =D1=87=D0=B0=D1=81=D1=82=D0=B8 =D0=B7=D0=BD=
+=D0=B0=D1=87=D0=B5=D0=BD=D0=B8=D1=8F =D1=81=D0=BB=D0=B8=D1=88=D0=BA=D0=BE=
+=D0=BC =D0=B1=D0=BE=D0=BB=D1=8C=D1=88=D0=B8=D1=85 =D0=B4=D0=B0=D0=BD=D0=BD=
+=D1=8B=D1=85. =D0=9E=D0=B1=D1=8B=D1=87=D0=BD=D0=BE =D0=BF=D1=80=D0=BE=D0=B2=
+=D0=B5=D1=80=D0=BA=D0=B0
+=D0=B4=D0=B5=D0=BB=D0=B0=D0=B5=D1=82=D1=81=D1=8F =D0=BD=D0=B0 =D1=82=D0=BE,=
+ =D1=87=D1=82=D0=BE =D0=B7=D0=BD=D0=B0=D1=87=D0=B5=D0=BD=D0=B8=D0=B5 =D0=B1=
+=D0=BE=D0=BB=D1=8C=D1=88=D0=B5 =D0=BD=D1=83=D0=BB=D1=8F.</li>
+  <li><code class=3D"language-plaintext highlighter-rouge">CHECK()</code> =
+=D0=B4=D0=BE=D0=BB=D0=B6=D0=B5=D0=BD =D0=B1=D1=8B=D1=82=D1=8C <strong>=D0=
+=BE=D0=B1=D1=8A=D1=8F=D0=B2=D0=BB=D0=B5=D0=BD</strong> =D0=BA=D0=B0=D0=BA =
+=D0=BE=D1=82=D0=B4=D0=B5=D0=BB=D1=8C=D0=BD=D0=BE=D0=B5 =D0=BE=D0=B3=D1=80=
+=D0=B0=D0=BD=D0=B8=D1=87=D0=B5=D0=BD=D0=B8=D0=B5 =D0=B4=D0=BB=D1=8F =D1=83=
+=D0=BF=D1=80=D0=BE=D1=89=D0=B5=D0=BD=D0=B8=D1=8F
+=D0=BF=D0=BE=D1=81=D0=BB=D0=B5=D0=B4=D1=83=D1=8E=D1=89=D0=B5=D0=B9 =D0=BE=
+=D1=82=D0=BB=D0=B0=D0=B4=D0=BA=D0=B8.</li>
+</ul>
+
+<h5 id=3D"=D0=BF=D1=80=D0=B8=D0=BC=D0=B5=D1=80">=D0=9F=D1=80=D0=B8=D0=BC=D0=
+=B5=D1=80<a class=3D"anchorjs-link " aria-label=3D"Anchor" data-anchorjs-ic=
+on=3D"=EE=A7=8B" href=3D"https://www.sqlstyle.guide/ru/#%D0%BF%D1%80%D0%B8%=
+D0%BC%D0%B5%D1%80" style=3D"font: 1em / 1 anchorjs-icons; padding-left: 0.3=
+75em;"></a></h5>
+
+<div class=3D"language-sql highlighter-rouge"><div class=3D"highlight"><pre=
+ class=3D"highlight"><code><span class=3D"k">CREATE</span> <span class=3D"k=
+">TABLE</span> <span class=3D"n">staff</span> <span class=3D"p">(</span>
+    <span class=3D"k">PRIMARY</span> <span class=3D"k">KEY</span> <span cla=
+ss=3D"p">(</span><span class=3D"n">staff_num</span><span class=3D"p">),</sp=
+an>
+    <span class=3D"n">staff_num</span>      <span class=3D"nb">INT</span><s=
+pan class=3D"p">(</span><span class=3D"mi">5</span><span class=3D"p">)</spa=
+n>       <span class=3D"k">NOT</span> <span class=3D"k">NULL</span><span cl=
+ass=3D"p">,</span>
+    <span class=3D"n">first_name</span>     <span class=3D"nb">VARCHAR</spa=
+n><span class=3D"p">(</span><span class=3D"mi">100</span><span class=3D"p">=
+)</span> <span class=3D"k">NOT</span> <span class=3D"k">NULL</span><span cl=
+ass=3D"p">,</span>
+    <span class=3D"n">pens_in_drawer</span> <span class=3D"nb">INT</span><s=
+pan class=3D"p">(</span><span class=3D"mi">2</span><span class=3D"p">)</spa=
+n>       <span class=3D"k">NOT</span> <span class=3D"k">NULL</span><span cl=
+ass=3D"p">,</span>
+                   <span class=3D"k">CONSTRAINT</span> <span class=3D"n">pe=
+ns_in_drawer_range</span>
+                   <span class=3D"k">CHECK</span><span class=3D"p">(</span>=
+<span class=3D"n">pens_in_drawer</span> <span class=3D"k">BETWEEN</span> <s=
+pan class=3D"mi">1</span> <span class=3D"k">AND</span> <span class=3D"mi">9=
+9</span><span class=3D"p">)</span>
+<span class=3D"p">);</span>
+</code></pre></div></div>
+
+<h3 id=3D"=D1=87=D0=B5=D0=B3=D0=BE-=D1=81=D0=BB=D0=B5=D0=B4=D1=83=D0=B5=D1=
+=82-=D0=B8=D0=B7=D0=B1=D0=B5=D0=B3=D0=B0=D1=82=D1=8C">=D0=A7=D0=B5=D0=B3=D0=
+=BE =D1=81=D0=BB=D0=B5=D0=B4=D1=83=D0=B5=D1=82 =D0=B8=D0=B7=D0=B1=D0=B5=D0=
+=B3=D0=B0=D1=82=D1=8C<a class=3D"anchorjs-link " aria-label=3D"Anchor" data=
+-anchorjs-icon=3D"=EE=A7=8B" href=3D"https://www.sqlstyle.guide/ru/#%D1%87%=
+D0%B5%D0%B3%D0%BE-%D1%81%D0%BB%D0%B5%D0%B4%D1%83%D0%B5%D1%82-%D0%B8%D0%B7%D=
+0%B1%D0%B5%D0%B3%D0%B0%D1%82%D1%8C" style=3D"font: 1em / 1 anchorjs-icons; =
+padding-left: 0.375em;"></a></h3>
+
+<ul>
+  <li><strong>=D0=9D=D0=B5 =D0=BF=D1=80=D0=B8=D0=BC=D0=B5=D0=BD=D1=8F=D0=B9=
+=D1=82=D0=B5</strong> =D0=BE=D0=B1=D1=8A=D0=B5=D0=BA=D1=82=D0=BD=D0=BE-=D0=
+=BE=D1=80=D0=B8=D0=B5=D0=BD=D1=82=D0=B8=D1=80=D0=BE=D0=B2=D0=B0=D0=BD=D0=BD=
+=D1=8B=D0=B5 =D0=BF=D1=80=D0=B8=D0=BD=D1=86=D0=B8=D0=BF=D1=8B, =D0=BF=D0=BE=
+=D1=81=D0=BA=D0=BE=D0=BB=D1=8C=D0=BA=D1=83 =D0=BE=D0=BD=D0=B8 =D0=B4=D0=B0=
+=D0=BB=D0=B5=D0=BA=D0=BE =D0=BD=D0=B5
+=D0=B2=D1=81=D0=B5=D0=B3=D0=B4=D0=B0 =D0=BE=D0=BF=D1=82=D0=B8=D0=BC=D0=B0=
+=D0=BB=D1=8C=D0=BD=D0=BE =D0=BB=D0=BE=D0=B6=D0=B0=D1=82=D1=81=D1=8F =D0=BD=
+=D0=B0 =D1=80=D0=B5=D0=BB=D1=8F=D1=86=D0=B8=D0=BE=D0=BD=D0=BD=D1=83=D1=8E =
+=D0=BC=D0=BE=D0=B4=D0=B5=D0=BB=D1=8C =D0=B1=D0=B0=D0=B7 =D0=B4=D0=B0=D0=BD=
+=D0=BD=D1=8B=D1=85.</li>
+  <li><strong>=D0=9D=D0=B5 =D1=80=D0=B0=D0=B7=D0=BD=D0=BE=D1=81=D0=B8=D1=82=
+=D0=B5</strong> =D0=BF=D0=BE =D1=80=D0=B0=D0=B7=D0=BD=D1=8B=D0=BC =D1=81=D1=
+=82=D0=BE=D0=BB=D0=B1=D1=86=D0=B0=D0=BC =D0=B7=D0=BD=D0=B0=D1=87=D0=B5=D0=
+=BD=D0=B8=D1=8F =D0=B8 =D0=B5=D0=B4=D0=B8=D0=BD=D0=B8=D1=86=D1=8B =D0=B8=D0=
+=B7=D0=BC=D0=B5=D1=80=D0=B5=D0=BD=D0=B8=D1=8F. =D0=9D=D1=83=D0=B6=D0=BD=D0=
+=BE
+=D1=81=D0=BE=D0=B7=D0=B4=D0=B0=D0=B2=D0=B0=D1=82=D1=8C =D1=81=D1=82=D0=BE=
+=D0=BB=D0=B1=D1=86=D1=8B =D1=82=D0=B0=D0=BA, =D1=87=D1=82=D0=BE=D0=B1=D1=8B=
+ =D0=B5=D0=B4=D0=B8=D0=BD=D0=B8=D1=86=D1=8B =D0=B8=D0=B7=D0=BC=D0=B5=D1=80=
+=D0=B5=D0=BD=D0=B8=D1=8F =D0=B1=D1=8B=D0=BB=D0=B8 =D1=87=D0=B5=D0=BC-=D1=82=
+=D0=BE =D1=81=D0=B0=D0=BC=D0=B8=D0=BC =D1=81=D0=BE=D0=B1=D0=BE=D0=B9
+=D1=80=D0=B0=D0=B7=D1=83=D0=BC=D0=B5=D1=8E=D1=89=D0=B8=D0=BC=D1=81=D1=8F. =
+=D0=94=D0=BB=D1=8F =D0=BF=D1=80=D0=BE=D0=B2=D0=B5=D1=80=D0=BA=D0=B8 =D0=BA=
+=D0=BE=D1=80=D1=80=D0=B5=D0=BA=D1=82=D0=BD=D0=BE=D1=81=D1=82=D0=B8 =D0=B2=
+=D1=81=D1=82=D0=B0=D0=B2=D0=BB=D1=8F=D0=B5=D0=BC=D1=8B=D1=85  =D0=B2 =D1=81=
+=D1=82=D0=BE=D0=BB=D0=B1=D0=B5=D1=86 =D0=B4=D0=B0=D0=BD=D0=BD=D1=8B=D1=85
+=D0=B8=D1=81=D0=BF=D0=BE=D0=BB=D1=8C=D0=B7=D1=83=D0=B9=D1=82=D0=B5 <code cl=
+ass=3D"language-plaintext highlighter-rouge">CHECK()</code>.</li>
+  <li><strong>=D0=98=D0=B7=D0=B1=D0=B5=D0=B3=D0=B0=D0=B9=D1=82=D0=B5</stron=
+g> =D0=BF=D0=B0=D1=82=D1=82=D0=B5=D1=80=D0=BD=D0=B0 <a href=3D"https://en.w=
+ikipedia.org/wiki/Entity%E2%80%93attribute%E2%80%93value_model" title=3D"Wi=
+kipedia: Entity=E2=80=93attribute=E2=80=93value model">EAV (Entity Attribut=
+e Value)</a>. =D0=92=D0=BC=D0=B5=D1=81=D1=82=D0=BE =D0=BD=D0=B5=D0=B3=D0=BE
+=D0=B8=D1=81=D0=BF=D0=BE=D0=BB=D1=8C=D0=B7=D1=83=D0=B9=D1=82=D0=B5 =D1=81=
+=D0=BF=D0=B5=D1=86=D0=B8=D0=B0=D0=BB=D1=8C=D0=BD=D1=8B=D0=B5 =D0=BF=D1=80=
+=D0=BE=D0=B4=D1=83=D0=BA=D1=82=D1=8B, =D0=BF=D1=80=D0=B5=D0=B4=D0=BD=D0=B0=
+=D0=B7=D0=BD=D0=B0=D1=87=D0=B5=D0=BD=D0=BD=D1=8B=D0=B5 =D0=B4=D0=BB=D1=8F =
+=D1=80=D0=B0=D0=B1=D0=BE=D1=82=D1=8B =D1=81
+=D0=BD=D0=B5=D1=81=D1=82=D1=80=D1=83=D0=BA=D1=82=D1=83=D1=80=D0=B8=D1=80=D0=
+=BE=D0=B2=D0=B0=D0=BD=D0=BD=D1=8B=D0=BC=D0=B8 =D0=B4=D0=B0=D0=BD=D0=BD=D1=
+=8B=D0=BC=D0=B8.</li>
+  <li><strong>=D0=9D=D0=B5 =D1=80=D0=B0=D0=B7=D0=B1=D0=B8=D0=B2=D0=B0=D0=B9=
+=D1=82=D0=B5</strong> =D0=B4=D0=B0=D0=BD=D0=BD=D1=8B=D0=B5, =D0=BB=D0=BE=D0=
+=B3=D0=B8=D1=87=D0=B5=D1=81=D0=BA=D0=B8 =D0=BF=D1=80=D0=B8=D0=BD=D0=B0=D0=
+=B4=D0=BB=D0=B5=D0=B6=D0=B0=D1=89=D0=B8=D0=B5 =D0=BE=D0=B4=D0=BD=D0=BE=D0=
+=B9 =D1=82=D0=B0=D0=B1=D0=BB=D0=B8=D1=86=D0=B5, =D0=BF=D0=BE =D1=80=D0=B0=
+=D0=B7=D0=BD=D1=8B=D0=BC
+=D1=82=D0=B0=D0=B1=D0=BB=D0=B8=D1=86=D0=B0=D0=BC =D0=BD=D0=B0 =D0=BE=D1=81=
+=D0=BD=D0=BE=D0=B2=D0=B0=D0=BD=D0=B8=D0=B8 =D1=83=D1=81=D0=BB=D0=BE=D0=B2=
+=D0=BD=D0=BE=D1=81=D1=82=D0=B5=D0=B9, =D0=BD=D0=B0=D0=BF=D1=80=D0=B8=D0=BC=
+=D0=B5=D1=80 =D0=B0=D1=80=D1=85=D0=B8=D0=B2=D0=B0=D1=86=D0=B8=D0=B8 =D0=BF=
+=D0=BE =D0=B2=D1=80=D0=B5=D0=BC=D0=B5=D0=BD=D0=B8 =D0=B8=D0=BB=D0=B8
+=D0=B3=D0=B5=D0=BE=D0=B3=D1=80=D0=B0=D1=84=D0=B8=D1=87=D0=B5=D1=81=D0=BA=D0=
+=B8=D0=BC =D0=B0=D1=82=D1=80=D0=B8=D0=B1=D1=83=D1=82=D0=B0=D0=BC. =D0=92=D0=
+=BF=D0=BE=D1=81=D0=BB=D0=B5=D0=B4=D1=81=D1=82=D0=B2=D0=B8=D0=B8 =D0=B4=D0=
+=BB=D1=8F =D1=80=D0=B0=D0=B1=D0=BE=D1=82=D1=8B =D1=81 =D0=BD=D0=B5=D1=81=D0=
+=BA=D0=BE=D0=BB=D1=8C=D0=BA=D0=B8=D0=BC=D0=B8 =D0=BF=D0=BE=D0=B4=D0=BE=D0=
+=B1=D0=BD=D1=8B=D0=BC=D0=B8
+=D1=82=D0=B0=D0=B1=D0=BB=D0=B8=D1=86=D0=B0=D0=BC =D0=BF=D1=80=D0=B8=D0=B4=
+=D1=91=D1=82=D1=81=D1=8F =D1=87=D0=B0=D1=81=D1=82=D0=BE =D0=B8=D1=81=D0=BF=
+=D0=BE=D0=BB=D1=8C=D0=B7=D0=BE=D0=B2=D0=B0=D1=82=D1=8C <code class=3D"langu=
+age-plaintext highlighter-rouge">UNION</code> =D0=B2=D0=BC=D0=B5=D1=81=D1=
+=82=D0=BE =D0=BF=D1=80=D0=BE=D1=81=D1=82=D1=8B=D1=85 =D0=B7=D0=B0=D0=BF=D1=
+=80=D0=BE=D1=81=D0=BE=D0=B2 =D0=BA =D0=BE=D0=B4=D0=BD=D0=BE=D0=B9
+=D1=82=D0=B0=D0=B1=D0=BB=D0=B8=D1=86=D0=B5.</li>
+</ul>
+
+<h2 id=3D"=D0=BF=D1=80=D0=B8=D0=BB=D0=BE=D0=B6=D0=B5=D0=BD=D0=B8=D0=B5">=D0=
+=9F=D1=80=D0=B8=D0=BB=D0=BE=D0=B6=D0=B5=D0=BD=D0=B8=D0=B5<a class=3D"anchor=
+js-link " aria-label=3D"Anchor" data-anchorjs-icon=3D"=EE=A7=8B" href=3D"ht=
+tps://www.sqlstyle.guide/ru/#%D0%BF%D1%80%D0%B8%D0%BB%D0%BE%D0%B6%D0%B5%D0%=
+BD%D0%B8%D0%B5" style=3D"font: 1em / 1 anchorjs-icons; padding-left: 0.375e=
+m;"></a></h2>
+
+<p><span id=3D"reserved-keyword-reference"></span></p>
+
+<h3 id=3D"=D1=81=D0=BF=D0=B8=D1=81=D0=BE=D0=BA-=D0=B7=D0=B0=D1=80=D0=B5=D0=
+=B7=D0=B5=D1=80=D0=B2=D0=B8=D1=80=D0=BE=D0=B2=D0=B0=D0=BD=D0=BD=D1=8B=D1=85=
+-=D0=BA=D0=BB=D1=8E=D1=87=D0=B5=D0=B2=D1=8B=D1=85-=D1=81=D0=BB=D0=BE=D0=B2"=
+>=D0=A1=D0=BF=D0=B8=D1=81=D0=BE=D0=BA =D0=B7=D0=B0=D1=80=D0=B5=D0=B7=D0=B5=
+=D1=80=D0=B2=D0=B8=D1=80=D0=BE=D0=B2=D0=B0=D0=BD=D0=BD=D1=8B=D1=85 =D0=BA=
+=D0=BB=D1=8E=D1=87=D0=B5=D0=B2=D1=8B=D1=85 =D1=81=D0=BB=D0=BE=D0=B2<a class=
+=3D"anchorjs-link " aria-label=3D"Anchor" data-anchorjs-icon=3D"=EE=A7=8B" =
+href=3D"https://www.sqlstyle.guide/ru/#%D1%81%D0%BF%D0%B8%D1%81%D0%BE%D0%BA=
+-%D0%B7%D0%B0%D1%80%D0%B5%D0%B7%D0%B5%D1%80%D0%B2%D0%B8%D1%80%D0%BE%D0%B2%D=
+0%B0%D0%BD%D0%BD%D1%8B%D1%85-%D0%BA%D0%BB%D1%8E%D1%87%D0%B5%D0%B2%D1%8B%D1%=
+85-%D1%81%D0%BB%D0%BE%D0%B2" style=3D"font: 1em / 1 anchorjs-icons; padding=
+-left: 0.375em;"></a></h3>
+
+<p>=D0=A1=D0=BF=D0=B8=D1=81=D0=BE=D0=BA =D0=B7=D0=B0=D1=80=D0=B5=D0=B7=D0=
+=B5=D1=80=D0=B2=D0=B8=D1=80=D0=BE=D0=B2=D0=B0=D0=BD=D0=BD=D1=8B=D1=85 =D0=
+=BA=D0=BB=D1=8E=D1=87=D0=B5=D0=B2=D1=8B=D1=85 =D1=81=D0=BB=D0=BE=D0=B2 ANSI=
+ SQL (92, 99 and 2003), MySQL
+=D0=B2=D0=B5=D1=80=D1=81=D0=B8=D0=B9 =D1=81 3 =D0=BF=D0=BE 5.x, PostgreSQL =
+8.1, MS SQL Server 2000, MS ODBC =D0=B8 Oracle 10.2.</p>
+
+<div class=3D"language-sql highlighter-rouge"><div class=3D"highlight"><pre=
+ class=3D"highlight"><code><span class=3D"n">A</span>
+<span class=3D"k">ABORT</span>
+<span class=3D"k">ABS</span>
+<span class=3D"k">ABSOLUTE</span>
+<span class=3D"k">ACCESS</span>
+<span class=3D"n">ACTION</span>
+<span class=3D"k">ADA</span>
+<span class=3D"k">ADD</span>
+<span class=3D"k">ADMIN</span>
+<span class=3D"k">AFTER</span>
+<span class=3D"k">AGGREGATE</span>
+<span class=3D"k">ALIAS</span>
+<span class=3D"k">ALL</span>
+<span class=3D"k">ALLOCATE</span>
+<span class=3D"n">ALSO</span>
+<span class=3D"k">ALTER</span>
+<span class=3D"n">ALWAYS</span>
+<span class=3D"k">ANALYSE</span>
+<span class=3D"k">ANALYZE</span>
+<span class=3D"k">AND</span>
+<span class=3D"k">ANY</span>
+<span class=3D"k">ARE</span>
+<span class=3D"n">ARRAY</span>
+<span class=3D"k">AS</span>
+<span class=3D"k">ASC</span>
+<span class=3D"k">ASENSITIVE</span>
+<span class=3D"k">ASSERTION</span>
+<span class=3D"k">ASSIGNMENT</span>
+<span class=3D"k">ASYMMETRIC</span>
+<span class=3D"k">AT</span>
+<span class=3D"k">ATOMIC</span>
+<span class=3D"n">ATTRIBUTE</span>
+<span class=3D"n">ATTRIBUTES</span>
+<span class=3D"n">AUDIT</span>
+<span class=3D"k">AUTHORIZATION</span>
+<span class=3D"n">AUTO_INCREMENT</span>
+<span class=3D"k">AVG</span>
+<span class=3D"n">AVG_ROW_LENGTH</span>
+<span class=3D"n">BACKUP</span>
+<span class=3D"k">BACKWARD</span>
+<span class=3D"k">BEFORE</span>
+<span class=3D"k">BEGIN</span>
+<span class=3D"n">BERNOULLI</span>
+<span class=3D"k">BETWEEN</span>
+<span class=3D"nb">BIGINT</span>
+<span class=3D"nb">BINARY</span>
+<span class=3D"nb">BIT</span>
+<span class=3D"k">BIT_LENGTH</span>
+<span class=3D"k">BITVAR</span>
+<span class=3D"nb">BLOB</span>
+<span class=3D"nb">BOOL</span>
+<span class=3D"nb">BOOLEAN</span>
+<span class=3D"k">BOTH</span>
+<span class=3D"k">BREADTH</span>
+<span class=3D"n">BREAK</span>
+<span class=3D"n">BROWSE</span>
+<span class=3D"n">BULK</span>
+<span class=3D"k">BY</span>
+<span class=3D"k">C</span>
+<span class=3D"k">CACHE</span>
+<span class=3D"k">CALL</span>
+<span class=3D"k">CALLED</span>
+<span class=3D"k">CARDINALITY</span>
+<span class=3D"k">CASCADE</span>
+<span class=3D"k">CASCADED</span>
+<span class=3D"k">CASE</span>
+<span class=3D"k">CAST</span>
+<span class=3D"k">CATALOG</span>
+<span class=3D"k">CATALOG_NAME</span>
+<span class=3D"n">CEIL</span>
+<span class=3D"n">CEILING</span>
+<span class=3D"k">CHAIN</span>
+<span class=3D"n">CHANGE</span>
+<span class=3D"nb">CHAR</span>
+<span class=3D"k">CHAR_LENGTH</span>
+<span class=3D"nb">CHARACTER</span>
+<span class=3D"k">CHARACTER_LENGTH</span>
+<span class=3D"k">CHARACTER_SET_CATALOG</span>
+<span class=3D"k">CHARACTER_SET_NAME</span>
+<span class=3D"k">CHARACTER_SET_SCHEMA</span>
+<span class=3D"k">CHARACTERISTICS</span>
+<span class=3D"n">CHARACTERS</span>
+<span class=3D"k">CHECK</span>
+<span class=3D"k">CHECKED</span>
+<span class=3D"k">CHECKPOINT</span>
+<span class=3D"n">CHECKSUM</span>
+<span class=3D"k">CLASS</span>
+<span class=3D"k">CLASS_ORIGIN</span>
+<span class=3D"k">CLOB</span>
+<span class=3D"k">CLOSE</span>
+<span class=3D"k">CLUSTER</span>
+<span class=3D"n">CLUSTERED</span>
+<span class=3D"n">COALESCE</span>
+<span class=3D"k">COBOL</span>
+<span class=3D"k">COLLATE</span>
+<span class=3D"k">COLLATION</span>
+<span class=3D"k">COLLATION_CATALOG</span>
+<span class=3D"k">COLLATION_NAME</span>
+<span class=3D"k">COLLATION_SCHEMA</span>
+<span class=3D"n">COLLECT</span>
+<span class=3D"k">COLUMN</span>
+<span class=3D"k">COLUMN_NAME</span>
+<span class=3D"n">COLUMNS</span>
+<span class=3D"k">COMMAND_FUNCTION</span>
+<span class=3D"k">COMMAND_FUNCTION_CODE</span>
+<span class=3D"k">COMMENT</span>
+<span class=3D"k">COMMIT</span>
+<span class=3D"k">COMMITTED</span>
+<span class=3D"k">COMPLETION</span>
+<span class=3D"n">COMPRESS</span>
+<span class=3D"n">COMPUTE</span>
+<span class=3D"n">CONDITION</span>
+<span class=3D"k">CONDITION_NUMBER</span>
+<span class=3D"k">CONNECT</span>
+<span class=3D"k">CONNECTION</span>
+<span class=3D"k">CONNECTION_NAME</span>
+<span class=3D"k">CONSTRAINT</span>
+<span class=3D"k">CONSTRAINT_CATALOG</span>
+<span class=3D"k">CONSTRAINT_NAME</span>
+<span class=3D"k">CONSTRAINT_SCHEMA</span>
+<span class=3D"k">CONSTRAINTS</span>
+<span class=3D"k">CONSTRUCTOR</span>
+<span class=3D"k">CONTAINS</span>
+<span class=3D"n">CONTAINSTABLE</span>
+<span class=3D"k">CONTINUE</span>
+<span class=3D"k">CONVERSION</span>
+<span class=3D"k">CONVERT</span>
+<span class=3D"k">COPY</span>
+<span class=3D"n">CORR</span>
+<span class=3D"n">CORRESPONDING</span>
+<span class=3D"k">COUNT</span>
+<span class=3D"n">COVAR_POP</span>
+<span class=3D"n">COVAR_SAMP</span>
+<span class=3D"k">CREATE</span>
+<span class=3D"k">CREATEDB</span>
+<span class=3D"n">CREATEROLE</span>
+<span class=3D"k">CREATEUSER</span>
+<span class=3D"k">CROSS</span>
+<span class=3D"n">CSV</span>
+<span class=3D"k">CUBE</span>
+<span class=3D"n">CUME_DIST</span>
+<span class=3D"k">CURRENT</span>
+<span class=3D"k">CURRENT_DATE</span>
+<span class=3D"n">CURRENT_DEFAULT_TRANSFORM_GROUP</span>
+<span class=3D"k">CURRENT_PATH</span>
+<span class=3D"k">CURRENT_ROLE</span>
+<span class=3D"k">CURRENT_TIME</span>
+<span class=3D"k">CURRENT_TIMESTAMP</span>
+<span class=3D"n">CURRENT_TRANSFORM_GROUP_FOR_TYPE</span>
+<span class=3D"k">CURRENT_USER</span>
+<span class=3D"k">CURSOR</span>
+<span class=3D"k">CURSOR_NAME</span>
+<span class=3D"k">CYCLE</span>
+<span class=3D"k">DATA</span>
+<span class=3D"k">DATABASE</span>
+<span class=3D"n">DATABASES</span>
+<span class=3D"nb">DATE</span>
+<span class=3D"nb">DATETIME</span>
+<span class=3D"k">DATETIME_INTERVAL_CODE</span>
+<span class=3D"k">DATETIME_INTERVAL_PRECISION</span>
+<span class=3D"k">DAY</span>
+<span class=3D"n">DAY_HOUR</span>
+<span class=3D"n">DAY_MICROSECOND</span>
+<span class=3D"n">DAY_MINUTE</span>
+<span class=3D"n">DAY_SECOND</span>
+<span class=3D"n">DAYOFMONTH</span>
+<span class=3D"n">DAYOFWEEK</span>
+<span class=3D"n">DAYOFYEAR</span>
+<span class=3D"n">DBCC</span>
+<span class=3D"k">DEALLOCATE</span>
+<span class=3D"nb">DEC</span>
+<span class=3D"nb">DECIMAL</span>
+<span class=3D"k">DECLARE</span>
+<span class=3D"k">DEFAULT</span>
+<span class=3D"k">DEFAULTS</span>
+<span class=3D"k">DEFERRABLE</span>
+<span class=3D"k">DEFERRED</span>
+<span class=3D"k">DEFINED</span>
+<span class=3D"k">DEFINER</span>
+<span class=3D"n">DEGREE</span>
+<span class=3D"n">DELAY_KEY_WRITE</span>
+<span class=3D"n">DELAYED</span>
+<span class=3D"k">DELETE</span>
+<span class=3D"k">DELIMITER</span>
+<span class=3D"k">DELIMITERS</span>
+<span class=3D"n">DENSE_RANK</span>
+<span class=3D"n">DENY</span>
+<span class=3D"n">DEPTH</span>
+<span class=3D"k">DEREF</span>
+<span class=3D"n">DERIVED</span>
+<span class=3D"k">DESC</span>
+<span class=3D"k">DESCRIBE</span>
+<span class=3D"k">DESCRIPTOR</span>
+<span class=3D"k">DESTROY</span>
+<span class=3D"k">DESTRUCTOR</span>
+<span class=3D"k">DETERMINISTIC</span>
+<span class=3D"k">DIAGNOSTICS</span>
+<span class=3D"k">DICTIONARY</span>
+<span class=3D"n">DISABLE</span>
+<span class=3D"k">DISCONNECT</span>
+<span class=3D"n">DISK</span>
+<span class=3D"k">DISPATCH</span>
+<span class=3D"k">DISTINCT</span>
+<span class=3D"n">DISTINCTROW</span>
+<span class=3D"n">DISTRIBUTED</span>
+<span class=3D"n">DIV</span>
+<span class=3D"k">DO</span>
+<span class=3D"k">DOMAIN</span>
+<span class=3D"nb">DOUBLE</span>
+<span class=3D"k">DROP</span>
+<span class=3D"n">DUAL</span>
+<span class=3D"n">DUMMY</span>
+<span class=3D"n">DUMP</span>
+<span class=3D"k">DYNAMIC</span>
+<span class=3D"k">DYNAMIC_FUNCTION</span>
+<span class=3D"k">DYNAMIC_FUNCTION_CODE</span>
+<span class=3D"k">EACH</span>
+<span class=3D"n">ELEMENT</span>
+<span class=3D"k">ELSE</span>
+<span class=3D"n">ELSEIF</span>
+<span class=3D"n">ENABLE</span>
+<span class=3D"n">ENCLOSED</span>
+<span class=3D"k">ENCODING</span>
+<span class=3D"k">ENCRYPTED</span>
+<span class=3D"k">END</span>
+<span class=3D"k">END</span><span class=3D"o">-</span><span class=3D"k">EXE=
+C</span>
+<span class=3D"nb">ENUM</span>
+<span class=3D"k">EQUALS</span>
+<span class=3D"n">ERRLVL</span>
+<span class=3D"k">ESCAPE</span>
+<span class=3D"n">ESCAPED</span>
+<span class=3D"k">EVERY</span>
+<span class=3D"k">EXCEPT</span>
+<span class=3D"n">EXCEPTION</span>
+<span class=3D"n">EXCLUDE</span>
+<span class=3D"k">EXCLUDING</span>
+<span class=3D"k">EXCLUSIVE</span>
+<span class=3D"k">EXEC</span>
+<span class=3D"k">EXECUTE</span>
+<span class=3D"k">EXISTING</span>
+<span class=3D"k">EXISTS</span>
+<span class=3D"n">EXIT</span>
+<span class=3D"n">EXP</span>
+<span class=3D"k">EXPLAIN</span>
+<span class=3D"k">EXTERNAL</span>
+<span class=3D"k">EXTRACT</span>
+<span class=3D"k">FALSE</span>
+<span class=3D"k">FETCH</span>
+<span class=3D"n">FIELDS</span>
+<span class=3D"n">FILE</span>
+<span class=3D"n">FILLFACTOR</span>
+<span class=3D"n">FILTER</span>
+<span class=3D"k">FINAL</span>
+<span class=3D"k">FIRST</span>
+<span class=3D"nb">FLOAT</span>
+<span class=3D"n">FLOAT4</span>
+<span class=3D"n">FLOAT8</span>
+<span class=3D"n">FLOOR</span>
+<span class=3D"n">FLUSH</span>
+<span class=3D"n">FOLLOWING</span>
+<span class=3D"k">FOR</span>
+<span class=3D"k">FORCE</span>
+<span class=3D"k">FOREIGN</span>
+<span class=3D"k">FORTRAN</span>
+<span class=3D"k">FORWARD</span>
+<span class=3D"k">FOUND</span>
+<span class=3D"k">FREE</span>
+<span class=3D"n">FREETEXT</span>
+<span class=3D"n">FREETEXTTABLE</span>
+<span class=3D"k">FREEZE</span>
+<span class=3D"k">FROM</span>
+<span class=3D"k">FULL</span>
+<span class=3D"n">FULLTEXT</span>
+<span class=3D"k">FUNCTION</span>
+<span class=3D"n">FUSION</span>
+<span class=3D"k">G</span>
+<span class=3D"k">GENERAL</span>
+<span class=3D"k">GENERATED</span>
+<span class=3D"k">GET</span>
+<span class=3D"k">GLOBAL</span>
+<span class=3D"k">GO</span>
+<span class=3D"k">GOTO</span>
+<span class=3D"k">GRANT</span>
+<span class=3D"k">GRANTED</span>
+<span class=3D"n">GRANTS</span>
+<span class=3D"n">GREATEST</span>
+<span class=3D"k">GROUP</span>
+<span class=3D"k">GROUPING</span>
+<span class=3D"k">HANDLER</span>
+<span class=3D"k">HAVING</span>
+<span class=3D"n">HEADER</span>
+<span class=3D"n">HEAP</span>
+<span class=3D"k">HIERARCHY</span>
+<span class=3D"n">HIGH_PRIORITY</span>
+<span class=3D"k">HOLD</span>
+<span class=3D"n">HOLDLOCK</span>
+<span class=3D"k">HOST</span>
+<span class=3D"n">HOSTS</span>
+<span class=3D"n">HOUR</span>
+<span class=3D"n">HOUR_MICROSECOND</span>
+<span class=3D"n">HOUR_MINUTE</span>
+<span class=3D"n">HOUR_SECOND</span>
+<span class=3D"n">IDENTIFIED</span>
+<span class=3D"k">IDENTITY</span>
+<span class=3D"n">IDENTITY_INSERT</span>
+<span class=3D"n">IDENTITYCOL</span>
+<span class=3D"n">IF</span>
+<span class=3D"k">IGNORE</span>
+<span class=3D"k">ILIKE</span>
+<span class=3D"k">IMMEDIATE</span>
+<span class=3D"k">IMMUTABLE</span>
+<span class=3D"k">IMPLEMENTATION</span>
+<span class=3D"k">IMPLICIT</span>
+<span class=3D"k">IN</span>
+<span class=3D"n">INCLUDE</span>
+<span class=3D"k">INCLUDING</span>
+<span class=3D"k">INCREMENT</span>
+<span class=3D"k">INDEX</span>
+<span class=3D"n">INDICATOR</span>
+<span class=3D"n">INFILE</span>
+<span class=3D"k">INFIX</span>
+<span class=3D"n">INHERIT</span>
+<span class=3D"k">INHERITS</span>
+<span class=3D"n">INITIAL</span>
+<span class=3D"k">INITIALIZE</span>
+<span class=3D"k">INITIALLY</span>
+<span class=3D"k">INNER</span>
+<span class=3D"k">INOUT</span>
+<span class=3D"k">INPUT</span>
+<span class=3D"k">INSENSITIVE</span>
+<span class=3D"k">INSERT</span>
+<span class=3D"n">INSERT_ID</span>
+<span class=3D"n">INSTANCE</span>
+<span class=3D"k">INSTANTIABLE</span>
+<span class=3D"k">INSTEAD</span>
+<span class=3D"nb">INT</span>
+<span class=3D"n">INT1</span>
+<span class=3D"n">INT2</span>
+<span class=3D"n">INT3</span>
+<span class=3D"n">INT4</span>
+<span class=3D"n">INT8</span>
+<span class=3D"nb">INTEGER</span>
+<span class=3D"k">INTERSECT</span>
+<span class=3D"n">INTERSECTION</span>
+<span class=3D"n">INTERVAL</span>
+<span class=3D"k">INTO</span>
+<span class=3D"k">INVOKER</span>
+<span class=3D"k">IS</span>
+<span class=3D"n">ISAM</span>
+<span class=3D"k">ISNULL</span>
+<span class=3D"k">ISOLATION</span>
+<span class=3D"k">ITERATE</span>
+<span class=3D"k">JOIN</span>
+<span class=3D"n">K</span>
+<span class=3D"k">KEY</span>
+<span class=3D"k">KEY_MEMBER</span>
+<span class=3D"k">KEY_TYPE</span>
+<span class=3D"n">KEYS</span>
+<span class=3D"n">KILL</span>
+<span class=3D"k">LANCOMPILER</span>
+<span class=3D"k">LANGUAGE</span>
+<span class=3D"k">LARGE</span>
+<span class=3D"k">LAST</span>
+<span class=3D"n">LAST_INSERT_ID</span>
+<span class=3D"k">LATERAL</span>
+<span class=3D"k">LEADING</span>
+<span class=3D"n">LEAST</span>
+<span class=3D"n">LEAVE</span>
+<span class=3D"k">LEFT</span>
+<span class=3D"k">LENGTH</span>
+<span class=3D"k">LESS</span>
+<span class=3D"k">LEVEL</span>
+<span class=3D"k">LIKE</span>
+<span class=3D"k">LIMIT</span>
+<span class=3D"n">LINENO</span>
+<span class=3D"n">LINES</span>
+<span class=3D"k">LISTEN</span>
+<span class=3D"n">LN</span>
+<span class=3D"k">LOAD</span>
+<span class=3D"k">LOCAL</span>
+<span class=3D"k">LOCALTIME</span>
+<span class=3D"k">LOCALTIMESTAMP</span>
+<span class=3D"k">LOCATION</span>
+<span class=3D"k">LOCATOR</span>
+<span class=3D"k">LOCK</span>
+<span class=3D"n">LOGIN</span>
+<span class=3D"n">LOGS</span>
+<span class=3D"n">LONG</span>
+<span class=3D"nb">LONGBLOB</span>
+<span class=3D"nb">LONGTEXT</span>
+<span class=3D"n">LOOP</span>
+<span class=3D"n">LOW_PRIORITY</span>
+<span class=3D"k">LOWER</span>
+<span class=3D"n">M</span>
+<span class=3D"k">MAP</span>
+<span class=3D"k">MATCH</span>
+<span class=3D"n">MATCHED</span>
+<span class=3D"k">MAX</span>
+<span class=3D"n">MAX_ROWS</span>
+<span class=3D"n">MAXEXTENTS</span>
+<span class=3D"k">MAXVALUE</span>
+<span class=3D"nb">MEDIUMBLOB</span>
+<span class=3D"nb">MEDIUMINT</span>
+<span class=3D"nb">MEDIUMTEXT</span>
+<span class=3D"n">MEMBER</span>
+<span class=3D"n">MERGE</span>
+<span class=3D"k">MESSAGE_LENGTH</span>
+<span class=3D"k">MESSAGE_OCTET_LENGTH</span>
+<span class=3D"k">MESSAGE_TEXT</span>
+<span class=3D"k">METHOD</span>
+<span class=3D"n">MIDDLEINT</span>
+<span class=3D"k">MIN</span>
+<span class=3D"n">MIN_ROWS</span>
+<span class=3D"n">MINUS</span>
+<span class=3D"k">MINUTE</span>
+<span class=3D"n">MINUTE_MICROSECOND</span>
+<span class=3D"n">MINUTE_SECOND</span>
+<span class=3D"k">MINVALUE</span>
+<span class=3D"n">MLSLABEL</span>
+<span class=3D"k">MOD</span>
+<span class=3D"k">MODE</span>
+<span class=3D"k">MODIFIES</span>
+<span class=3D"k">MODIFY</span>
+<span class=3D"n">MODULE</span>
+<span class=3D"k">MONTH</span>
+<span class=3D"n">MONTHNAME</span>
+<span class=3D"k">MORE</span>
+<span class=3D"k">MOVE</span>
+<span class=3D"n">MULTISET</span>
+<span class=3D"k">MUMPS</span>
+<span class=3D"n">MYISAM</span>
+<span class=3D"n">NAME</span>
+<span class=3D"k">NAMES</span>
+<span class=3D"nb">NATIONAL</span>
+<span class=3D"k">NATURAL</span>
+<span class=3D"nb">NCHAR</span>
+<span class=3D"k">NCLOB</span>
+<span class=3D"n">NESTING</span>
+<span class=3D"k">NEW</span>
+<span class=3D"k">NEXT</span>
+<span class=3D"k">NO</span>
+<span class=3D"n">NO_WRITE_TO_BINLOG</span>
+<span class=3D"n">NOAUDIT</span>
+<span class=3D"n">NOCHECK</span>
+<span class=3D"n">NOCOMPRESS</span>
+<span class=3D"k">NOCREATEDB</span>
+<span class=3D"n">NOCREATEROLE</span>
+<span class=3D"k">NOCREATEUSER</span>
+<span class=3D"n">NOINHERIT</span>
+<span class=3D"n">NOLOGIN</span>
+<span class=3D"n">NONCLUSTERED</span>
+<span class=3D"k">NONE</span>
+<span class=3D"n">NORMALIZE</span>
+<span class=3D"n">NORMALIZED</span>
+<span class=3D"n">NOSUPERUSER</span>
+<span class=3D"k">NOT</span>
+<span class=3D"k">NOTHING</span>
+<span class=3D"k">NOTIFY</span>
+<span class=3D"k">NOTNULL</span>
+<span class=3D"n">NOWAIT</span>
+<span class=3D"k">NULL</span>
+<span class=3D"k">NULLABLE</span>
+<span class=3D"k">NULLIF</span>
+<span class=3D"n">NULLS</span>
+<span class=3D"n">NUMBER</span>
+<span class=3D"nb">NUMERIC</span>
+<span class=3D"k">OBJECT</span>
+<span class=3D"k">OCTET_LENGTH</span>
+<span class=3D"n">OCTETS</span>
+<span class=3D"k">OF</span>
+<span class=3D"k">OFF</span>
+<span class=3D"n">OFFLINE</span>
+<span class=3D"k">OFFSET</span>
+<span class=3D"n">OFFSETS</span>
+<span class=3D"k">OIDS</span>
+<span class=3D"k">OLD</span>
+<span class=3D"k">ON</span>
+<span class=3D"n">ONLINE</span>
+<span class=3D"k">ONLY</span>
+<span class=3D"k">OPEN</span>
+<span class=3D"n">OPENDATASOURCE</span>
+<span class=3D"n">OPENQUERY</span>
+<span class=3D"n">OPENROWSET</span>
+<span class=3D"n">OPENXML</span>
+<span class=3D"k">OPERATION</span>
+<span class=3D"k">OPERATOR</span>
+<span class=3D"n">OPTIMIZE</span>
+<span class=3D"k">OPTION</span>
+<span class=3D"n">OPTIONALLY</span>
+<span class=3D"k">OPTIONS</span>
+<span class=3D"k">OR</span>
+<span class=3D"k">ORDER</span>
+<span class=3D"n">ORDERING</span>
+<span class=3D"k">ORDINALITY</span>
+<span class=3D"n">OTHERS</span>
+<span class=3D"k">OUT</span>
+<span class=3D"k">OUTER</span>
+<span class=3D"n">OUTFILE</span>
+<span class=3D"k">OUTPUT</span>
+<span class=3D"n">OVER</span>
+<span class=3D"k">OVERLAPS</span>
+<span class=3D"k">OVERLAY</span>
+<span class=3D"k">OVERRIDING</span>
+<span class=3D"k">OWNER</span>
+<span class=3D"n">PACK_KEYS</span>
+<span class=3D"k">PAD</span>
+<span class=3D"k">PARAMETER</span>
+<span class=3D"k">PARAMETER_MODE</span>
+<span class=3D"n">PARAMETER_NAME</span>
+<span class=3D"n">PARAMETER_ORDINAL_POSITION</span>
+<span class=3D"k">PARAMETER_SPECIFIC_CATALOG</span>
+<span class=3D"k">PARAMETER_SPECIFIC_NAME</span>
+<span class=3D"n">PARAMETER_SPECIFIC_SCHEMA</span>
+<span class=3D"k">PARAMETERS</span>
+<span class=3D"k">PARTIAL</span>
+<span class=3D"n">PARTITION</span>
+<span class=3D"k">PASCAL</span>
+<span class=3D"n">PASSWORD</span>
+<span class=3D"n">PATH</span>
+<span class=3D"n">PCTFREE</span>
+<span class=3D"n">PERCENT</span>
+<span class=3D"n">PERCENT_RANK</span>
+<span class=3D"n">PERCENTILE_CONT</span>
+<span class=3D"n">PERCENTILE_DISC</span>
+<span class=3D"k">PLACING</span>
+<span class=3D"n">PLAN</span>
+<span class=3D"k">PLI</span>
+<span class=3D"k">POSITION</span>
+<span class=3D"k">POSTFIX</span>
+<span class=3D"n">POWER</span>
+<span class=3D"n">PRECEDING</span>
+<span class=3D"nb">PRECISION</span>
+<span class=3D"k">PREFIX</span>
+<span class=3D"k">PREORDER</span>
+<span class=3D"k">PREPARE</span>
+<span class=3D"n">PREPARED</span>
+<span class=3D"k">PRESERVE</span>
+<span class=3D"k">PRIMARY</span>
+<span class=3D"n">PRINT</span>
+<span class=3D"k">PRIOR</span>
+<span class=3D"k">PRIVILEGES</span>
+<span class=3D"n">PROC</span>
+<span class=3D"k">PROCEDURAL</span>
+<span class=3D"k">PROCEDURE</span>
+<span class=3D"n">PROCESS</span>
+<span class=3D"n">PROCESSLIST</span>
+<span class=3D"k">PUBLIC</span>
+<span class=3D"n">PURGE</span>
+<span class=3D"n">QUOTE</span>
+<span class=3D"n">RAID0</span>
+<span class=3D"n">RAISERROR</span>
+<span class=3D"n">RANGE</span>
+<span class=3D"n">RANK</span>
+<span class=3D"n">RAW</span>
+<span class=3D"k">READ</span>
+<span class=3D"k">READS</span>
+<span class=3D"n">READTEXT</span>
+<span class=3D"nb">REAL</span>
+<span class=3D"k">RECHECK</span>
+<span class=3D"n">RECONFIGURE</span>
+<span class=3D"k">RECURSIVE</span>
+<span class=3D"k">REF</span>
+<span class=3D"k">REFERENCES</span>
+<span class=3D"k">REFERENCING</span>
+<span class=3D"n">REGEXP</span>
+<span class=3D"n">REGR_AVGX</span>
+<span class=3D"n">REGR_AVGY</span>
+<span class=3D"n">REGR_COUNT</span>
+<span class=3D"n">REGR_INTERCEPT</span>
+<span class=3D"n">REGR_R2</span>
+<span class=3D"n">REGR_SLOPE</span>
+<span class=3D"n">REGR_SXX</span>
+<span class=3D"n">REGR_SXY</span>
+<span class=3D"n">REGR_SYY</span>
+<span class=3D"k">REINDEX</span>
+<span class=3D"k">RELATIVE</span>
+<span class=3D"n">RELEASE</span>
+<span class=3D"n">RELOAD</span>
+<span class=3D"k">RENAME</span>
+<span class=3D"n">REPEAT</span>
+<span class=3D"k">REPEATABLE</span>
+<span class=3D"k">REPLACE</span>
+<span class=3D"n">REPLICATION</span>
+<span class=3D"n">REQUIRE</span>
+<span class=3D"k">RESET</span>
+<span class=3D"n">RESIGNAL</span>
+<span class=3D"n">RESOURCE</span>
+<span class=3D"k">RESTART</span>
+<span class=3D"n">RESTORE</span>
+<span class=3D"k">RESTRICT</span>
+<span class=3D"k">RESULT</span>
+<span class=3D"k">RETURN</span>
+<span class=3D"n">RETURNED_CARDINALITY</span>
+<span class=3D"k">RETURNED_LENGTH</span>
+<span class=3D"k">RETURNED_OCTET_LENGTH</span>
+<span class=3D"k">RETURNED_SQLSTATE</span>
+<span class=3D"k">RETURNS</span>
+<span class=3D"k">REVOKE</span>
+<span class=3D"k">RIGHT</span>
+<span class=3D"n">RLIKE</span>
+<span class=3D"k">ROLE</span>
+<span class=3D"k">ROLLBACK</span>
+<span class=3D"k">ROLLUP</span>
+<span class=3D"k">ROUTINE</span>
+<span class=3D"k">ROUTINE_CATALOG</span>
+<span class=3D"k">ROUTINE_NAME</span>
+<span class=3D"k">ROUTINE_SCHEMA</span>
+<span class=3D"k">ROW</span>
+<span class=3D"k">ROW_COUNT</span>
+<span class=3D"n">ROW_NUMBER</span>
+<span class=3D"n">ROWCOUNT</span>
+<span class=3D"n">ROWGUIDCOL</span>
+<span class=3D"n">ROWID</span>
+<span class=3D"n">ROWNUM</span>
+<span class=3D"k">ROWS</span>
+<span class=3D"k">RULE</span>
+<span class=3D"n">SAVE</span>
+<span class=3D"n">SAVEPOINT</span>
+<span class=3D"k">SCALE</span>
+<span class=3D"k">SCHEMA</span>
+<span class=3D"k">SCHEMA_NAME</span>
+<span class=3D"n">SCHEMAS</span>
+<span class=3D"k">SCOPE</span>
+<span class=3D"n">SCOPE_CATALOG</span>
+<span class=3D"n">SCOPE_NAME</span>
+<span class=3D"n">SCOPE_SCHEMA</span>
+<span class=3D"k">SCROLL</span>
+<span class=3D"k">SEARCH</span>
+<span class=3D"k">SECOND</span>
+<span class=3D"n">SECOND_MICROSECOND</span>
+<span class=3D"n">SECTION</span>
+<span class=3D"k">SECURITY</span>
+<span class=3D"k">SELECT</span>
+<span class=3D"k">SELF</span>
+<span class=3D"k">SENSITIVE</span>
+<span class=3D"n">SEPARATOR</span>
+<span class=3D"n">SEQUENCE</span>
+<span class=3D"k">SERIALIZABLE</span>
+<span class=3D"k">SERVER_NAME</span>
+<span class=3D"k">SESSION</span>
+<span class=3D"k">SESSION_USER</span>
+<span class=3D"k">SET</span>
+<span class=3D"k">SETOF</span>
+<span class=3D"k">SETS</span>
+<span class=3D"n">SETUSER</span>
+<span class=3D"k">SHARE</span>
+<span class=3D"k">SHOW</span>
+<span class=3D"n">SHUTDOWN</span>
+<span class=3D"n">SIGNAL</span>
+<span class=3D"k">SIMILAR</span>
+<span class=3D"k">SIMPLE</span>
+<span class=3D"k">SIZE</span>
+<span class=3D"nb">SMALLINT</span>
+<span class=3D"k">SOME</span>
+<span class=3D"n">SONAME</span>
+<span class=3D"k">SOURCE</span>
+<span class=3D"k">SPACE</span>
+<span class=3D"n">SPATIAL</span>
+<span class=3D"k">SPECIFIC</span>
+<span class=3D"k">SPECIFIC_NAME</span>
+<span class=3D"k">SPECIFICTYPE</span>
+<span class=3D"k">SQL</span>
+<span class=3D"n">SQL_BIG_RESULT</span>
+<span class=3D"n">SQL_BIG_SELECTS</span>
+<span class=3D"n">SQL_BIG_TABLES</span>
+<span class=3D"n">SQL_CALC_FOUND_ROWS</span>
+<span class=3D"n">SQL_LOG_OFF</span>
+<span class=3D"n">SQL_LOG_UPDATE</span>
+<span class=3D"n">SQL_LOW_PRIORITY_UPDATES</span>
+<span class=3D"n">SQL_SELECT_LIMIT</span>
+<span class=3D"n">SQL_SMALL_RESULT</span>
+<span class=3D"n">SQL_WARNINGS</span>
+<span class=3D"n">SQLCA</span>
+<span class=3D"k">SQLCODE</span>
+<span class=3D"k">SQLERROR</span>
+<span class=3D"k">SQLEXCEPTION</span>
+<span class=3D"k">SQLSTATE</span>
+<span class=3D"n">SQLWARNING</span>
+<span class=3D"n">SQRT</span>
+<span class=3D"n">SSL</span>
+<span class=3D"k">STABLE</span>
+<span class=3D"k">START</span>
+<span class=3D"n">STARTING</span>
+<span class=3D"k">STATE</span>
+<span class=3D"k">STATEMENT</span>
+<span class=3D"k">STATIC</span>
+<span class=3D"k">STATISTICS</span>
+<span class=3D"n">STATUS</span>
+<span class=3D"n">STDDEV_POP</span>
+<span class=3D"n">STDDEV_SAMP</span>
+<span class=3D"k">STDIN</span>
+<span class=3D"k">STDOUT</span>
+<span class=3D"k">STORAGE</span>
+<span class=3D"n">STRAIGHT_JOIN</span>
+<span class=3D"k">STRICT</span>
+<span class=3D"n">STRING</span>
+<span class=3D"k">STRUCTURE</span>
+<span class=3D"n">STYLE</span>
+<span class=3D"k">SUBCLASS_ORIGIN</span>
+<span class=3D"k">SUBLIST</span>
+<span class=3D"n">SUBMULTISET</span>
+<span class=3D"k">SUBSTRING</span>
+<span class=3D"n">SUCCESSFUL</span>
+<span class=3D"k">SUM</span>
+<span class=3D"n">SUPERUSER</span>
+<span class=3D"k">SYMMETRIC</span>
+<span class=3D"n">SYNONYM</span>
+<span class=3D"n">SYSDATE</span>
+<span class=3D"k">SYSID</span>
+<span class=3D"k">SYSTEM</span>
+<span class=3D"k">SYSTEM_USER</span>
+<span class=3D"k">TABLE</span>
+<span class=3D"k">TABLE_NAME</span>
+<span class=3D"n">TABLES</span>
+<span class=3D"n">TABLESAMPLE</span>
+<span class=3D"n">TABLESPACE</span>
+<span class=3D"k">TEMP</span>
+<span class=3D"k">TEMPLATE</span>
+<span class=3D"k">TEMPORARY</span>
+<span class=3D"k">TERMINATE</span>
+<span class=3D"n">TERMINATED</span>
+<span class=3D"nb">TEXT</span>
+<span class=3D"n">TEXTSIZE</span>
+<span class=3D"k">THAN</span>
+<span class=3D"k">THEN</span>
+<span class=3D"n">TIES</span>
+<span class=3D"nb">TIME</span>
+<span class=3D"nb">TIMESTAMP</span>
+<span class=3D"k">TIMEZONE_HOUR</span>
+<span class=3D"k">TIMEZONE_MINUTE</span>
+<span class=3D"nb">TINYBLOB</span>
+<span class=3D"nb">TINYINT</span>
+<span class=3D"nb">TINYTEXT</span>
+<span class=3D"k">TO</span>
+<span class=3D"k">TOAST</span>
+<span class=3D"n">TOP</span>
+<span class=3D"n">TOP_LEVEL_COUNT</span>
+<span class=3D"k">TRAILING</span>
+<span class=3D"n">TRAN</span>
+<span class=3D"n">TRANSACTION</span>
+<span class=3D"n">TRANSACTION_ACTIVE</span>
+<span class=3D"k">TRANSACTIONS_COMMITTED</span>
+<span class=3D"k">TRANSACTIONS_ROLLED_BACK</span>
+<span class=3D"k">TRANSFORM</span>
+<span class=3D"k">TRANSFORMS</span>
+<span class=3D"k">TRANSLATE</span>
+<span class=3D"k">TRANSLATION</span>
+<span class=3D"k">TREAT</span>
+<span class=3D"k">TRIGGER</span>
+<span class=3D"k">TRIGGER_CATALOG</span>
+<span class=3D"k">TRIGGER_NAME</span>
+<span class=3D"k">TRIGGER_SCHEMA</span>
+<span class=3D"k">TRIM</span>
+<span class=3D"k">TRUE</span>
+<span class=3D"k">TRUNCATE</span>
+<span class=3D"k">TRUSTED</span>
+<span class=3D"n">TSEQUAL</span>
+<span class=3D"k">TYPE</span>
+<span class=3D"n">UESCAPE</span>
+<span class=3D"n">UID</span>
+<span class=3D"n">UNBOUNDED</span>
+<span class=3D"k">UNCOMMITTED</span>
+<span class=3D"k">UNDER</span>
+<span class=3D"n">UNDO</span>
+<span class=3D"k">UNENCRYPTED</span>
+<span class=3D"k">UNION</span>
+<span class=3D"k">UNIQUE</span>
+<span class=3D"k">UNKNOWN</span>
+<span class=3D"k">UNLISTEN</span>
+<span class=3D"n">UNLOCK</span>
+<span class=3D"k">UNNAMED</span>
+<span class=3D"k">UNNEST</span>
+<span class=3D"nb">UNSIGNED</span>
+<span class=3D"k">UNTIL</span>
+<span class=3D"k">UPDATE</span>
+<span class=3D"n">UPDATETEXT</span>
+<span class=3D"k">UPPER</span>
+<span class=3D"k">USAGE</span>
+<span class=3D"n">USE</span>
+<span class=3D"k">USER</span>
+<span class=3D"k">USER_DEFINED_TYPE_CATALOG</span>
+<span class=3D"n">USER_DEFINED_TYPE_CODE</span>
+<span class=3D"k">USER_DEFINED_TYPE_NAME</span>
+<span class=3D"k">USER_DEFINED_TYPE_SCHEMA</span>
+<span class=3D"k">USING</span>
+<span class=3D"n">UTC_DATE</span>
+<span class=3D"n">UTC_TIME</span>
+<span class=3D"n">UTC_TIMESTAMP</span>
+<span class=3D"k">VACUUM</span>
+<span class=3D"k">VALID</span>
+<span class=3D"n">VALIDATE</span>
+<span class=3D"k">VALIDATOR</span>
+<span class=3D"n">VALUE</span>
+<span class=3D"k">VALUES</span>
+<span class=3D"n">VAR_POP</span>
+<span class=3D"n">VAR_SAMP</span>
+<span class=3D"nb">VARBINARY</span>
+<span class=3D"nb">VARCHAR</span>
+<span class=3D"n">VARCHAR2</span>
+<span class=3D"n">VARCHARACTER</span>
+<span class=3D"k">VARIABLE</span>
+<span class=3D"n">VARIABLES</span>
+<span class=3D"nb">VARYING</span>
+<span class=3D"k">VERBOSE</span>
+<span class=3D"k">VIEW</span>
+<span class=3D"k">VOLATILE</span>
+<span class=3D"n">WAITFOR</span>
+<span class=3D"k">WHEN</span>
+<span class=3D"k">WHENEVER</span>
+<span class=3D"k">WHERE</span>
+<span class=3D"n">WHILE</span>
+<span class=3D"n">WIDTH_BUCKET</span>
+<span class=3D"n">WINDOW</span>
+<span class=3D"k">WITH</span>
+<span class=3D"n">WITHIN</span>
+<span class=3D"k">WITHOUT</span>
+<span class=3D"k">WORK</span>
+<span class=3D"k">WRITE</span>
+<span class=3D"n">WRITETEXT</span>
+<span class=3D"n">X509</span>
+<span class=3D"n">XOR</span>
+<span class=3D"nb">YEAR</span>
+<span class=3D"n">YEAR_MONTH</span>
+<span class=3D"nb">ZEROFILL</span>
+<span class=3D"k">ZONE</span>
+</code></pre></div></div>
+
+
+        </main>
+        <footer class=3D"foot wrap">
+    <hr>
+    <nav class=3D"translation-nav">
+        <span>Translations:</span>
+        <a href=3D"https://www.sqlstyle.guide/de/" itemprop=3D"availableLan=
+guage" itemscope=3D"" itemtype=3D"http://schema.org/Language">
+    <span itemprop=3D"name" alternatename=3D"de" title=3D"Deutsch (German)"=
+ lang=3D"de">Deutsch</span>
+</a> =C2=B7=20
+<a href=3D"https://www.sqlstyle.guide/" itemprop=3D"availableLanguage" item=
+scope=3D"" itemtype=3D"http://schema.org/Language">
+    <span itemprop=3D"name" alternatename=3D"en" title=3D"English" lang=3D"=
+en">English</span>
+</a> =C2=B7=20
+<a href=3D"https://www.sqlstyle.guide/fr/" itemprop=3D"availableLanguage" i=
+temscope=3D"" itemtype=3D"http://schema.org/Language">
+    <span itemprop=3D"name" alternatename=3D"fr" title=3D"Fran=C3=A7ais (Fr=
+ench)" lang=3D"fr">Fran=C3=A7ais</span>
+</a> =C2=B7=20
+<a href=3D"https://www.sqlstyle.guide/it/" itemprop=3D"availableLanguage" i=
+temscope=3D"" itemtype=3D"http://schema.org/Language">
+    <span itemprop=3D"name" alternatename=3D"it" title=3D"Italiano (Italian=
+)" lang=3D"it">Italiano</span>
+</a> =C2=B7=20
+<a href=3D"https://www.sqlstyle.guide/ja/" itemprop=3D"availableLanguage" i=
+temscope=3D"" itemtype=3D"http://schema.org/Language">
+    <span itemprop=3D"name" alternatename=3D"ja" title=3D"=E6=97=A5=E6=9C=
+=AC=E8=AA=9E (Japanese)" lang=3D"ja">=E6=97=A5=E6=9C=AC=E8=AA=9E</span>
+</a> =C2=B7=20
+<a href=3D"https://www.sqlstyle.guide/ko/" itemprop=3D"availableLanguage" i=
+temscope=3D"" itemtype=3D"http://schema.org/Language">
+    <span itemprop=3D"name" alternatename=3D"ko" title=3D"=ED=95=9C=EA=B5=
+=AD=EC=96=B4 (Korean)" lang=3D"ko">=ED=95=9C=EA=B5=AD=EC=96=B4</span>
+</a> =C2=B7=20
+<a href=3D"https://www.sqlstyle.guide/pl/" itemprop=3D"availableLanguage" i=
+temscope=3D"" itemtype=3D"http://schema.org/Language">
+    <span itemprop=3D"name" alternatename=3D"pl" title=3D"Polski (Polish)" =
+lang=3D"pl">Polski</span>
+</a> =C2=B7=20
+<a href=3D"https://www.sqlstyle.guide/pt-br/" itemprop=3D"availableLanguage=
+" itemscope=3D"" itemtype=3D"http://schema.org/Language">
+    <span itemprop=3D"name" alternatename=3D"pt-BR" title=3D"Portugu=C3=AAs=
+ (BR) (Portuguese - Brazil)" lang=3D"pt-BR">Portugu=C3=AAs (BR)</span>
+</a> =C2=B7=20
+<a href=3D"https://www.sqlstyle.guide/ru/" itemprop=3D"availableLanguage" i=
+temscope=3D"" itemtype=3D"http://schema.org/Language">
+    <span itemprop=3D"name" alternatename=3D"ru" title=3D"=D0=A0=D1=83=D1=
+=81=D1=81=D0=BA=D0=B8=D0=B9 (Russian)" lang=3D"ru">=D0=A0=D1=83=D1=81=D1=81=
+=D0=BA=D0=B8=D0=B9</span>
+</a> =C2=B7=20
+<a href=3D"https://www.sqlstyle.guide/tr/" itemprop=3D"availableLanguage" i=
+temscope=3D"" itemtype=3D"http://schema.org/Language">
+    <span itemprop=3D"name" alternatename=3D"tr" title=3D"T=C3=BCrk=C3=A7e =
+(Turkish)" lang=3D"tr">T=C3=BCrk=C3=A7e</span>
+</a> =C2=B7=20
+<a href=3D"https://www.sqlstyle.guide/ua/" itemprop=3D"availableLanguage" i=
+temscope=3D"" itemtype=3D"http://schema.org/Language">
+    <span itemprop=3D"name" alternatename=3D"ua" title=3D"=D0=A3=D0=BA=D1=
+=80=D0=B0=D1=97=D0=BD=D1=81=D1=8C=D0=BA=D0=B0 (Ukrainian)" lang=3D"ua">=D0=
+=A3=D0=BA=D1=80=D0=B0=D1=97=D0=BD=D1=81=D1=8C=D0=BA=D0=B0</span>
+</a> =C2=B7=20
+<a href=3D"https://www.sqlstyle.guide/zh/" itemprop=3D"availableLanguage" i=
+temscope=3D"" itemtype=3D"http://schema.org/Language">
+    <span itemprop=3D"name" alternatename=3D"zh" title=3D"=E7=AE=80=E4=BD=
+=93=E4=B8=AD=E6=96=87 (Simplified Chinese)" lang=3D"zh">=E7=AE=80=E4=BD=93=
+=E4=B8=AD=E6=96=87</span>
+</a> =C2=B7=20
+<a href=3D"https://www.sqlstyle.guide/zh-tw/" itemprop=3D"availableLanguage=
+" itemscope=3D"" itemtype=3D"http://schema.org/Language">
+    <span itemprop=3D"name" alternatename=3D"zh-TW" title=3D"=E6=AD=A3=E9=
+=AB=94=E4=B8=AD=E6=96=87 (Traditional Chinese)" lang=3D"zh-TW">=E6=AD=A3=E9=
+=AB=94=E4=B8=AD=E6=96=87</span>
+</a>
+
+    </nav>
+    <p>
+        This guide is being discussed on Hacker News [
+            <a href=3D"https://news.ycombinator.com/item?id=3D9941150">1</a=
+>,
+            <a href=3D"https://news.ycombinator.com/item?id=3D12671667">2</=
+a>
+        ],
+        Reddit [
+            <a href=3D"https://www.reddit.com/r/SQL/comments/3efmn0/sql_sty=
+le_guide_a_consistent_code_guide_ensuring/">1</a>,
+            <a href=3D"https://www.reddit.com/r/programming/comments/3eri42=
+/sql_style_guide_by_simon_holywell/">2</a>,
+            <a href=3D"https://www.reddit.com/r/PHP/comments/3efmp7/sql_sty=
+le_guide_a_consistent_code_guide_ensuring/">3</a>
+        ],
+        <a href=3D"https://lobste.rs/s/q9elee/sql_style_guide_by_simon_holy=
+well">Lobste.rs</a>,
+        <a href=3D"https://b.hatena.ne.jp/entry/s/www.sqlstyle.guide/ja/">H=
+atena</a> and
+        of course <a href=3D"https://twitter.com/search?f=3Dtweets&amp;q=3D=
+%22sqlstyle.guide%22">Twitter</a>
+        if you want to have your say.
+    </p>
+    <p>
+        I have attempted to answer most of the frequently asked questions a=
+nd held misconceptions in a blog post
+        entitled <a href=3D"https://www.simonholywell.com/post/2016/12/sql-=
+style-guide-misconceptions/?utm_source=3Dsqlstyle.guide-sqlstyle.guide&amp;=
+utm_medium=3Dlink&amp;utm_campaign=3Dfooter-link">
+        "SQL style guide misconceptions"</a> please have a read.
+    </p>
+    <p>Please do <a href=3D"https://github.com/treffynnon/sqlstyle.guide/is=
+sues">open issues</a> or
+        <a href=3D"https://github.com/treffynnon/sqlstyle.guide/pulls/">pul=
+l requests</a> for any errors you
+        may find in the guide and help me to improve it.</p>
+    <p>
+        <span xmlns:dct=3D"http://purl.org/dc/terms/" property=3D"dct:title=
+">
+            SQL style guide
+        </span> by
+        <a xmlns:cc=3D"https://creativecommons.org/ns#" href=3D"https://www=
+.simonholywell.com/?utm_source=3Dsqlstyle.guide-sqlstyle.guide&amp;utm_medi=
+um=3Dlink&amp;utm_campaign=3Dfooter-licence" property=3D"cc:attributionName=
+" rel=3D"cc:attributionURL">
+            Simon Holywell
+        </a> is licensed under a
+        <a rel=3D"license" href=3D"https://creativecommons.org/licenses/by-=
+sa/4.0/">
+            Creative CommonsAttribution-ShareAlike 4.0 International Licens=
+e</a>.
+            <br>Based on a work at
+        <a xmlns:dct=3D"http://purl.org/dc/terms/" href=3D"https://www.sqls=
+tyle.guide/" rel=3D"dct:source">www.sqlstyle.guide</a>.
+    </p>
+    <div class=3D"buttons">
+        <ul class=3D"quick-links">
+            <li>
+                <iframe class=3D"github-btn" src=3D"cid:frame-A4ACFA981062B=
+AEDE01E399FEA71FB36@mhtml.blink" allowtransparency=3D"true" frameborder=3D"=
+0" scrolling=3D"0" width=3D"112px" height=3D"20px"></iframe>
+            </li>
+            <li>
+                <iframe class=3D"github-btn" src=3D"cid:frame-8709EB89C8452=
+8E4836E4253EFAA478C@mhtml.blink" allowtransparency=3D"true" frameborder=3D"=
+0" scrolling=3D"0" width=3D"98px" height=3D"20px"></iframe>
+            </li>
+        </ul>
+        <ul class=3D"quick-links">
+            <li class=3D"follow-btn">
+                <a href=3D"https://twitter.com/treffynnon" class=3D"twitter=
+-follow-button" data-link-color=3D"#0069D6" data-show-count=3D"true">Follow=
+ @treffynnon</a>
+            </li>
+            <li class=3D"tweet-btn">
+                <a href=3D"https://twitter.com/share" class=3D"twitter-shar=
+e-button" data-url=3D"https://www.sqlstyle.guide" data-text=3D"SQL style gu=
+ide by @treffynnon: A consistent code style guide for SQL to ensure legible=
+ and maintainable projects" data-dnt=3D"true">Tweet</a>
+            </li>
+        </ul>
+    </div>
+</footer>
+
+       =20
+       =20
+       =20
+   =20
+
+</body></html>
+------MultipartBoundary--VwIR1j1d04Tq4Vw0BvMbsYb5Jss1lfzXoC64cATOeu----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-c1469de7-67f5-4879-96ba-c00d21b3bf69@mhtml.blink
+
+@charset "utf-8";
+
+.anchorjs-link { opacity: 0; text-decoration: none; -webkit-font-smoothing:=
+ antialiased; }
+
+:hover > .anchorjs-link, .anchorjs-link:focus { opacity: 1; }
+
+[data-anchorjs-icon]::after { content: attr(data-anchorjs-icon); }
+
+@font-face { font-family: anchorjs-icons; src: url("data:n/a;base64,AAEAAAA=
+LAIAAAwAwT1MvMg8yG2cAAAE4AAAAYGNtYXDp3gC3AAABpAAAAExnYXNwAAAAEAAAA9wAAAAIZ2=
+x5ZlQCcfwAAAH4AAABCGhlYWQHFvHyAAAAvAAAADZoaGVhBnACFwAAAPQAAAAkaG10eASAADEAA=
+AGYAAAADGxvY2EACACEAAAB8AAAAAhtYXhwAAYAVwAAARgAAAAgbmFtZQGOH9cAAAMAAAAAunBv=
+c3QAAwAAAAADvAAAACAAAQAAAAEAAHzE2p9fDzz1AAkEAAAAAADRecUWAAAAANQA6R8AAAAAAoA=
+CwAAAAAgAAgAAAAAAAAABAAADwP/AAAACgAAA/9MCrQABAAAAAAAAAAAAAAAAAAAAAwABAAAAAw=
+BVAAIAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAMCQAGQAAUAAAKZAswAAACPApkCzAAAAesAMwEJA=
+AAAAAAAAAAAAAAAAAAAARAAAAAAAAAAAAAAAAAAAAAAQAAg//0DwP/AAEADwABAAAAAAQAAAAAA=
+AAAAAAAAIAAAAAAAAAIAAAACgAAxAAAAAwAAAAMAAAAcAAEAAwAAABwAAwABAAAAHAAEADAAAAA=
+IAAgAAgAAACDpy//9//8AAAAg6cv//f///+EWNwADAAEAAAAAAAAAAAAAAAAACACEAAEAAAAAAA=
+AAAAAAAAAxAAACAAQARAKAAsAAKwBUAAABIiYnJjQ3NzY2MzIWFxYUBwcGIicmNDc3NjQnJiYjI=
+gYHBwYUFxYUBwYGIwciJicmNDc3NjIXFhQHBwYUFxYWMzI2Nzc2NCcmNDc2MhcWFAcHBgYjARQG=
+DAUtLXoWOR8fORYtLTgKGwoKCjgaGg0gEhIgDXoaGgkJBQwHdR85Fi0tOAobCgoKOBoaDSASEiA=
+NehoaCQkKGwotLXoWOR8BMwUFLYEuehYXFxYugC44CQkKGwo4GkoaDQ0NDXoaShoKGwoFBe8XFi=
+6ALjgJCQobCjgaShoNDQ0NehpKGgobCgoKLYEuehYXAAAADACWAAEAAAAAAAEACAAAAAEAAAAAA=
+AIAAwAIAAEAAAAAAAMACAAAAAEAAAAAAAQACAAAAAEAAAAAAAUAAQALAAEAAAAAAAYACAAAAAMA=
+AQQJAAEAEAAMAAMAAQQJAAIABgAcAAMAAQQJAAMAEAAMAAMAAQQJAAQAEAAMAAMAAQQJAAUAAgA=
+iAAMAAQQJAAYAEAAMYW5jaG9yanM0MDBAAGEAbgBjAGgAbwByAGoAcwA0ADAAMABAAAAAAwAAAA=
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAH//wAP") format("truetype"); }
+------MultipartBoundary--VwIR1j1d04Tq4Vw0BvMbsYb5Jss1lfzXoC64cATOeu----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://fonts.googleapis.com/css?family=Roboto+Slab:400
+
+@charset "utf-8";
+
+@font-face { font-family: "Roboto Slab"; font-style: normal; font-weight: 4=
+00; src: url("https://fonts.gstatic.com/s/robotoslab/v24/BngbUXZYTXPIvIBgJJ=
+Sb6s3BzlRRfKOFbvjojISmYmRjRdE.woff2") format("woff2"); unicode-range: U+460=
+-52F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F; }
+
+@font-face { font-family: "Roboto Slab"; font-style: normal; font-weight: 4=
+00; src: url("https://fonts.gstatic.com/s/robotoslab/v24/BngbUXZYTXPIvIBgJJ=
+Sb6s3BzlRRfKOFbvjojISma2RjRdE.woff2") format("woff2"); unicode-range: U+301=
+, U+400-45F, U+490-491, U+4B0-4B1, U+2116; }
+
+@font-face { font-family: "Roboto Slab"; font-style: normal; font-weight: 4=
+00; src: url("https://fonts.gstatic.com/s/robotoslab/v24/BngbUXZYTXPIvIBgJJ=
+Sb6s3BzlRRfKOFbvjojISmY2RjRdE.woff2") format("woff2"); unicode-range: U+1F0=
+0-1FFF; }
+
+@font-face { font-family: "Roboto Slab"; font-style: normal; font-weight: 4=
+00; src: url("https://fonts.gstatic.com/s/robotoslab/v24/BngbUXZYTXPIvIBgJJ=
+Sb6s3BzlRRfKOFbvjojISmbGRjRdE.woff2") format("woff2"); unicode-range: U+370=
+-3FF; }
+
+@font-face { font-family: "Roboto Slab"; font-style: normal; font-weight: 4=
+00; src: url("https://fonts.gstatic.com/s/robotoslab/v24/BngbUXZYTXPIvIBgJJ=
+Sb6s3BzlRRfKOFbvjojISmYGRjRdE.woff2") format("woff2"); unicode-range: U+102=
+-103, U+110-111, U+128-129, U+168-169, U+1A0-1A1, U+1AF-1B0, U+1EA0-1EF9, U=
++20AB; }
+
+@font-face { font-family: "Roboto Slab"; font-style: normal; font-weight: 4=
+00; src: url("https://fonts.gstatic.com/s/robotoslab/v24/BngbUXZYTXPIvIBgJJ=
+Sb6s3BzlRRfKOFbvjojISmYWRjRdE.woff2") format("woff2"); unicode-range: U+100=
+-24F, U+259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-=
+2C7F, U+A720-A7FF; }
+
+@font-face { font-family: "Roboto Slab"; font-style: normal; font-weight: 4=
+00; src: url("https://fonts.gstatic.com/s/robotoslab/v24/BngbUXZYTXPIvIBgJJ=
+Sb6s3BzlRRfKOFbvjojISmb2Rj.woff2") format("woff2"); unicode-range: U+0-FF, =
+U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+2000-206F, U+2074, U+20=
+AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+------MultipartBoundary--VwIR1j1d04Tq4Vw0BvMbsYb5Jss1lfzXoC64cATOeu----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://www.sqlstyle.guide/static/style.css
+
+@charset "utf-8";
+
+html { font-size: 16px; }
+
+@media (min-width: 48em) {
+  html { font-size: 20px; }
+}
+
+body { margin: 0px; font: 1rem / 1.5 -apple-system, BlinkMacSystemFont, "Se=
+goe UI", Helvetica, Arial, sans-serif; color: rgb(51, 51, 51); }
+
+#page-nav { bottom: 0.5em; right: 0.5em; position: fixed; text-align: cente=
+r; font-weight: bold; }
+
+h1, h2, h3 { font-family: "Roboto Slab", serif; font-weight: 400; }
+
+h2 { border-bottom: 0.25em solid rgb(226, 226, 226); padding-bottom: 0.3em;=
+ }
+
+h3::before { content: "=E2=9E=A4"; width: 1.5em; display: inline-block; mar=
+gin-left: -1.5em; color: rgb(222, 27, 27); font-weight: normal; }
+
+a { color: rgb(51, 51, 51); border-bottom: 1px solid rgb(222, 27, 27); text=
+-decoration: none; transition: all 0.3s ease 0s; }
+
+a:hover { color: rgb(222, 27, 27); border-color: rgb(51, 51, 51); }
+
+#translation-bar { background: -webkit-gradient(linear, 0% 0%, 0% 100%, fro=
+m(rgb(68, 68, 68)), to(rgb(17, 17, 17))); text-align: right; color: rgb(153=
+, 153, 153); }
+
+#translation-bar .wrap { padding: 0.5% 10%; }
+
+#translation-bar nav { font-size: 0.7em; }
+
+#translation-bar a { color: inherit; }
+
+#translation-bar .language-ico { display: inline; }
+
+#translation-bar .language-ico svg { width: 25px; margin-bottom: -10px; fil=
+l: rgb(222, 27, 27); margin-left: 10px; }
+
+#translation-bar .language-drop { height: 25px; color: rgb(153, 153, 153); =
+background-color: rgb(34, 34, 34); }
+
+header.top { background: rgb(222, 27, 27); color: rgb(51, 51, 51); }
+
+header.top h1 { color: rgb(255, 255, 255); margin-bottom: 0px; }
+
+header.top p.author { margin-top: 0px; }
+
+header.top p.translator { font-size: smaller; }
+
+header.top a { color: rgb(51, 51, 51); border-color: rgb(51, 51, 51); }
+
+header.top a:hover { border: none; text-decoration: none; }
+
+header.top p.twitter { float: right; margin-top: -3em; }
+
+@media (max-width: 28.75em) {
+  header.top p.twitter { float: none; margin-top: 0px; }
+}
+
+.wrap { padding: 2% 10%; max-width: 48em; margin: 0px auto; }
+
+#content h1 { display: none; }
+
+ul#markdown-toc { column-count: 2; column-gap: 1em; margin-bottom: 2.8em; }
+
+.foot hr { font-family: "Roboto Slab", serif; padding: 0px; border-right: n=
+one; border-bottom: none; border-left: none; border-image: initial; border-=
+top: 0.1em solid rgb(226, 226, 226); color: rgb(226, 226, 226); text-align:=
+ center; overflow: visible; }
+
+.foot hr::after { content: "=C2=A7"; display: inline-block; position: relat=
+ive; top: -0.925em; font-size: 1.5em; padding: 0px 0.25em; background: whit=
+e; }
+
+.foot .buttons { margin-top: 3em; }
+
+.quick-links { list-style: none; margin-left: 0px; text-align: center; }
+
+.quick-links li { display: inline; }
+
+div.highlighter-rouge { max-height: 450px; overflow-y: auto; border: 2px so=
+lid rgb(238, 238, 238); margin: 1em 0px; background-color: rgb(254, 254, 25=
+4); }
+
+div.highlighter-rouge div.highlight { padding: 0.5em 0.825em; }
+
+div.highlighter-rouge pre.highlight { margin: 0px; display: block; line-hei=
+ght: 1.1; }
+
+code { font-size: 0.825em; font-family: SFMono-Regular, Consolas, "Liberati=
+on Mono", Menlo, "Fira Code", "Hack Regular", Courier, monospace; color: rg=
+b(85, 85, 85); }
+
+.highlight .hll { background-color: rgb(255, 255, 204); }
+
+.highlight .c { color: rgb(0, 153, 255); font-style: italic; }
+
+.highlight .err { color: rgb(170, 0, 0); background-color: rgb(255, 170, 17=
+0); }
+
+.highlight .k { color: rgb(0, 102, 153); font-weight: 700; }
+
+.highlight .o { color: rgb(85, 85, 85); }
+
+.highlight .cm { color: rgb(0, 153, 255); font-style: italic; }
+
+.highlight .cp { color: rgb(0, 153, 153); }
+
+.highlight .c1, .highlight .cs { color: rgb(0, 153, 255); font-style: itali=
+c; }
+
+.highlight .cs { font-weight: 700; }
+
+.highlight .gd { background-color: rgb(255, 204, 204); border: 1px solid rg=
+b(204, 0, 0); }
+
+.highlight .ge { font-style: italic; }
+
+.highlight .gr { color: red; }
+
+.highlight .gh { color: rgb(0, 51, 0); font-weight: 700; }
+
+.highlight .gi { background-color: rgb(204, 255, 204); border: 1px solid rg=
+b(0, 204, 0); }
+
+.highlight .go { color: rgb(170, 170, 170); }
+
+.highlight .gp { color: rgb(0, 0, 153); }
+
+.highlight .gp, .highlight .gs, .highlight .gu { font-weight: 700; }
+
+.highlight .gu { color: rgb(0, 51, 0); }
+
+.highlight .gt { color: rgb(153, 204, 102); }
+
+.highlight .kc, .highlight .kd, .highlight .kn { color: rgb(0, 102, 153); f=
+ont-weight: 700; }
+
+.highlight .kp { color: rgb(0, 102, 153); }
+
+.highlight .kr, .highlight .kt { color: rgb(0, 102, 153); font-weight: 700;=
+ }
+
+.highlight .kt { color: rgb(0, 119, 136); }
+
+.highlight .m { color: rgb(255, 102, 0); }
+
+.highlight .s { color: rgb(204, 51, 0); }
+
+.highlight .na { color: rgb(51, 0, 153); }
+
+.highlight .nb { color: rgb(51, 102, 102); }
+
+.highlight .nc { color: rgb(0, 170, 136); font-weight: 700; }
+
+.highlight .no { color: rgb(51, 102, 0); }
+
+.highlight .nd { color: rgb(153, 153, 255); }
+
+.highlight .ne, .highlight .ni { color: rgb(153, 153, 153); font-weight: 70=
+0; }
+
+.highlight .ne { color: rgb(204, 0, 0); }
+
+.highlight .nf { color: rgb(204, 0, 255); }
+
+.highlight .nl { color: rgb(153, 153, 255); }
+
+.highlight .nn, .highlight .nt { color: rgb(0, 204, 255); font-weight: 700;=
+ }
+
+.highlight .nt { color: rgb(51, 0, 153); }
+
+.highlight .nv { color: rgb(0, 51, 51); }
+
+.highlight .ow { color: rgb(0, 0, 0); font-weight: 700; }
+
+.highlight .w { color: rgb(187, 187, 187); }
+
+.highlight .mf, .highlight .mh, .highlight .mi, .highlight .mo { color: rgb=
+(255, 102, 0); }
+
+.highlight .sb, .highlight .sc { color: rgb(204, 51, 0); }
+
+.highlight .sd { color: rgb(204, 51, 0); font-style: italic; }
+
+.highlight .s2 { color: rgb(204, 51, 0); }
+
+.highlight .se { color: rgb(204, 51, 0); font-weight: 700; }
+
+.highlight .sh { color: rgb(204, 51, 0); }
+
+.highlight .si { color: rgb(170, 0, 0); }
+
+.highlight .sx { color: rgb(204, 51, 0); }
+
+.highlight .sr { color: rgb(51, 170, 170); }
+
+.highlight .s1 { color: rgb(204, 51, 0); }
+
+.highlight .ss { color: rgb(255, 204, 51); }
+
+.highlight .bp { color: rgb(51, 102, 102); }
+
+.highlight .vc, .highlight .vg, .highlight .vi { color: rgb(0, 51, 51); }
+
+.highlight .il { color: rgb(255, 102, 0); }
+
+.anchorjs-link { color: rgb(222, 27, 27); border: none; }
+------MultipartBoundary--VwIR1j1d04Tq4Vw0BvMbsYb5Jss1lfzXoC64cATOeu----
+Content-Type: text/html
+Content-ID: <frame-A4ACFA981062BAEDE01E399FEA71FB36@mhtml.blink>
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://ghbtns.com/github-btn.html?user=treffynnon&repo=sqlstyle.guide&type=watch&count=true
+
+<!DOCTYPE html><html lang=3D"en"><head><meta http-equiv=3D"Content-Type" co=
+ntent=3D"text/html; charset=3DUTF-8"><link rel=3D"stylesheet" type=3D"text/=
+css" href=3D"cid:css-40d58011-3a51-4834-8018-4ebb8a690e02@mhtml.blink" /><t=
+itle>Star treffynnon/sqlstyle.guide on GitHub</title></head><body><span cla=
+ss=3D"github-btn github-stargazers"><a class=3D"gh-btn" href=3D"https://git=
+hub.com/treffynnon/sqlstyle.guide" rel=3D"noopener noreferrer" target=3D"_b=
+lank" aria-label=3D"Star treffynnon/sqlstyle.guide on GitHub"><span class=
+=3D"gh-ico" aria-hidden=3D"true"></span> <span class=3D"gh-text">Star</span=
+> </a><a class=3D"gh-count" href=3D"https://github.com/treffynnon/sqlstyle.=
+guide/stargazers" rel=3D"noopener noreferrer" target=3D"_blank" aria-label=
+=3D"1,212 stargazers on GitHub" style=3D"display: block;">1,212</a></span><=
+/body></html>
+------MultipartBoundary--VwIR1j1d04Tq4Vw0BvMbsYb5Jss1lfzXoC64cATOeu----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-40d58011-3a51-4834-8018-4ebb8a690e02@mhtml.blink
+
+@charset "utf-8";
+
+body { padding: 0px; margin: 0px; overflow: hidden; font-family: -apple-sys=
+tem, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto=
+ Sans", sans-serif; font-size: 11px; font-weight: 700; line-height: 14px; }
+
+.github-btn { height: 20px; overflow: hidden; }
+
+.gh-btn, .gh-count, .gh-ico { float: left; }
+
+.gh-btn, .gh-count { padding: 2px 5px 2px 4px; color: rgb(51, 51, 51); text=
+-decoration: none; white-space: nowrap; cursor: pointer; border-radius: 3px=
+; }
+
+.gh-btn { background-color: rgb(238, 238, 238); background-image: linear-gr=
+adient(rgb(252, 252, 252) 0px, rgb(238, 238, 238) 100%); background-repeat:=
+ no-repeat; border: 1px solid rgb(213, 213, 213); }
+
+.gh-btn:focus, .gh-btn:hover { text-decoration: none; background-color: rgb=
+(221, 221, 221); background-image: linear-gradient(rgb(238, 238, 238) 0px, =
+rgb(221, 221, 221) 100%); border-color: rgb(204, 204, 204); }
+
+.gh-btn:active { background-color: rgb(220, 220, 220); background-image: no=
+ne; border-color: rgb(181, 181, 181); box-shadow: rgba(0, 0, 0, 0.15) 0px 2=
+px 4px inset; }
+
+.gh-ico { width: 14px; height: 14px; margin-right: 4px; background: url("da=
+ta:image/svg+xml,%3csvg xmlns=3D'http://www.w3.org/2000/svg' width=3D'40' h=
+eight=3D'40' viewBox=3D'12 12 40 40'%3e%3cpath fill=3D'%23333' d=3D'M32 13.=
+4c-10.5 0-19 8.5-19 19 0 8.4 5.5 15.5 13 18 1 .2 1.3-.4 1.3-.9v-3.2c-5.3 1.=
+1-6.4-2.6-6.4-2.6-.9-2.1-2.1-2.7-2.1-2.7-1.7-1.2.1-1.1.1-1.1 1.9.1 2.9 2 2.=
+9 2 1.7 2.9 4.5 2.1 5.5 1.6.2-1.2.7-2.1 1.2-2.6-4.2-.5-8.7-2.1-8.7-9.4 0-2.=
+1.7-3.7 2-5.1-.2-.5-.8-2.4.2-5 0 0 1.6-.5 5.2 2 1.5-.4 3.1-.7 4.8-.7 1.6 0 =
+3.3.2 4.7.7 3.6-2.4 5.2-2 5.2-2 1 2.6.4 4.6.2 5 1.2 1.3 2 3 2 5.1 0 7.3-4.5=
+ 8.9-8.7 9.4.7.6 1.3 1.7 1.3 3.5v5.2c0 .5.4 1.1 1.3.9 7.5-2.6 13-9.7 13-18.=
+1 0-10.5-8.5-19-19-19z'/%3e%3c/svg%3e") 0px 0px / 100% 100% no-repeat; }
+
+.gh-count { position: relative; display: none; margin-left: 4px; background=
+-color: rgb(250, 250, 250); border: 1px solid rgb(212, 212, 212); }
+
+.gh-count:focus, .gh-count:hover { color: rgb(3, 102, 214); }
+
+.gh-count::after, .gh-count::before { position: absolute; display: inline-b=
+lock; width: 0px; height: 0px; content: ""; border-color: transparent; bord=
+er-style: solid; }
+
+.gh-count::before { top: 50%; left: -3px; margin-top: -4px; border-width: 4=
+px 4px 4px 0px; border-right-color: rgb(250, 250, 250); }
+
+.gh-count::after { top: 50%; left: -4px; z-index: -1; margin-top: -5px; bor=
+der-width: 5px 5px 5px 0px; border-right-color: rgb(212, 212, 212); }
+
+.github-btn-large { height: 30px; }
+
+.github-btn-large .gh-btn, .github-btn-large .gh-count { padding: 3px 10px =
+3px 8px; font-size: 16px; line-height: 22px; border-radius: 4px; }
+
+.github-btn-large .gh-ico { width: 20px; height: 20px; }
+
+.github-btn-large .gh-count { margin-left: 6px; }
+
+.github-btn-large .gh-count::before { left: -5px; margin-top: -6px; border-=
+width: 6px 6px 6px 0px; }
+
+.github-btn-large .gh-count::after { left: -6px; margin-top: -7px; border-w=
+idth: 7px 7px 7px 0px; }
+
+.no-text .gh-ico { margin-right: 0px; }
+------MultipartBoundary--VwIR1j1d04Tq4Vw0BvMbsYb5Jss1lfzXoC64cATOeu----
+Content-Type: text/html
+Content-ID: <frame-8709EB89C84528E4836E4253EFAA478C@mhtml.blink>
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://ghbtns.com/github-btn.html?user=treffynnon&repo=sqlstyle.guide&type=fork&count=true
+
+<!DOCTYPE html><html lang=3D"en"><head><meta http-equiv=3D"Content-Type" co=
+ntent=3D"text/html; charset=3DUTF-8"><link rel=3D"stylesheet" type=3D"text/=
+css" href=3D"cid:css-c9a81416-527d-4ca8-bebe-1d45a2d769a4@mhtml.blink" /><t=
+itle>Fork treffynnon/sqlstyle.guide on GitHub</title></head><body><span cla=
+ss=3D"github-btn github-forks"><a class=3D"gh-btn" href=3D"https://github.c=
+om/treffynnon/sqlstyle.guide/fork" rel=3D"noopener noreferrer" target=3D"_b=
+lank" aria-label=3D"Fork treffynnon/sqlstyle.guide on GitHub"><span class=
+=3D"gh-ico" aria-hidden=3D"true"></span> <span class=3D"gh-text">Fork</span=
+> </a><a class=3D"gh-count" href=3D"https://github.com/treffynnon/sqlstyle.=
+guide/network" rel=3D"noopener noreferrer" target=3D"_blank" aria-label=3D"=
+973 forks on GitHub" style=3D"display: block;">973</a></span></body></html>
+------MultipartBoundary--VwIR1j1d04Tq4Vw0BvMbsYb5Jss1lfzXoC64cATOeu----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-c9a81416-527d-4ca8-bebe-1d45a2d769a4@mhtml.blink
+
+@charset "utf-8";
+
+body { padding: 0px; margin: 0px; overflow: hidden; font-family: -apple-sys=
+tem, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto=
+ Sans", sans-serif; font-size: 11px; font-weight: 700; line-height: 14px; }
+
+.github-btn { height: 20px; overflow: hidden; }
+
+.gh-btn, .gh-count, .gh-ico { float: left; }
+
+.gh-btn, .gh-count { padding: 2px 5px 2px 4px; color: rgb(51, 51, 51); text=
+-decoration: none; white-space: nowrap; cursor: pointer; border-radius: 3px=
+; }
+
+.gh-btn { background-color: rgb(238, 238, 238); background-image: linear-gr=
+adient(rgb(252, 252, 252) 0px, rgb(238, 238, 238) 100%); background-repeat:=
+ no-repeat; border: 1px solid rgb(213, 213, 213); }
+
+.gh-btn:focus, .gh-btn:hover { text-decoration: none; background-color: rgb=
+(221, 221, 221); background-image: linear-gradient(rgb(238, 238, 238) 0px, =
+rgb(221, 221, 221) 100%); border-color: rgb(204, 204, 204); }
+
+.gh-btn:active { background-color: rgb(220, 220, 220); background-image: no=
+ne; border-color: rgb(181, 181, 181); box-shadow: rgba(0, 0, 0, 0.15) 0px 2=
+px 4px inset; }
+
+.gh-ico { width: 14px; height: 14px; margin-right: 4px; background: url("da=
+ta:image/svg+xml,%3csvg xmlns=3D'http://www.w3.org/2000/svg' width=3D'40' h=
+eight=3D'40' viewBox=3D'12 12 40 40'%3e%3cpath fill=3D'%23333' d=3D'M32 13.=
+4c-10.5 0-19 8.5-19 19 0 8.4 5.5 15.5 13 18 1 .2 1.3-.4 1.3-.9v-3.2c-5.3 1.=
+1-6.4-2.6-6.4-2.6-.9-2.1-2.1-2.7-2.1-2.7-1.7-1.2.1-1.1.1-1.1 1.9.1 2.9 2 2.=
+9 2 1.7 2.9 4.5 2.1 5.5 1.6.2-1.2.7-2.1 1.2-2.6-4.2-.5-8.7-2.1-8.7-9.4 0-2.=
+1.7-3.7 2-5.1-.2-.5-.8-2.4.2-5 0 0 1.6-.5 5.2 2 1.5-.4 3.1-.7 4.8-.7 1.6 0 =
+3.3.2 4.7.7 3.6-2.4 5.2-2 5.2-2 1 2.6.4 4.6.2 5 1.2 1.3 2 3 2 5.1 0 7.3-4.5=
+ 8.9-8.7 9.4.7.6 1.3 1.7 1.3 3.5v5.2c0 .5.4 1.1 1.3.9 7.5-2.6 13-9.7 13-18.=
+1 0-10.5-8.5-19-19-19z'/%3e%3c/svg%3e") 0px 0px / 100% 100% no-repeat; }
+
+.gh-count { position: relative; display: none; margin-left: 4px; background=
+-color: rgb(250, 250, 250); border: 1px solid rgb(212, 212, 212); }
+
+.gh-count:focus, .gh-count:hover { color: rgb(3, 102, 214); }
+
+.gh-count::after, .gh-count::before { position: absolute; display: inline-b=
+lock; width: 0px; height: 0px; content: ""; border-color: transparent; bord=
+er-style: solid; }
+
+.gh-count::before { top: 50%; left: -3px; margin-top: -4px; border-width: 4=
+px 4px 4px 0px; border-right-color: rgb(250, 250, 250); }
+
+.gh-count::after { top: 50%; left: -4px; z-index: -1; margin-top: -5px; bor=
+der-width: 5px 5px 5px 0px; border-right-color: rgb(212, 212, 212); }
+
+.github-btn-large { height: 30px; }
+
+.github-btn-large .gh-btn, .github-btn-large .gh-count { padding: 3px 10px =
+3px 8px; font-size: 16px; line-height: 22px; border-radius: 4px; }
+
+.github-btn-large .gh-ico { width: 20px; height: 20px; }
+
+.github-btn-large .gh-count { margin-left: 6px; }
+
+.github-btn-large .gh-count::before { left: -5px; margin-top: -6px; border-=
+width: 6px 6px 6px 0px; }
+
+.github-btn-large .gh-count::after { left: -6px; margin-top: -7px; border-w=
+idth: 7px 7px 7px 0px; }
+
+.no-text .gh-ico { margin-right: 0px; }
+------MultipartBoundary--VwIR1j1d04Tq4Vw0BvMbsYb5Jss1lfzXoC64cATOeu------

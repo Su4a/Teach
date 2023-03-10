@@ -1,0 +1,5 @@
+Создание таблицы
+
+Прмиер:
+CREATE VIEW Londonstaff AS SELECT * FROM Salespeople
+WHERE city = 'London'

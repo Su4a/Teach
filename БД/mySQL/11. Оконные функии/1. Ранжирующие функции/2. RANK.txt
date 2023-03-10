@@ -1,0 +1,7 @@
+Функция возвращает ранг каждой строки. В данном случае уже анализируется и в случае нахождения одинаковых, возвращает одинаковый ранг с пропуском следующего значения
+
+Пример:
+SELECT Date, Medium, Conversions, 
+RANK()
+OVER(PARTITION BY Date ORDER BY Conversions) AS 'Rank'
+FROM Orders

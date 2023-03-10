@@ -1,0 +1,4 @@
+Пример: - просуммировать слолбец Conversions
+SELECT Date, Medium, Conversions, 
+SUM(Conversion) OVER(PARTITION BY Date ORDER BY Medium) AS 'Sum'
+FROM Orders

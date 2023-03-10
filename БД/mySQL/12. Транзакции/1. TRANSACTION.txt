@@ -1,0 +1,9 @@
+Начало транзакции, указывает и устанавлвиает точку начало транзакции
+
+Пример:
+START TRANSACTION;
+SELECT total FROM accounts WHERE user_id = 2;
+UPDATE accounts SET total = total - 3000 WHERE iser_id = 2;
+COMMIT;
+
+

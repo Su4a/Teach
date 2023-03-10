@@ -1,0 +1,7 @@
+Фиксация транзакции - применение действий с начала транзакции, если все операции этой транзакции успешны
+
+Пример:
+START TRANSACTION;
+SELECT total FROM accounts WHERE user_id = 2;
+UPDATE accounts SET total = total - 3000 WHERE iser_id = 2;
+COMMIT;

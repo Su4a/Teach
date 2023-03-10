@@ -1,0 +1,7 @@
+Функция позволяет определить к какой группе относится текущая строка. Количество групп задается в скобках
+
+Пример:
+SELECT Date, Medium, Conversions, 
+NTILE(3)
+OVER(PARTITION BY Date ORDER BY Conversions) AS 'Ntile'
+FROM Orders

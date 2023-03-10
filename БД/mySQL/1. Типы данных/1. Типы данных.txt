@@ -1,0 +1,44 @@
+1.Numeric:
+BIT -
+TUNYINT -
+SMALLINT -
+INT - целочисленные значения от -2147483648 до 2147483648, 4 байта
+BIGINT -
+DECIMAL(n,n) - числа с заданной точностью от -999.99 до 999.99
+FLOAT -
+REAL -
+
+2.Logic:
+BOOL - 0 или 1, однозначный ответ на вопрос tru или false
+
+3.Date/Time:
+DATE - только дата, от 1000-01-01 по 9999-12-31
+TIME - только время, часы, минуты, секунды hh:mm:ss, 3 байта
+DATETIME - дата и время, 8 байт
+TIMESTAMP - дата и время с 1970 года
+YEAR -
+
+4.Character/String:
+CHAR -
+VARCHAR - символьная строка
+VARCHAR (MAX) - символьная строка с ограничением
+TEXT - строка большого объема текста до 65кб
+
+5.Unicode Character/String:
+NCHAR -
+NVARCHAR -
+NVARCHAR (MAX) -
+NTEXT -
+
+6.Binary:
+BINARY -
+VARVINERY -
+VARVINERY (MAX) -
+IMAGE -
+
+7.Miscellaneous:
+CLOB -
+BLOC - до 65кб бинарных данных
+LARGEBLOB - до 4 гю бинарных данных
+XML -
+JSON -

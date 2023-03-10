@@ -1,0 +1,6 @@
+PARTITION BY - набор строк для функции по одному или несколько столбцов для выборки для производительности
+
+Пример: - просуммировать слолбец Conversions
+SELECT Date, Medium, Conversions, 
+SUM(Conversion) OVER(PARTITION BY Date) AS 'Sum'
+FROM Orders

@@ -1,0 +1,4 @@
+Пример:
+SELECT Date, Medium, Conversions, 
+NTH_VALUE(Conversions) OVER(PARTITION BY Date ORDER BY Date) AS 'Nth_Value'
+FROM Orders

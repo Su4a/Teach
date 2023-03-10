@@ -1,0 +1,15 @@
+[ label_name: ] WHILE condition DO
+	{...statements...}
+END WHILE [ label_name: ];
+
+1.label_name - (необязательный) наименование связано с циклом WHILE
+2.condition - условие которое проверяется при каждой итерации цикла WHILE. Если condition примет значение TRUE, тело цикла выполняется. Если условие принимает значение FALSE, цикл прекращается
+3.statement - код, выполняемый при каждом проходе через цикл WHILE
+
+Пример:
+DECLARE i INT DEFAULT 3;
+	WHILE i > 0 DO
+		SELECT magazine_incoming.id_incoming, products.name, products.autor, magazine_incoming.quanity
+		FROM magazine_incoming.idproduct=products.id_product AND magazine_incoming.id_incoming = i;
+		SET i = i - 1;
+	END WHILE;

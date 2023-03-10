@@ -1,0 +1,2 @@
+1. ODBC (Open DataBase Connectivity) - программный интерфейс API доступа к базам данных
+2. JDBC (Java DataBase Connectivity) - программный интерфейс API доступа к базам данных в среде Java

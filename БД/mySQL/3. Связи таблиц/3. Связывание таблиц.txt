@@ -1,0 +1,13 @@
+Связывание происходит по первичному и внешнему ключу со множеством один к многим
+К первичному ключу с автоинкрементом привязывается ИД другой таблицы
+
+CREATE TABLE имя_таблицы1
+(
+	id INT PRIMARY KEY AUTO_INCREMENT
+)
+
+CREATE TABLE имя_таблицы2
+(
+	id_table2 INT,
+	FOREIGN KEY (id_table2) REFERENCES имя_таблицы1 (id)
+)
