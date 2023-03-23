@@ -1,0 +1,27 @@
+Уровень L3
+Internet Protocol (IP, Интернет протокол или межсетевой протокол) является маршрутизируемым протоколом сетевого уровня. На основе протокола IP работает большинство современных сетей
+
+-Первые 4 бита - версия протокола
+-Вторые 4 бита - Header Lens (длина пакета в байтах)
+-Следующие 8бит - Differentiated Services
+-Оставшиеся 16 бит - Total Lenght (длина всего пакетв вместе с L3 заголовком)
+
+Version 4 - 4 версия протокола
+Header Lens 20 - длина пакета в байтах
+Differentiated Services 0x00 - служебная информация
+Total Lenght 52 - длина всего пакетв вместе с L3 заголовком в байтах
+Identification 0x104d (4173) - поле идентификации, нужно для фрагментации
+Flags 0x40 - нужно для фрагментации
+Fragments Offset 0 - нужно для фрагментации
+Time o Live 128 - время жизни пакета (предотвращать петли уровня L3)
+Protocol TCP - указание следующего протокола
+Header Checksum 0x0000 - чексумма (контрольная сумма, защита от изменений)
+Source Address 192.168.110.10 - отправитель
+Destination Address 80.237.133.136 - получатель
+
+| - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|Version|HeaderL|DifferentiatedS|          Total Lenght         |
+|         Identification        |Flags|      Fragment Offset    |
+| Time to Live  |    Protocol   |        Header Checksum        |
+|                           Source Address                      |
+|                        Destination Address                    |

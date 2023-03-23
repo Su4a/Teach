@@ -1,0 +1,14 @@
+UDP - User Datagram Protocol
+Состоит из 32 бит
+
+| - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|         Source Port           |       Destination Port        |
+|           Length              |           Checksum            |
+|                            Payload                            |
+
+
+Source Port 68
+Destination Port 67 - порт приложения
+Length 308
+Checksum 0x49a3
+Payload 010110600ecd8ce2400000000000000216a...
