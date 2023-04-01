@@ -1,0 +1,45 @@
+Рекурсия - это метод, который вызывает сам себя
+Минусы:
+-медленная работа
+-переполнение стека
+
+void FillImage(int row, int col)
+{
+	if (pic[row, col] == 0)
+	{
+		pic[row, col] = 1;
+		FillImage(row - 1, col);
+		FillImage(row, col - 1);
+		FillImage(row + 1, col);
+		FillImage(row, col + 1);
+	}
+}
+
+ФАКТОРИАЛ
+int Factorial(int n)
+{
+	if(n == 1) return 1;
+	else return n * Factorial(n-1);
+}
+
+ФИБОНАЧИ
+//f(1) = 1
+//f(2) = 1
+//f(n) = f(n-1) + f(n-2)
+
+
+int Fibonachi(int n)
+{
+	if(n == 1 || n ==2) return 1;
+	else Fibonachi(n - 1) + Fibonachi(n-2);
+}
+
+ЗАДАНИЕ С ПИРАМИДКОЙ
+count - число блинов в задаче
+
+void Towers(string with = "1", string on = "3", string some = "2", int count = 3)
+{
+    if (count > 1) Towers(with, some, on, count - 1);
+    Console.WriteLine($"{with} >> {on}");
+    if (count > 1) Towers(some, on, with, count - 1);
+}
