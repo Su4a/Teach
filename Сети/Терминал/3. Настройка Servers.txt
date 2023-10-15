@@ -1,0 +1,7 @@
+СЕРВЕР DNS:
+Типы:
+- A Record - доменное имя разрешить в IP адрес
+- AAAA Record - для IPv6
+- CNAME - псевдоним, псевдонимы
+- NS Record -
+- SOA -

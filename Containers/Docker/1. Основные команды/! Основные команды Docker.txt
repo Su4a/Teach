@@ -1,0 +1,34 @@
+^D - выход с контейнера
+-it - аргумент интеректив сеанс терминала, заходит сразу внутрь контейнера (запускает консоль и тд)
+
+docker --version - узнать версию
+docker info - информация по докеру
+docker <команда> --help - инфо по команде
+docker ps - узнать запущенные контейнеры
+docker container ls  - узнать запущенные контейнеры
+docker ps -a - просмотр всех созданных контейнеров
+docker container ls -a  - узнать запущенные контейнеры
+docker images - узнать скаченные образы
+docker inspect <имя или id> - просмотр настроек контейнера
+docker stats <имя или id> - мониторинт контейнера
+docker logs <имя или id> - просмотр логов контейнера
+docker logs -f <имя или id> - просмотр логов в реальном времени
+docker exec -it <имя или id> /bin/bash - вход внутрь контейнера и выполнение команды /bin/bash
+docker system prune -a --volumes - удалить все контейнеры и образы
+docker volume ls - показать список volume
+
+
+
+Windows команды:
+Enable-WindowsOptionalFeature -Online -FeatureName $("Microsoft-Hyper-V", "Containers") -All - включит необходимые службы для windows контейнеров
+curl -Li http://localhost - проверить ответ от локалхост
+https://mcr.microsoft.com/en-us/ - windows containers репозиторий
+
+
+
+
+
+
+
+
+

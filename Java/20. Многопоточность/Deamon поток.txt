@@ -1,0 +1,9 @@
+Daemon поток - служебный поток, который работает до тех пор, пока работает хотя бы один обычный поток. Как только все не daemon потоки завершат свою работу, завершатся и daemon потоки. Если ваш поток нельзя останавливать в любой момент времени, то не стоит его делать daemon потоком.
+
+public class MainApp {
+	public static void main(String[] args) {
+		Thread thread = new Thread(() -> System.out.println(1));
+		thread.setDaemon(true);
+		thread.start();
+	}
+}

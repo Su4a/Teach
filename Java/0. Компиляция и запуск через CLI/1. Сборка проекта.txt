@@ -1,0 +1,12 @@
+Для сборки и компиляции используется javac
+
+Команда:
+javac <пусть к классу Main> <путь к проекту>
+
+Флаги:
+-sourcepath - пусть к папке проекта source
+-d - где произойдет сборка
+
+
+Пример:
+javac .\src\Main.java -sourcepath .\src\ -d .\supernewout

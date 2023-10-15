@@ -1,0 +1,88 @@
+Docker Cpmpose используется для запуска и управления одним или несколькими контейнерами
+Содержит инструкции по запуску контейнеров
+Упрощает автоматизацию запусков контейнеров
+описывается в YAML файле: docker-compose.yml
+При составление compose файла очень важно составлять пробелы
+Compose файл нужно запускать из того места где находится файл
+
+Команды:
+docker-compose up (-d) - собрать контейнер -старая запись (d - фон мод)
+docker compose up (-d) - собрать контейнер -новая запись (d - фон мод)
+docker compose up -d --build - пересобрать образы
+docker compose logs -f - просмотр логов
+docker compose stop - остановка
+
+Стурктура:
+1.version:<версия> - указывается версия компоста
+2.services: - описание контейнера которое будет запускаться (может быть много контейнеров)
+    <name services>: - имя сервиса
+      image/build - контейнер с данного образа или докерфайла
+      container_name - задать имя контейнеру
+      command: - команда при запуске контейнера (CMD)
+      volumes - монтированные папки
+      environment - системные переменные
+      ports - порты
+      restart - правило, которое указывает действие при остановке или перезапуске контейнера (хранит состояние контейнера) (unless-stopped -хранить состояние, always - перезапуск  /no/on-failture)
+      depends_on - параметр указывает необходимость других контейнеров для запуска текущего (запускает другие имена сервисов)
+      network - добавление к сетям
+3.volumes: - создание именных volumes в директории дкоера (опционально, если такие есть)
+    <name volumes>: - задать имя именному volumes
+4.networks: - создание сетей
+    default:
+      driver - тип сети
+      name - имя сети
+	
+
+Пример:
+version: "3.5"
+  web-server:
+    image: nginx:stable (или build: .)
+    container_name: mynginx
+    volumes:
+      - '/opt/web/html:var/www/html'
+      - 'nginx-config:/var/www/config' - именной volume
+    environment:
+      - 'NGINX_HOST=web.romero.de'
+    ports:
+      - '80:80'
+    restart: unless-stopped
+    depends_on:
+      - app-db
+      - app-redis
+    networks:
+      - appnet
+      - internet
+volumes:
+  nginx-config:
+networks:
+  internet:
+    name: internet
+    driver: bridge
+  appnet:
+    name: appnet
+    driver: bridge
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,63 @@
+При удалении контейнера, его обновлении или его смерти умирают все данные, поэтому эти данных нужно хранить
+Смонтировать можно сразу много volume
+
+
+Есть 3 способа:
+1.Host Volumes - проброс директории в контейнер (монтирование)
+Левая часть будет смонтирована в правую <сервер:контейнер>
+В этом случае с сервера смонтируется папка в контейнер по указанным адресам
+В этом случае не создается volume, а монтируется дирректория с хоста в контейнер
+docker run -v/opt/mysql_data:var/lib/mysql mysql
+docker run -v/opt/app_conf:/etc/app/configs app
+
+Пример на Windows: docker run -v C:\path\to\folder:/var/lib/my_volume ubuntu
+
+2.Anonymous Volumes - создание анонимного тома volume
+В этом случае на сервере в папке docker/volumes/HASH/_data сгенерируется ХЭШ место которое смонтируется в контейнер
+При удалении контейнера, смонтированная к нему ХЭШ область также удалится
+docker run -v/var/lib/mysql mysql
+docker run -v/etc/app/configs app
+
+3.Names Volumes - создание именного тома volume
+Указывается имя и куда он будет смонтирован в контейнере
+В этом случае на сервере в папке docker/volumes/mysql_data/_data проихойдет создание директории которое смонтируется в контейнере
+При удалении контейнера смотнтированная область остается
+docker run -v mysql_data:/var/lib/mysql mysql
+docker run -v app_conf:/etc/app/configs app
+
+Параметры аргумента: - указывается на конце аргумента путей
+:ro - read onli (только чтение)
+
+Создать том:
+docker volume create volume-name
+
+Ручное создание:
+docker volume create <имя volume> - создание volume
+
+Удаление volums:
+docker volume rm <имя vulume>
+docker volume prune - удалить все неиспользумые
+
+Посмотреть том:
+docker volume inspect volume-name - просмотр volume
+docker volume ls - посмотреть все volume
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

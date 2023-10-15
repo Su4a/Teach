@@ -1,0 +1,9 @@
+Дать название загруженному образу
+Изменять имя можно и без версии, тогда она автоматом будет LATEST
+
+Команда:
+docker tag <image name>:<version> <new name>:<new version>
+
+Пример:
+docker tag mcr.microsoft.com/windows/nanoserver:ltsc2019 my-nanoserver:latest
+docker tag mcr.microsoft.com/windows/nanoserver:ltsc2019 postgres
