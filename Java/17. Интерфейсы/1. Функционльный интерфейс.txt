@@ -20,3 +20,17 @@ runPlease(() -> тело метода, который переопределяе
 void runPlease(Runnable r, int h) {r.run(h)}
 runPlease((h) -> тело метода, который переопределяется, значение h);
 
+Примеры:
+1.Вызов и переопределение функционального интерфейса Runnable
+Runnable anonRun = new Runnable() {
+  @Override
+  public void run() {}
+};
+
+Функциональный интерфейс можно упростить лямбдой выражением:
+Runnable lambdaRun = () -> {};
+
+
+
+
+

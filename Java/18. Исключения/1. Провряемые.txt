@@ -1,0 +1,10 @@
+Это исключения о которых компилятор знает зараннее, их необходимо обрабатыватьв сегда (обязательные к обработке)
+
+Проверяемые исключения:
+- IOExeption
+  - EOFExeption
+  - FileNotFoundException
+  - MalformedURLException
+  - UnknownHostException
+- ClassNotFoundException
+- CloneNotSupportedException

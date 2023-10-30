@@ -5,3 +5,5 @@ Override
 FunctionalInterface
 @FunctionalInterface - аннотация функционального интерфейса
 
+Плагин для аннотаций - Lombok
+

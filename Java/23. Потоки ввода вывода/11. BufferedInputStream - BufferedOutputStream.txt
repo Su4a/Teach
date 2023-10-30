@@ -1,0 +1,58 @@
+На практике при считывании с внешних устройств ввод данных почти всегда необходимо буферизировать
+BufferedInputStream содержит массив байт, который служит буфером для считываемых данных 
+То есть, когда байты из потока считываются, либо пропускаются (методом skip()), сначала заполняется буферный массив, причём, из потока загружается сразу много байт, чтобы не требовалось обращаться к нему при каждой операции read() или skip() 
+BufferedOutputStream предоставляет возможность производить многократную запись небольших блоков данных без обращения к устройству вывода при записи каждого из них. 
+Сначала данные записываются во внутренний буфер
+Непосредственное обращение к устройству вывода и, соответственно, запись в него, произойдет, когда буфер заполнится
+Инициировать передачу содержимого буфера на устройство вывода можно и явным образом, вызвав метод flush()
+
+Листинг 9: Сравнение простого и буферизующего потоков (шаг 1)
+String fileName = "test.txt";
+InputStream inStream = null;
+OutputStream outStream = null;
+try {
+long timeStart = System.currentTimeMillis();
+outStream = new BufferedOutputStream(new
+FileOutputStream(fileName));
+for (int i = 1000000; --i >= 0;) { outStream.write(i); }
+long time = System.currentTimeMillis() - timeStart; 10
+System.out.println("Writing time: " + time + " millisec");
+outStream.close();
+} catch (IOException e) {
+System.out.println("IOException: " + e.toString());
+e.printStackTrace();
+}
+Writing time: 41 millisec На следующем шаге, прочитав эти символы из файла
+простым потоком ввода из файла, увидим, что это заняло сколько-то времени.
+
+
+Листинг 10: Сравнение простого и буферизующего потоков (шаг 2)
+try {
+long timeStart = System.currentTimeMillis();
+InputStream inStream = new FileInputStream(fileName);
+while (inStream.read() != -1) { }
+long time = System.currentTimeMillis() - timeStart;
+inStream.close(); 8 System.out.println("Direct read time: " +
+(time) + " millisec");
+} catch (IOException e) {
+System.out.println("IOException: " + e.toString());
+e.printStackTrace();
+}
+Direct read time: 2726 millisec На третьем шаге становится очевидно, что
+буферизующий поток справляется ровно с той-же задачей на пару порядков
+быстрее. Выгода использования налицо.
+
+
+Листинг 11: Сравнение простого и буферизующего потоков (шаг 3)
+try {
+long timeStart = System.currentTimeMillis();
+inStream = new BufferedInputStream(new FileInputStream(fileName));
+while (inStream.read() != -1) { }
+long time = System.currentTimeMillis() - timeStart;
+inStream.close();
+System.out.println("Buffered read time: " + (time) + " millisec");
+} catch (IOException e) {
+System.out.println("IOException: " + e.toString());
+e.printStackTrace();
+}
+Buffered read time: 23 millisec

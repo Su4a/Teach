@@ -1,0 +1,72 @@
+До сих пор речь шла только о считывании и записи в поток данных в виде byte. 
+Для работы с другими типами данных Java определены интерфейсы DataInput и DataOutput и их реализации – классы-фильтры DataInputStream и DataOutputStream, реализующие методы считывания и записи значений всех примитивных типов
+При этом происходит конвертация этих данных в набор byte и обратно
+Чтение необходимо организовать так, чтобы данные запрашивались в виде тех же типов, в той же последовательности, как и производилась запись
+Если записать, например, int и long, а потом считывать их как short, чтение будет выполнено корректно, без исключительных ситуаций, но числа будут получены совсем другие
+
+
+Листинг 12: Использование Data Stream (шаг 1)
+1 import java.io.ByteArrayInputStream;
+2 import java.io.ByteArrayOutputStream;
+3 import java.io.DataInputStream;
+4 import java.io.DataOutputStream;
+5 import java.io.InputStream;
+7 ByteArrayOutputStream out = new ByteArrayOutputStream();
+8 try {
+9 DataOutputStream outData = new DataOutputStream(out);
+10 11 outData.writeByte(128);
+12 outData.writeInt(128);
+13 outData.writeLong(128);
+14 outData.writeDouble(128);
+15 outData.close();
+16 } catch (Exception e) {
+17 System.out.println("Impossible IOException occurs: " + e.toString());
+18 e.printStackTrace();
+19 }
+Далее прочитаем данные так, как они были записаны, все значения прочитаны
+корректно.
+
+
+Листинг 13: Использование Data Stream (шаг 2)
+1 try {
+2 byte[] bytes = out.toByteArray();
+3 InputStream in = new ByteArrayInputStream(bytes);
+4 DataInputStream inData = new DataInputStream(in);
+5
+6 System.out.println("Reading in the correct sequence: ");
+7 System.out.println("readByte: " + inData.readByte());
+8 System.out.println("readInt: " + inData.readInt());
+9 System.out.println("readLong: " + inData.readLong());
+10 System.out.println("readDouble: " + inData.readDouble());
+11 inData.close();
+12 } catch (Exception e) {
+13 System.out.println("Impossible IOException occurs: " + e.toString());
+14 e.printStackTrace();
+15 }
+Reading in the correct sequence: readByte: -128 readInt: 128 readLong: 128 readDouble:
+128.0 Затем, всё ломаем и видим, что всё послушно сломалось.
+
+Листинг 14: Использование Data Stream (шаг 3)
+try { 2 byte[] bytes = out.toByteArray();
+InputStream in = new ByteArrayInputStream(bytes);
+DataInputStream inData = new DataInputStream(in);
+System.out.println("Reading in a modified sequence:");
+System.out.println("readInt: " + inData.readInt());
+System.out.println("readDouble: " + inData.readDouble());
+System.out.println("readLong: " + inData.readLong());
+inData.close();
+} catch (Exception e) {
+System.out.println("Impossible IOException occurs: " +
+e.toString());
+e.printStackTrace();
+}
+Reading in a modified sequence: readInt: -2147483648 readDouble: -0.0 readLong:
+-9205252085229027328 Ещё сложнее ObjectInputStream и ObjectOutputStream. Для
+объектов процесс преобразования в последовательность байт и обратно
+организован несколько сложнее – объекты имеют различную структуру, хранят
+ссылки на другие объекты и т.д. Поэтому такая процедура получила специальное
+название – сериализация (serialization), обратное действие, – то есть воссоздание
+объекта из последовательности байт – десериализация.
+
+
+

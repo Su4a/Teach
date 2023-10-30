@@ -1,0 +1,27 @@
+ByteArrayInputStream - представляет собой поток, считывающий данные из массива байт
+Этот класс имеет конструктор, которому в качестве параметра передается массив byte[]
+Соответственно, при вызове методов read() возвращаемые данные будут браться именно из этого массива
+Методы: read()
+
+ByteArrayOutputStream - поток, записывающий байты в массив байт
+Этот класс использует внутри себя объект byte[], куда записывает данные, передаваемые при вызове методов write()
+Чтобы получить записанные в массив данные, вызывается метод toByteArray(). 
+В примере будет создан массив, который состоит из трёх элементов: 1, -1 и 0. 
+Затем, при вызове метода read() данные считывались из массива, переданного в конструктор ByteArrayInputStream
+Методы: write(), toByteArray()
+
+Пример:
+ByteArrayOutputStream out = new ByteArrayOutputStream();
+out.write(1);  
+out.write(-1);
+out.write(0);
+ByteArrayInputStream in = new
+ByteArrayInputStream(out.toByteArray());
+int value = in.read();
+System.out.println("First element is - " + value);  
+value = in.read();
+System.out.println("Second element is - " + value + ". If (byte)value - " + (byte)value);
+value = in.read();
+System.out.println("Third element is - " + value);
+Обратите внимание, в данном примере второе считанное значение равно 255, а не -1, как можно было бы ожидать
+Чтобы понять, почему это произошло, нужно вспомнить, что метод read() считывает byte, но возвращает значение int, полученное добавлением необходимого числа нулей (в двоичном представлении)
