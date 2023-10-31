@@ -1,0 +1,15 @@
+Метод takeWhile() создает новый поток, содержащий элементы исходного потока до тех пор, пока они удовлетворяют указанному условию
+Если первый элемент потока не соответствует предикату, новый поток будет пустым
+
+Statefull операция
+ORDERED: сохраняется, если исходный Spliterator был упорядочен
+DISTINCT, SORTED, NONNULL, IMMUTABLE, CONCURRENT: сохраняются, если были в исходном Spliterator
+SIZED, SUBSIZED: могут быть потеряны, поскольку количество элементов после takeWhile() неизвестно
+
+Пример:
+List<Integer> numbers = Arrays.asList(1, 2, 3, 4, 5, 6, 7, 8, 9, 10);
+List<Integer> takenNumbers = numbers.stream()
+                                     .takeWhile(n -> n < 5)
+                                     .collect(Collectors.toList());
+System.out.println(takenNumbers); // prints [1, 2, 3, 4]
+

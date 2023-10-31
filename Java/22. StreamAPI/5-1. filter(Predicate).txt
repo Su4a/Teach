@@ -1,0 +1,16 @@
+filter(Predicate) - Этот метод используется для создания нового потока, включающего только элементы, которые удовлетворяют определенному условию
+В качестве аргумента метод принимает функциональный интерфейс Predicate, задающий условие фильтрации
+
+Stateless операция
+ORDERED: обычно сохраняется.
+DISTINCT, SORTED, NONNULL, IMMUTABLE, CONCURRENT: сохраняются, если были в исходном Spliterator.
+SIZED, SUBSIZED: теряются, поскольку количество элементов после фильтрации неизвестно.
+
+Пример:
+List<Integer> numbers = Arrays.asList(1, 2, 3, 4, 5, 6, 7, 8, 9, 10);
+Stream<Integer> evenNumbersStream = numbers.stream()
+        .filter(n -> n % 2 == 0);
+evenNumbersStream.forEach(System.out::println); // prints 2, 4, 6, 8, 10
+
+Методы:
+.startWith("J") - проверка на начало слова
