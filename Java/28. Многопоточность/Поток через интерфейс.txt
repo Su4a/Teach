@@ -1,0 +1,25 @@
+Запуск потока через реализацию интерфейса Runnable:
+
+Поток через интерфейс создается тогда, когда нет возможности унаследовать класс от потоков. Кроме того, реализация интерфейса Runnable позволяет создаваемому потоку наследовать класс, отличающийся от Thread
+
+Создаем новый класс, реализуем интерфейс Runnable, переопределяем метод run()
+После этого можно создавать экземпляр класса Thread и передавать ему задачу в виде объекта нашего класса:
+
+public class MyRunnableTask implements Runnable {
+	@Override
+	public void run() {
+		for (int i = 0; i < 5; i++) {
+		System.out.println("Thread out: " + i);
+		}
+	}
+}
+
+public class MainApp {
+	public static void main(String[] args) {
+		Thread thread1 = new Thread(new MyRunnableTask());
+		Thread thread2 = new Thread(new MyRunnableTask());
+		thread1.start();
+		thread2.start();
+	}
+}
+

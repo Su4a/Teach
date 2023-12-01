@@ -1,0 +1,23 @@
+Рассмотренные классы – наследники InputStream и OutputStream – работают с байтовыми данными
+Если с их помощью записывать или считывать текст, то сначала необходимо сопоставить каждому символу его числовой код
+Такое соответствие называется кодировкой 
+Java предоставляет классы, практически полностью дублирующие байтовые потоки по функциональности, но называющиеся Reader и Writer, соответственно 
+Различия между байтовыми и символьными классами весьма незначительны 
+Классы-мосты InputStreamReader и OutputStreamWriter при преобразовании символов также используют некоторую кодировку
+
+Байтовый поток - Символьный поток
+InputStream - Reader
+OutputStream - Writer
+ByteArrayInputStream - CharArrayReader
+ByteArrayOutputStream - CharArrayWriter
+нет аналога - InputStreamReader
+нет аналога - OutputSTreamWriter
+FileInputStream - FileReader
+FileOutputStream - FileWriter
+BufferInputStream - BufferReader
+BufferOutputStream - BufferWriter
+PrintStream - PrintWriter
+DataInputStream - нет аналога
+DataOutputStream - нет аналога
+Классы мосты: InputStreamReader и OutputStreamWriter
+ 

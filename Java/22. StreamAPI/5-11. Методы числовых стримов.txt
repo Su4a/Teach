@@ -1,8 +1,0 @@
-sum - Возвращает сумму всех чисел 
-collection.stream().mapToInt((s) ­> Integer.parseInt(s)).sum()
-
-average - Возвращает среднее арифметическое всех чисел 
-collection.stream().mapToInt((s) ­> Integer.parseInt(s)).average()
-
-mapToObj Преобразует числовой стрим обратно в объектный 
-intStream.mapToObj((id) ­> new Key(id)).toArray()

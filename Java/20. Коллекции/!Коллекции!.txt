@@ -1,0 +1,38 @@
+Коллекции - представляет собой контейнер, который хранит в себе множество элементов, и
+позволяющий работать с этой группой элементов как с одним объектом. Коллекции используются для
+хранения, получения, обработки множества объектов. (Коллекции являются интерфейсами)
+
+Collection - является “корневым” элементом иерархии коллекций. Коллекция представляет
+собой группу объектов, называемых элементами. Интерфейс описывает функционал
+присущий абсолютно всем коллекциям.
+
+Коллекции работают только с сылочными типами данных, т.е. объектами. Для хранения примитивов необходимо использовать “обертки”: Byte, Short, Integer, Long, Float, Double, Character, Boolean.
+
+Коллекция<тип_данных> имя_коллекции = new Коллекция<>();
+
+Коллекции делятся на 2 большие группы:
+
+1---------------------------------
+Интерфейс Collection унаследован от интерфейса Iterable, это означает, что коллекцию можно обойти итератором 
+
+Collection: -> extended Iterable
+List: -> extended Collection
+-ArrayList -> implements List
+-LinkedList -> implements List && implements Queue, Dequeue
+-PriorityQueue -> implements Queue
+-ArrayDeque -> implements Dequeue
+-Vector -> implements List
+-Stack -> extended Vector implements List
+
+Collection: -> extended Iterable
+Set: -> extended Collection
+-HashSet -> implements Set
+-TreeSet -> implements SortedSet extended Set
+-LinkedHashSet -> implements Set
+
+2----------------------------------
+Map:
+-HashTable -> implements Map
+-LinkedHaskMap -> implements Map
+-HashMap -> implements Map
+-TreeMap -> implements SortedMap extended Map

@@ -1,0 +1,17 @@
+Метод distinct() возвращает новый поток, содержащий только уникальные элементы исходного потока
+Дубликаты определяются на основе их естественного порядка или с использованием переданного компаратора
+
+Statefull операция
+ORDERED: обычно сохраняется.
+DISTINCT: всегда устанавливается после операции.
+SORTED: сохраняется, если исходный Spliterator был SORTED.
+SIZED, SUBSIZED: теряются, поскольку количество уникальных элементов неизвестно.
+NONNULL, IMMUTABLE, CONCURRENT: сохраняются.
+
+Пример:
+List<Integer> numbers = Arrays.asList(1, 2, 3, 2, 1, 4, 5, 3, 5);
+List<Integer> uniqueNumbers = numbers.stream()
+                                     .distinct()
+                                     .collect(Collectors.toList());
+System.out.println(uniqueNumbers); // prints [1, 2, 3, 4, 5]
+

@@ -1,0 +1,10 @@
+Это исключения о которых компилятор не знает зараннее (необязательные к обработке)
+
+Непроверяемые исключения:
+- ArithmeticException
+- ClassCastException
+- IllegalArgumentException
+  - NumberFormatException
+- IndexOutOfBoundsException
+  - ArrayIndexOutOfBoundsException
+- NullPuinterException

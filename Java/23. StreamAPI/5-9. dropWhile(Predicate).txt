@@ -1,0 +1,16 @@
+Метод dropWhile() возвращает новый поток, который включает все элементы исходного потока, начиная с первого элемента, не удовлетворяющего указанному условию
+В момент, когда предикат возвращает false, все последующие элементы из исходного потока включаются в новый поток
+
+Statefull операция
+ORDERED: сохраняется, если исходный Spliterator был упорядочен
+DISTINCT, SORTED, NONNULL, IMMUTABLE, CONCURRENT: сохраняются, если были в исходном Spliterator
+SIZED, SUBSIZED: могут быть потеряны, поскольку количество элементов после takeWhile() неизвестно
+
+Пример:
+List<Integer> numbers = Arrays.asList(1, 2, 3, 4, 5, 6, 7, 8, 9, 10);
+List<Integer> droppedNumbers = numbers.stream()
+                                       .dropWhile(n -> n < 5)
+                                       .collect(Collectors.toList());
+System.out.println(droppedNumbers); // prints [5, 6, 7, 8, 9, 10]
+
+

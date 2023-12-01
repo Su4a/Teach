@@ -1,6 +1,0 @@
-Optional<T> findFirst()
-Возвращает первый элемент из стрима (возвращает Optional)
-Метод findFirst() возвращает Optional<T> и служит для извлечения первого элемента из потока
-Он обычно используется в сочетании с методом filter()
-
-collection.stream().findFirst().orElse(«1»)

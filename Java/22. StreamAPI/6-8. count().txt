@@ -1,3 +1,0 @@
-Возвращает количество элементов в стриме
-
-collection.stream().filter(«a1»::equals).count()

@@ -1,3 +1,0 @@
-Возвращает массив значений стрима 
-
-collection.stream().map(String::toUpperCase).toArray(String[]::new);

@@ -1,3 +1,0 @@
-Возвращает true, если условие не выполняется ни для одного элемента
-
-collection.stream().noneMatch(«a8»::equals)

@@ -1,0 +1,10 @@
+Обработчик мыши
+
+Добавляется в конструктор JPanel
+
+addMouseListener(new MouseAdapter()) {
+  @Override
+  public void mouseRelased(MouseEvent e) {
+    код, который будет происходитьпри клике мыши
+  }
+}
