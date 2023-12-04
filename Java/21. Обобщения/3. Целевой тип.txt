@@ -1,0 +1,17 @@
+Целевой тип выражения - это тип данных, который компилятор ожидает в зависимости от того, в каком месте находится выражение
+
+public class TBox<T> {
+  private T value;
+  public static final TBox EMPTY_BOX = new TBox<>();
+  public T getValue() {return value;}
+  static <T> TBox<T> emptyBox() {
+    return(TBox<T>) EMPTY_BOX:
+  }
+}
+public static void main(String[] args) {
+  TBox<String> box = TBox.emptyBox();
+}
+
+Например как в методе emptyBox()
+В основном методе инициализация ожидает экземпляр Box
+Этот тип данных является целевым типом, поскольку метод emptyBox() возвращает значение обобщенного типа Box
