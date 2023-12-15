@@ -6,16 +6,16 @@ Collection - является “корневым” элементом иера
 собой группу объектов, называемых элементами. Интерфейс описывает функционал
 присущий абсолютно всем коллекциям.
 
+Все коллекциями являются обобщенными
 Коллекции работают только с сылочными типами данных, т.е. объектами. Для хранения примитивов необходимо использовать “обертки”: Byte, Short, Integer, Long, Float, Double, Character, Boolean.
 
 Коллекция<тип_данных> имя_коллекции = new Коллекция<>();
 
 Коллекции делятся на 2 большие группы:
-
-1---------------------------------
+---------------------------------
 Интерфейс Collection унаследован от интерфейса Iterable, это означает, что коллекцию можно обойти итератором 
-
 Collection: -> extended Iterable
+
 List: -> extended Collection
 -ArrayList -> implements List
 -LinkedList -> implements List && implements Queue, Dequeue
@@ -24,15 +24,100 @@ List: -> extended Collection
 -Vector -> implements List
 -Stack -> extended Vector implements List
 
-Collection: -> extended Iterable
 Set: -> extended Collection
 -HashSet -> implements Set
 -TreeSet -> implements SortedSet extended Set
 -LinkedHashSet -> implements Set
 
-2----------------------------------
+----------------------------------
+Интерфейс Map  - отдельный интерфейс, содержащий ключ - значение
 Map:
 -HashTable -> implements Map
--LinkedHaskMap -> implements Map
 -HashMap -> implements Map
+-LinkedHaskMap -> implements HashMap
 -TreeMap -> implements SortedMap extended Map
+
+-----Collections-----
+Класс java.util.Collections это утилитарный класс, который состоит из статических методов, предоставляет дополнительыне методы для работы с Collection и Map
+
+Методы:
+1. static List EMPTY_LIST
+static Map EMPTY_MAP
+static Set EMPTY_SET
+Группа методов, которые позволяют
+получить экземпляры пустых коллекций.
+Каждый из таких экземпляров является
+immutable — т.е. не изменяемой
+коллекцией.
+2. static <T extends Comparable<? super T>> 
+void sort(List<T> list)
+static <T> void sort(List<T> list, Comparator<? super T> c)
+Метод sort() возвращает
+отсортированную коллекцию. В первом
+случае используется натуральный
+порядок (алфавит, числовой порядок,
+порядок времени). Во втором случае мы
+можем передать Comparator
+реализующий логику сортировки
+3. static <T> int
+binarySearch(List<? extends
+Comparable<? super T>> list,
+T key)
+Алгоритм бинарного поиска в списке list
+объекта key — результат поиска индекс
+элемента в list
+4. static void reverse(List<?> list) Метод переворачивает список элементов
+коллекции list
+5. static void shuffle(List<?> list) Метод перемешивает список элементов
+коллекции list в случайном порядке
+6. static <T> void fill(List<? super
+T> list, T key)
+Заменяет все элементы коллекции list
+значением key
+7. static <T extends Object &
+Comparable<? super T> >T
+max(Collection<? extends T>
+coll)
+static <T> T max(Collection<?
+extends T> coll, Comparator<?
+super T> comp)
+static <T extends Object &
+Comparable<? super T>>T
+min(Collection<? extends T>
+coll)
+static <T> T min(Collection<?
+extends T> coll, Comparator<?
+super T> comp)
+Возвращает максимальный (max) и
+минимальный (min) элемент коллекции
+coll.
+В первом случае используется
+натуральный порядок (алфавит, числовой
+порядок, порядок времени). Во втором
+случае мы можем передать Comparator
+реализующий логику сортировки
+8. static <T> void copy(List<?
+super T> dest, List<? extends
+T> src)
+Копирует элементы коллекции src в
+коллекцию dest
+9. static int
+frequency(Collection<?> coll,
+Object key)
+Определяет количество вхождений
+элемента key в коллекцию coll
+10. static boolean
+disjoint(Collection<?> c1,
+Collection<?> c2)
+Проверяет, что две коллекции не имеют
+одинаковых элементов
+11. static <T> boolean
+replaceAll(List<T> list, T
+oldVal, T newVal)
+Заменяет все элементы oldVal на новый
+элемент newVal для коллекции list
+12. static void swap(List<?> list,
+int i, int j)
+Меняет местами элементы находящиеся
+на i и j позиции в коллекции list
+
