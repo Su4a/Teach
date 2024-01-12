@@ -1,0 +1,32 @@
+Можно синхронизировать метод класса, в этом случае объектом синхронизации является сам объект
+
+public synchronized void doSomething() {}
+
+Пример:
+public class NotCorrectSynchDoubleCounter {
+	private long first = 0;
+	private long second = 0;
+	public long getFirst() {
+		return first;
+	}
+	public long getSecond() {
+		return second;
+	}
+	public synchronized void incrementFirst() {
+		first++;
+	}
+	public synchronized void incrementSecond() {
+		second++;
+	}
+	public synchronized void decrementFirst() {
+		first--;
+	}
+	public synchronized void decrementSecond() {
+		second--;
+	}
+}
+
+В случае синхронизации статических методов мы используем монитор самого класса:
+public static void doWord() {
+  synchronized (MyClass.class) {блок кода} - пример
+}
